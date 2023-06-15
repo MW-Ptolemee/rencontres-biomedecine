@@ -20,7 +20,7 @@ const Session1 = ({ textSize }) => {
             </span>
           </button>
           <h4 className="text-sm md:text-xl mr-4 gotham-bold text-secondary dark:text-black pr-4 border-r-[4px] border-primary dark:border-black">
-            Jeudi 12 octobre
+            Jeudi 12 octobre 2023
           </h4>
           <p className="text-secondary dark:text-black text-sm md:text-xl py-4 md:ml-0">14h00 {`>`} 15h30</p>
         </div>
