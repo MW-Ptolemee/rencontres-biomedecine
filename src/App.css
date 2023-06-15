@@ -1,0 +1,172 @@
+.bg__grd {
+  background: rgb(38, 39, 115);
+  background: linear-gradient(
+    90deg,
+    rgba(38, 39, 115, 1) 66%,
+    rgba(255, 255, 255, 1) 66%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.bg__grd__bw {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgb(0, 0, 0) 66%,
+    rgba(255, 255, 255, 1) 66%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.gotham-bold {
+  font-family: "gotham-bold";
+}
+
+.active {
+  @apply border-b-2 border-primary dark:border-white font-medium gotham-bold;
+}
+
+span {
+  background-color: red!;
+}
+
+.shadow__navbar {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 15px 5px;
+}
+
+.formParagraph {
+  font-size: large;
+  margin-bottom: 10px;
+}
+
+.formSelectionSingleValues select,
+.formSelectionSingleValues input,
+textarea,
+.formTextInput input {
+}
+
+#divItem-0-1 {
+  font-weight: 600;
+}
+
+.formSelectionSingleValueForSingleLine {
+  padding: 10px;
+  margin-bottom: 4px;
+}
+
+.formTextInput {
+  margin-bottom: 10px;
+}
+
+.formSelectionSingleValueForSingleLine {
+  display: flex;
+}
+
+#formItem-mbtext-firstname,
+#formItem-mbtext-lastname,
+#formItem-mbtext-email,
+#formItem-mbtext-companyname,
+.formSelectionComment textarea,
+#formItem-mbtext-jobtitle,
+.formItem-single-3,
+#formItem-mbtext-country,
+#formItem-single-2,
+#formItem-single-3,
+#formItem-single-5,
+#formItem-single-6,
+#formItem-single-7,
+#formItem-single-8 {
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #aeaeae;
+  outline: none;
+}
+
+.formTitle,
+.formTextLabel,
+.formSelectionSingleLabel {
+  margin-bottom: 8px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .bg__grd {
+    background: rgb(38, 39, 115);
+  }
+  .bg__grd__bw {
+    background: rgb(0, 0, 0);
+  }
+
+  #formItem-mbtext-firstname,
+  #formItem-mbtext-lastname,
+  #formItem-mbtext-email,
+  #formItem-mbtext-companyname,
+  .formSelectionComment textarea,
+  #formItem-mbtext-jobtitle,
+  .formItem-single-3,
+  #formItem-mbtext-country,
+  #formItem-single-2,
+  #formItem-single-3,
+  #formItem-single-5,
+  #formItem-single-6,
+  #formItem-single-7,
+  #formItem-single-8 {
+    width: 100%;
+  }
+}
+
+.formContentform {
+  width: 100%;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .bg__grd {
+    background: rgb(38, 39, 115);
+    background: linear-gradient(
+      90deg,
+      rgba(38, 39, 115, 1) 80%,
+      rgba(255, 255, 255, 1) 80%,
+      rgba(255, 255, 255, 1) 100%
+    );
+  }
+  .bg__grd__bw {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+      90deg,
+      rgb(0, 0, 0) 80%,
+      rgba(255, 255, 255, 1) 80%,
+      rgba(255, 255, 255, 1) 100%
+    );
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /* .bg__grd__bw {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+      90deg,
+      rgb(0, 0, 0) 96%,
+      rgba(255, 255, 255, 1) 96%,
+      rgba(255, 255, 255, 1) 100%
+    );
+  } */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* .bg__grd__bw {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+      90deg,
+      rgb(0, 0, 0) 66%,
+      rgba(255, 255, 255, 1) 66%,
+      rgba(255, 255, 255, 1) 100%
+    );
+  } */
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

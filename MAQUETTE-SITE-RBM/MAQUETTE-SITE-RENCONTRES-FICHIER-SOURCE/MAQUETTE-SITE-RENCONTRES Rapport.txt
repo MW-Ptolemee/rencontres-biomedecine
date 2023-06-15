@@ -1,0 +1,43 @@
+Rapport d'assemblage
+
+-----------------------------------------------------------------------------
+Document :
+Nom : MAQUETTE-SITE-RENCONTRES.ai
+Mode : Couleurs RVB
+Profil colorimétrique : Sans
+Unité : pixels
+Dimensions : 1280 px x 1994,0533 px
+Afficher les images en mode Tracés : INACTIF
+Mettre en évidence les polices substituées : INACTIF
+Mettre en évidence les glyphes substitués : INACTIF
+Conserver le caractère modifiable du texte
+Simuler le papier couleur : INACTIF
+
+-----------------------------------------------------------------------------
+Objets en tons directs :
+
+-----------------------------------------------------------------------------
+Polices manquantes :SANS
+
+-----------------------------------------------------------------------------
+Polices protégées non assemblées :SANS
+
+-----------------------------------------------------------------------------
+Polices :
+Gotham Medium (OTF)
+Gotham-Bold (OTF)
+Gotham-Light (TrueType)
+Gotham-Book (TrueType)
+Gotham-Bold (TrueType)
+
+-----------------------------------------------------------------------------
+Polices incorporées :
+SANS
+
+-----------------------------------------------------------------------------
+Liens manquants :
+SANS
+
+-----------------------------------------------------------------------------
+Images liées :
+SANS

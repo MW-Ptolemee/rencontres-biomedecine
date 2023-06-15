@@ -1,0 +1,42 @@
+Rapport d'assemblage
+
+-----------------------------------------------------------------------------
+Document :
+Nom : MAQUETTE-MOBILE-RENCONTRES.ai
+Mode : Couleurs RVB
+Profil colorimétrique : Sans
+Unité : pixels
+Dimensions : 1125 px x 3083,2622 px
+Afficher les images en mode Tracés : INACTIF
+Mettre en évidence les polices substituées : INACTIF
+Mettre en évidence les glyphes substitués : INACTIF
+Conserver le caractère modifiable du texte
+Simuler le papier couleur : INACTIF
+
+-----------------------------------------------------------------------------
+Objets en tons directs :
+
+-----------------------------------------------------------------------------
+Polices manquantes :SANS
+
+-----------------------------------------------------------------------------
+Polices protégées non assemblées :SANS
+
+-----------------------------------------------------------------------------
+Polices :
+Gotham Medium (OTF)
+Gotham-Bold (OTF)
+Gotham-Book (TrueType)
+Gotham-Bold (TrueType)
+
+-----------------------------------------------------------------------------
+Polices incorporées :
+SANS
+
+-----------------------------------------------------------------------------
+Liens manquants :
+SANS
+
+-----------------------------------------------------------------------------
+Images liées :
+SANS
