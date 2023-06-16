@@ -73,11 +73,14 @@ const Session8 = ({ textSize }) => {
           </li>
           <li className="mb-4">
             <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
-            Collaboration entre pays Européens dans le domaine du don croisé de rein
+            Collaboration internationale dans le domaine du don croisé de rein : l’exemple de la South Alliance for Transplantation*
+            </h4>
+            <h4 className="text-secondary dark:text-black md:text-2xl gotham-medium mb-2">
+            International kidney paired exchange: the experience of the South Alliance for Transplantation
             </h4>
             <span className="text-secondary dark:text-black mb-4">
               <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
-              Pr Beatriz DOMINGUEZ,
+              Dr Beatriz DOMINGUEZ-GIL,
               </span>{" "}
               Organizacion Nacional de Transplantes, Madrid, Espagne
             </span>
@@ -94,6 +97,15 @@ const Session8 = ({ textSize }) => {
             </span>
           </li>
         </ul>
+
+        <p className="space-x-2 mb-6">
+          <span className="text-secondary dark:text-black">
+          * Session en anglais, une traduction vous sera proposée.
+          </span>
+          <span className="text-secondary dark:text-black">
+          Session in English, translation available.
+          </span>
+        </p>
 
         <button className="gotham-bold border-2 border-[#00a895] dark:border-black dark:bg-white flex items-center text-secondary gotham-bold dark:text-black text-sm md:text-base py-2 px-4 font-bold mb-4 md:mb-6">
           <Link
