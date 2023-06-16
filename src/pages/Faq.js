@@ -5,7 +5,7 @@ const Faq = () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
   return (
     <div className="px-2 md:container py-8 space-y-8">
-      <TtsButton />
+      {/* <TtsButton /> */}
 
       <div className="">
         <h2 className="text-secondary dark:text-black gotham-bold text-3xl mb-4">

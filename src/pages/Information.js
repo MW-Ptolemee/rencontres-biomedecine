@@ -61,9 +61,7 @@ const Information = ({ textSize, darkMode }) => {
             >
               Secrétariat de l’événement
             </p>
-            <p className={`text-secondary dark:text-black ${textSize}`}>
-              Tel. 00 00 00 00
-            </p>
+            
             <a
               href="mailto: contact@rencontres-biomedecine.fr"
               className={`text-primary dark:text-black ${textSize} mb-4`}

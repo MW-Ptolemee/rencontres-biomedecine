@@ -6,7 +6,7 @@ const Index = ({ textSize, darkMode }) => {
   return (
     <div className="">
       <div className="px-2 md:container py-8">
-        <TtsButton />
+        {/* <TtsButton /> */}
         <Content textSize={textSize} darkMode={darkMode}/>
       </div>
     </div>
