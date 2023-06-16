@@ -91,7 +91,7 @@ const Session10 = ({ textSize }) => {
               textSize === "text-xl md:text-2xl" ? `gotham-bold` : ``
             }`}
           >
-            Je m’inscris à cette session
+            Je m’inscris aux Rencontres
           </Link>
         </button>
 

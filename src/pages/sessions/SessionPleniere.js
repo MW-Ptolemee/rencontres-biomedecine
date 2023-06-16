@@ -89,7 +89,7 @@ const SessionPleniere = ({ textSize }) => {
               textSize === "text-xl md:text-2xl" ? `gotham-bold` : ``
             }`}
           >
-            Revenir au programme
+            Revenir aux Rencontres
           </Link>
         </button>
       </div>
