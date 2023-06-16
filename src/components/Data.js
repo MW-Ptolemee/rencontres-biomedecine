@@ -121,7 +121,7 @@ export const session = [
     clr: "hover:bg-primary",
     borderColor: "border-primary",
     textColor: "text-primary",
-    link: "#",
+    link: "/session-1",
   },
   {
     title: "PARCOURS DE SOIN",

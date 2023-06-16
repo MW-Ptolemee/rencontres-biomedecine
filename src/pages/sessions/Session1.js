@@ -20,7 +20,7 @@ const Session1 = ({ textSize }) => {
             </span>
           </button>
           <h4 className="text-sm md:text-xl mr-4 gotham-bold text-secondary dark:text-black pr-4 border-r-[4px] border-primary dark:border-black">
-            Jeudi 12 octobre 2023
+            Jeudi 12 octobre
           </h4>
           <p className="text-secondary dark:text-black text-sm md:text-xl py-4 md:ml-0">14h00 {`>`} 15h30</p>
         </div>
@@ -29,7 +29,7 @@ const Session1 = ({ textSize }) => {
           Aux frontières de la transplantation : la xénogreffe !
         </h2>
 
-        <p className={`text-secondary dark:text-black mb-6 ${textSize} `}>
+        {/* <p className={`text-secondary dark:text-black mb-6 ${textSize} `}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum,
           leo nec pharetra sodales, enim nisl euismod ante, vel rhoncus enim
           sapien faucibus sapien. Fusce dignissim sit amet risus fringilla
@@ -42,9 +42,9 @@ const Session1 = ({ textSize }) => {
           et eleifend ligula. Phasellus rhoncus mauris vel interdum fermentum.
           Fusce iaculis fermentum ornare. Integer iaculis blandit auctor.
           Integer vestibulum augue quis porttitor tempo
-        </p>
+        </p> */}
 
-        <hr className="border border-[#b3b3b3] dark:border-black mb-4" />
+        {/* <hr className="border border-[#b3b3b3] dark:border-black mb-4" /> */}
 
         <p className="space-x-2 mb-6">
           <span className="text-primary dark:text-black gotham-bold">
@@ -82,10 +82,16 @@ const Session1 = ({ textSize }) => {
             </h4>
             <span className="text-secondary dark:text-black mb-4">
               <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
-                Pr Olivier BASTIEN
+                Pr Olivier BASTIEN,
               </span>{" "}
-              (xx)
+              Agence de la biomédecine
             </span>
+          </li>
+          <li className="mb-4">
+            <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
+            Intervenant américain – Université de Baltimore, Maryland, Etats-Unis
+            </h4>
+            
           </li>
         </ul>
 
