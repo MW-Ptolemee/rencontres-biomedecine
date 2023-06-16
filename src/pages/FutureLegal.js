@@ -19,9 +19,9 @@ const FutureLegal = () => {
         du 6 janvier 1978) et dont le siège social se situe au 1 avenue du Stade de France, 93212 SAINT DENIS LA PLAINE Cedex 
         (n° SIRET 180 092 587 00013) propose ce site afin de permettre aux Utilisateurs de participer aux Rencontres de la biomédecine. <br />
         <br />
-Nous respectons la vie privée de tous ceux qui utilisent le site Web, rencontres-biomedecine.fr et ne collectons et utilisons les données personnelles 
-d'une manière qui est décrite ici, et d'une manière qui est compatible avec nos obligations et vos droits en vertu de la loi. 
-Cette Politique de Protection des Données Personnelles ne s'applique qu'à votre utilisation de notre site.
+        Nous respectons la vie privée de tous ceux qui utilisent le site Web, rencontres-biomedecine.fr et ne collectons et utilisons les données personnelles 
+        d'une manière qui est décrite ici, et d'une manière qui est compatible avec nos obligations et vos droits en vertu de la loi. 
+        Cette Politique de Protection des Données Personnelles ne s'applique qu'à votre utilisation de notre site.
 
         </p>
       </div>
@@ -33,9 +33,9 @@ Cette Politique de Protection des Données Personnelles ne s'applique qu'à votr
         <p className="text-secondary dark:text-black text-xl mb-4">
         Nous pouvons collecter une partie ou la totalité des données personnelles suivantes auprès des utilisateurs du Site :
         <br /> <bold>Données que vous nous communiquez à travers l’espace Inscription à l’événement du Site :</bold> civilité, nom, prénom, adresse email, organisme, type d’organisme, 
-fonction, pays, région, informations sur vos temps de participations aux rencontres.
-<br /> <br />Conformément au Règlement général sur la protection des données (RGPD), 
-les données personnelles désignent toute information pouvant vous identifier directement ou indirectement.
+        fonction, pays, région, informations sur vos temps de participations aux rencontres.
+        <br /> <br />Conformément au Règlement général sur la protection des données (RGPD), 
+        les données personnelles désignent toute information pouvant vous identifier directement ou indirectement.
 
         </p>
       </div>
@@ -87,8 +87,9 @@ les données personnelles désignent toute information pouvant vous identifier d
 
         <br /><br />Si vous avez des raisons de vous plaindre de notre utilisation de vos données personnelles, 
         vous avez le droit de déposer une plainte auprès de l'autorité compétente de protection des données de votre pays.
-
-        <div className="">
+      </div>
+        
+      <div className="">
         <h4 className="text-secondary dark:text-black gotham-bold text-[20px] mb-4">
         Combien de temps conservons-nous vos données personnelles ?
         </h4>
@@ -152,18 +153,17 @@ les données personnelles désignent toute information pouvant vous identifier d
         <p className="text-secondary dark:text-black text-xl mb-4">
         La présente politique est régie par la loi française, pour les règles de fond et les règles de forme. 
         Tout différend sera porté devant les tribunaux compétents de Paris (France).
-L’application des règles de conflit de lois, qui restreindrait la pleine application de la loi française, est, par la présente, exclue. 
-En conséquence, la loi française s’applique à tout Utilisateur qui navigue sur le Site et qui utilisent tout ou partie de ses fonctionnalités.
+        L’application des règles de conflit de lois, qui restreindrait la pleine application de la loi française, est, par la présente, exclue. 
+        En conséquence, la loi française s’applique à tout Utilisateur qui navigue sur le Site et qui utilisent tout ou partie de ses fonctionnalités.
 
 
 
         </p>
       </div>
 
-        </p>
-      </div>
+       
 
-    </div>
+      </div>
   );
 };
 
