@@ -28,7 +28,7 @@ const Session15 = ({ textSize }) => {
         </div>
 
         <h2 className="md:text-4xl text-[#00a895] dark:text-black gotham-bold mb-4">
-        Les allogreffes composites vascularisées : la greffe visible ! 
+        Les allogreffes composites vascularisées : la greffe visible&nbsp;! 
         </h2>
 
         
@@ -44,7 +44,7 @@ const Session15 = ({ textSize }) => {
           Agence de la biomédecine et
           </span>
           <span className="text-secondary dark:text-black gotham-bold">
-          Pr. Lionel BADET,
+          Pr Lionel BADET,
           </span>
           <span className="text-secondary dark:text-black">
           CHU de Lyon

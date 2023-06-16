@@ -48,9 +48,9 @@ const Session3 = ({ textSize }) => {
           Regards croisés entre différents membres du comité</h4>
           <span className="text-secondary dark:text-black mb-4">
             <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
-            Dr Sophie MIRALLIE 
+            Dr Sophie MIRALLIE, 
             </span>{" "}
-            (CHU de Nantes)
+            CHU de Nantes
           </span>{" "}
           <span className="text-secondary dark:text-black mb-4">
             <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">

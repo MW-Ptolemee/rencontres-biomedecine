@@ -23,7 +23,7 @@ const Session8 = ({ textSize }) => {
             Jeudi 12 octobre
           </h4>
           <p className="text-secondary dark:text-black text-sm md:text-xl py-4 md:ml-0">
-            14h00 {`>`} 15h30
+            16h00 {`>`} 17h30
           </p>
         </div>
 

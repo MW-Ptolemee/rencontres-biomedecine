@@ -26,7 +26,7 @@ const Session4 = ({ textSize }) => {
       </div>
 
       <h2 className="md:text-4xl text-[#a1c517] dark:text-black gotham-bold mb-4">
-      Examen génétique : quel accès aux soins dans un contexte technologique évolutif ?
+      Examen génétique : quel accès aux soins dans un contexte technologique évolutif&nbsp;?
       </h2>
 
       
@@ -57,7 +57,7 @@ const Session4 = ({ textSize }) => {
             <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
             Pr Stanislas LYONNET,{" "} 
             </span>
-            Institut Imagine, Paris
+            Institut <i>Imagine</i>, Paris
           </span>
         </li>
         <li className="mb-4">

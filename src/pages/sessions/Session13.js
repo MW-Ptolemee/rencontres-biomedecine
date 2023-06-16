@@ -35,7 +35,7 @@ const Session13 = ({ textSize }) => {
           Modération :
         </span>
         <span className="text-secondary dark:text-black gotham-bold">
-        M. Laurent DAVID,
+        Dr Laurent DAVID,
         </span>
         <span className="text-secondary dark:text-black">
         Nantes Université, CHU Nantes, Inserm, CNRS et
@@ -44,7 +44,7 @@ const Session13 = ({ textSize }) => {
         Mme Cécile MARTINAT,
         </span>
         <span className="text-secondary dark:text-black">
-        iStem, Société française de recherche sur les cellules souches, Evry
+        Inserm, I-Stem, Evry
         </span>
       </p>
 
@@ -56,7 +56,7 @@ const Session13 = ({ textSize }) => {
               <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
               Pr John DE VOS, 
               </span>{" "}
-              Unité de Thérapie Cellulaire, Hôpital Saint-Eloi et président, French Society for Stem Cell Research (FSSCR)
+              Unité de Thérapie Cellulaire, Hôpital Saint-Eloi, Montpellier et président, French Society for Stem Cell Research (FSSCR)
             </span>
           </li>
           <li className="mb-4">
@@ -65,7 +65,7 @@ const Session13 = ({ textSize }) => {
             </h4>
             <span className="text-secondary dark:text-black mb-4">
               <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
-              Nicolas RIVRON,
+              M. Nicolas RIVRON,
               </span>{" "}
               Institute of Molecular Biotechnology, Austrian Acadmy of Sciences, Vienne, Autriche
             </span>

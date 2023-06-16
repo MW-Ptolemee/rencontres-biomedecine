@@ -26,7 +26,7 @@ const Session9 = ({ textSize }) => {
         </div>
 
         <h2 className="md:text-4xl text-[#a1c517] dark:text-black gotham-bold mb-4">
-        Le parcours de soin post-greffe de CSH
+        Perspectives dans le champ des diagnostics en période anténatale
         </h2>
 
     
