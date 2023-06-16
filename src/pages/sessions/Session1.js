@@ -51,16 +51,16 @@ const Session1 = ({ textSize }) => {
             Modération :
           </span>
           <span className="text-secondary dark:text-black gotham-bold">
-            Pr Gilles BLANCHOT
+            Pr Gilles BLANCHOT,
           </span>
           <span className="text-secondary dark:text-black">
-            (CHU Nantes) et
+            CHU Nantes et
           </span>
           <span className="text-secondary dark:text-black gotham-bold">
-            Pr KERBAUL
+            Pr KERBAUL,
           </span>
           <span className="text-secondary dark:text-black">
-            (Agence de la biomédecine)
+            Agence de la biomédecine
           </span>
         </p>
 
@@ -71,9 +71,9 @@ const Session1 = ({ textSize }) => {
             </h4>
             <span className="text-secondary dark:text-black mb-4">
               <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
-                Jean Michel BESNIER
+                Jean Michel BESNIER,
               </span>{" "}
-              (Paris Sorbonne Université)
+              Paris Sorbonne Université
             </span>
           </li>
           <li className="mb-4">
@@ -89,7 +89,7 @@ const Session1 = ({ textSize }) => {
           </li>
           <li className="mb-4">
             <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
-            Intervenant américain – Université de Baltimore, Maryland, Etats-Unis
+            Intervenant américain – Université de Baltimore, Maryland, États-Unis
             </h4>
             
           </li>
