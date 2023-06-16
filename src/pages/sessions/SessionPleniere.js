@@ -64,7 +64,7 @@ const SessionPleniere = ({ textSize }) => {
               textSize === "text-xl md:text-2xl" ? `gotham-bold` : ``
             }`}
           >
-            Je m’inscris à cette session
+            Je m’inscris aux Rencontres
           </Link>
         </button>
 
@@ -89,7 +89,7 @@ const SessionPleniere = ({ textSize }) => {
               textSize === "text-xl md:text-2xl" ? `gotham-bold` : ``
             }`}
           >
-            Revenir aux Rencontres
+            Revenir au programme
           </Link>
         </button>
       </div>
