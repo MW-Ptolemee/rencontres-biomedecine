@@ -114,7 +114,7 @@ const Programme = ({ handleText }) => {
               <span className="text-primary dark:text-white">
                 - L’intelligence artificielle et éthique, quels enjeux
                 <br className="hidden " /> pour les domaines <br />
-                de la biomédecine demain
+                de la biomédecine demain ?
               </span>
             </p>
              <Link
@@ -143,7 +143,7 @@ const Programme = ({ handleText }) => {
             <p className="dark:text-white">14h00 {">"} 15h30</p>
             <h1 className="gotham-bold dark:text-white md:text-xl">Sessions parallèles</h1>
           </div>
-
+          <div id="session12matin">...</div>
           <Session data={session} handleText={handleText} textSize={textSize} />
         </div>
 

@@ -51,13 +51,13 @@ const Session1 = ({ textSize }) => {
             Modération :
           </span>
           <span className="text-secondary dark:text-black gotham-bold">
-            Pr Gilles BLANCHOT,
+            Pr Gilles BLANCHO,
           </span>
           <span className="text-secondary dark:text-black">
             CHU Nantes et
           </span>
           <span className="text-secondary dark:text-black gotham-bold">
-            Pr KERBAUL,
+            Pr François KERBAUL,
           </span>
           <span className="text-secondary dark:text-black">
             Agence de la biomédecine
@@ -71,7 +71,7 @@ const Session1 = ({ textSize }) => {
             </h4>
             <span className="text-secondary dark:text-black mb-4">
               <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
-                Jean Michel BESNIER,
+              M. Jean Michel BESNIER,
               </span>{" "}
               Paris Sorbonne Université
             </span>
@@ -122,7 +122,7 @@ const Session1 = ({ textSize }) => {
             />
           </svg>
           <Link
-            to="/Programme"
+            to="#session12matin"
             className={`w-max ${
               textSize === "text-xl md:text-2xl" ? `gotham-bold` : ``
             }`}

@@ -78,7 +78,7 @@ const SessionPleniere2 = ({ textSize }) => {
               <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
               <br />Mme Marine JEANTET,
               </span>{" "}
-              Directrice générale de l’Agence de la biomédecine
+              directrice générale de l’Agence de la biomédecine
             </span>
          
           
