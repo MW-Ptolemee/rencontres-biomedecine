@@ -122,7 +122,7 @@ const Session1 = ({ textSize }) => {
             />
           </svg>
           <Link
-            to="/Programme#session12matin"
+            to="/Programme/#session12matin"
             className={`w-max ${
               textSize === "text-xl md:text-2xl" ? `gotham-bold` : ``
             }`}
