@@ -132,7 +132,7 @@ export const session = [
     clr: "hover:bg-[#a1c517]",
     borderColor: "border-[#a1c517]",
     textColor: "text-[#a1c517]",
-    link: "/session-2",
+    link: "#",
   },
   {
     title: "SANTÉ & SOCIÉTÉ",
