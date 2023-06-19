@@ -53,7 +53,7 @@ const Information = ({ textSize, darkMode }) => {
             <h2
               className={`text-primary dark:text-black gotham-bold ${textSize} mb-2`}
             >
-              CONTACT :
+              CONTACTS :
             </h2>
 
             <p

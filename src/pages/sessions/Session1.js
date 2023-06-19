@@ -65,7 +65,7 @@ const Session1 = ({ textSize }) => {
         </p>
 
         <ul className="list-dsc list-disc text-primary dark:text-black mb-8">
-          <li className="mb-4">
+          <li className="ml-4 mb-4">
             <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
               La xénogreffe : quelles frontières philosophiques ?
             </h4>
@@ -76,7 +76,7 @@ const Session1 = ({ textSize }) => {
               Paris Sorbonne Université
             </span>
           </li>
-          <li className="mb-4">
+          <li className="ml-4 mb-4">
             <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
               La xénogreffe en 2023 : état de l’art
             </h4>
@@ -87,7 +87,7 @@ const Session1 = ({ textSize }) => {
               Agence de la biomédecine
             </span>
           </li>
-          <li className="mb-4">
+          <li className="ml-4 mb-4">
             <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
             Intervenant américain – Université de Baltimore, Maryland, États-Unis
             </h4>
