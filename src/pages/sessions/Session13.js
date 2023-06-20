@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import TtsButton from "../../components/Button/TtsButton";
 
 const Session13 = ({ textSize }) => {
-  window.scrollTo({ top: 0, behavior: "smooth" });
   return (
     <div className="px-2 md:container py-8 space-y-8">
     {/* <TtsButton /> */}
@@ -30,7 +29,7 @@ const Session13 = ({ textSize }) => {
       </h2>
 
 
-      <p className="space-x-2 mb-6">
+      <p className={`${textSize} space-x-2 mb-6`}>
         <span className="text-[#ef8661] dark:text-black gotham-bold">
           Modération :
         </span>
@@ -49,33 +48,33 @@ const Session13 = ({ textSize }) => {
       </p>
 
       <ul className="list-dsc list-disc text-[#ef8661] dark:text-black mb-8">
-          <li className="mb-4">
+          <li className="ml-4 mb-4">
             <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
             États des lieux des essais cliniques en France et dans le monde</h4>
-            <span className="text-secondary dark:text-black mb-4">
-              <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
+            <span className={`${textSize} text-secondary dark:text-black mb-4`}>
+              <span className="text-secondary dark:text-black gotham-bold">
               Pr John DE VOS, 
               </span>{" "}
               Unité de Thérapie Cellulaire, Hôpital Saint-Eloi, Montpellier et président, French Society for Stem Cell Research (FSSCR)
             </span>
           </li>
-          <li className="mb-4">
+          <li className="ml-4 mb-4">
             <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
             Auto-organization de cellules souches en modèles embryonnaires humains – Blastoids, Gastruloids, etc.
             </h4>
-            <span className="text-secondary dark:text-black mb-4">
-              <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
+            <span className={`${textSize} text-secondary dark:text-black mb-4`}>
+              <span className="text-secondary dark:text-black gotham-bold">
               M. Nicolas RIVRON,
               </span>{" "}
               Institute of Molecular Biotechnology, Austrian Acadmy of Sciences, Vienne, Autriche
             </span>
           </li>
-          <li className="mb-4">
+          <li className="ml-4 mb-4">
             <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
             Nouvelles questions éthiques soulevées par la recherche sur les cellules souches pluripotentes 
             </h4>
-            <span className="text-secondary dark:text-black mb-4">
-              <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
+            <span className={`${textSize} text-secondary dark:text-black mb-4`}>
+              <span className="text-secondary dark:text-black gotham-bold">
               M. Bernard BAERTSCHI,
               </span>{" "}
               Université de Genève et Comité d’éthique de l'Inserm

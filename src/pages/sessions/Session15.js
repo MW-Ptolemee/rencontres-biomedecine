@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import TtsButton from "../../components/Button/TtsButton";
 
 const Session15 = ({ textSize }) => {
-  window.scrollTo({ top: 0, behavior: "smooth" });
   return (
     <div className="px-2 md:container py-8 space-y-8">
       {/* <TtsButton /> */}
@@ -33,7 +32,7 @@ const Session15 = ({ textSize }) => {
 
         
 
-        <p className="space-x-2 mb-6">
+        <p className={`${textSize} space-x-2 mb-6`}>
           <span className="text-[#00a895] dark:text-black gotham-bold">
             Modération :
           </span>
@@ -51,22 +50,22 @@ const Session15 = ({ textSize }) => {
           </span>
         </p>
 
-        <p className="space-x-2 mb-6">
+        <p className={`${textSize} space-x-2 mb-6`}>
       
-      <span className="text-secondary dark:text-black mb-4">
-        <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
+      <span className={`${textSize} text-secondary dark:text-black mb-4`}>
+        <span className="text-secondary dark:text-black gotham-bold">
         M. Martin DUMONT,{" "}  
         </span>
         MCU, Paris Créteil
       </span>
-      <span className="text-secondary dark:text-black mb-4">
-        <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
+      <span className={`${textSize} text-secondary dark:text-black mb-4`}>
+        <span className="text-secondary dark:text-black gotham-bold">
         <br />Pr Benoît LENGELE ,{" "}  
         </span>
         UCL Bruxelles, Belgique
       </span>
-      <span className="text-secondary dark:text-black mb-4">
-        <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
+      <span className={`${textSize} text-secondary dark:text-black mb-4`}>
+        <span className="text-secondary dark:text-black gotham-bold">
         <br />M. Felix GRETARSSON{" "}  
         </span>
     

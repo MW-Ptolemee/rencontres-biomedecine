@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import TtsButton from "../../components/Button/TtsButton";
 
 const Session5 = ({ textSize }) => {
-  window.scrollTo({ top: 0, behavior: "smooth" });
   return (
     <div className="px-2 md:container py-8 space-y-8">
     {/* <TtsButton /> */}
@@ -31,7 +30,7 @@ const Session5 = ({ textSize }) => {
 
   
 
-      <p className="space-x-2 mb-6">
+      <p className={`${textSize}space-x-2 mb-6`}>
         <span className="text-primary dark:text-black gotham-bold">
           Modération :
         </span>
@@ -50,33 +49,33 @@ const Session5 = ({ textSize }) => {
       </p>
 
       <ul className="list-dsc list-disc text-primary dark:text-black mb-8">
-        <li className="mb-4">
+        <li className="ml-4 mb-4">
           <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
           Les organoïdes hépatiques</h4>
-          <span className="text-secondary dark:text-black mb-4">
-            <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
+          <span className={`${textSize} text-secondary dark:text-black mb-4`}>
+            <span className="text-secondary dark:text-black gotham-bold">
             Mme Antonietta MESSINA,{" "}  
             </span>
             Inserm, CHU Paul Brousse, Villejuif
           </span>
         </li>
-        <li className="mb-4">
+        <li className="ml-4 mb-4">
           <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
           Les organoïdes neuraux : exemple de la rétine
           </h4>
-          <span className="text-secondary dark:text-black mb-4">
-            <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
+          <span className={`${textSize} text-secondary dark:text-black mb-4`}>
+            <span className="text-secondary dark:text-black gotham-bold">
             M. Olivier GOUREAU,{" "} 
             </span>
             Inserm, Institut de la vision – Sorbonne Université, Paris
           </span>
         </li>
-        <li className="mb-4">
+        <li className="ml-4 mb-4">
           <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
           Enjeux éthiques liés à la recherche sur les organoïdes
           </h4>
-          <span className="text-secondary dark:text-black mb-4">
-            <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
+          <span className={`${textSize} text-secondary dark:text-black mb-4`}>
+            <span className="text-secondary dark:text-black gotham-bold">
             Pr Hervé CHNEIWEISS,{" "} 
             </span>
             Inserm – Institut du cerveau, Paris

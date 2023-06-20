@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import TtsButton from "../../components/Button/TtsButton";
 
 const Session12 = ({ textSize }) => {
-  window.scrollTo({ top: 0, behavior: "smooth" });
   return (
     <div className="px-2 md:container py-8 space-y-8">
     {/* <TtsButton /> */}
@@ -29,7 +28,7 @@ const Session12 = ({ textSize }) => {
       L’opposition au don d’organes et de tissus
       </h2>
 
-      <p className="space-x-2 mb-6">
+      <p className={`${textSize} space-x-2 mb-6`}>
         <span className="text-[#f091a9] dark:text-black gotham-bold">
           Modération :
         </span>
@@ -47,7 +46,7 @@ const Session12 = ({ textSize }) => {
         </span>
       </p>
 
-      <p className="space-x-2 mb-6">
+      <p className={`${textSize} space-x-2 mb-6`}>
       
       <span className="text-secondary dark:text-black mb-4">
         <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">

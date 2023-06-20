@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import TtsButton from "../../components/Button/TtsButton";
 
 const Session7 = ({ textSize }) => {
-  window.scrollTo({ top: 0, behavior: "smooth" });
   return (
     <div className="px-2 md:container py-8 space-y-8">
     {/* <TtsButton /> */}
@@ -38,7 +37,7 @@ const Session7 = ({ textSize }) => {
 
       <hr className="border border-[#b3b3b3] dark:border-black mb-4" />
 
-      <p className="space-x-2 mb-6">
+      <p className={`${textSize} space-x-2 mb-6`}>
         <span className="text-[#f091a9] dark:text-black gotham-bold">
           Modération :
         </span>
@@ -57,38 +56,38 @@ const Session7 = ({ textSize }) => {
       </p>
 
       <ul className="list-dsc list-disc text-[#f091a9] dark:text-black mb-8">
-        <li className="mb-4">
+        <li className="ml-4 mb-4">
           <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
           Surveillance des effets indésirables dans le SNDS dans le cadre de la biovigilance et de l'AMP Vigilance
           </h4>
-          <span className="text-secondary dark:text-black mb-4">
-            <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
+            <span className={`${textSize} text-secondary dark:text-black mb-4`}>
+            <span className="text-secondary dark:text-black gotham-bold">
             Mme Gaëlle LEMARDELEY
             </span>{" "}
             et
-            <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
+            <span className="text-secondary dark:text-black gotham-bold">
             {" "}Dr Cyril ASTRUGUE,
             </span>{" "}
             Agence de la biomédecine
           </span>
         </li>
-        <li className="mb-4">
+        <li className="ml-4 mb-4">
           <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
           Impact du parcours de soin des enfants avec une maladie rénale chronique sur l’inscription précoce et la greffe rénale préemptive
           </h4>
-          <span className="text-secondary dark:text-black mb-4">
-            <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
+            <span className={`${textSize} text-secondary dark:text-black mb-4`}>
+            <span className="text-secondary dark:text-black gotham-bold">
             Dr Cyrielle PARMENTIER, 
             </span>{" "}
             Hôpital Armand-Trousseau, Paris
           </span>
         </li>
-        <li className="mb-4">
+        <li className="ml-4 mb-4">
           <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
           L’utilisation du SNDS pour mieux estimer les dépenses de santé par pathologie
           </h4>
-          <span className="text-secondary dark:text-black mb-4">
-            <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
+            <span className={`${textSize} text-secondary dark:text-black mb-4`}>
+            <span className="text-secondary dark:text-black gotham-bold">
             M. Antoine RACHAS, 
             </span>{" "}
             Caisse nationale de l'Assurance Maladie, Paris

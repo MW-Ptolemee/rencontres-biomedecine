@@ -3,7 +3,6 @@ import TtsButton from "../../components/Button/TtsButton";
 import { Link } from "react-router-dom";
 
 const Session1 = ({ textSize }) => {
-  window.scrollTo({ top: 0, behavior: "smooth" });
   return (
     <div className="px-2 md:container py-8 space-y-8">
       {/* <TtsButton /> */}
@@ -46,7 +45,7 @@ const Session1 = ({ textSize }) => {
 
         {/* <hr className="border border-[#b3b3b3] dark:border-black mb-4" /> */}
 
-        <p className="space-x-2 mb-6">
+        <p className={`${textSize} space-x-2 mb-6`}>
           <span className="text-primary dark:text-black gotham-bold">
             Modération :
           </span>
@@ -69,8 +68,8 @@ const Session1 = ({ textSize }) => {
             <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
               La xénogreffe : quelles frontières philosophiques ?
             </h4>
-            <span className="text-secondary dark:text-black mb-4">
-              <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
+            <span className={`${textSize} text-secondary dark:text-black mb-4`}>
+              <span className="text-secondary dark:text-black gotham-bold">
               M. Jean Michel BESNIER,
               </span>{" "}
               Paris Sorbonne Université
@@ -80,8 +79,8 @@ const Session1 = ({ textSize }) => {
             <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
               La xénogreffe en 2023 : état de l’art
             </h4>
-            <span className="text-secondary dark:text-black mb-4">
-              <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
+            <span className={`${textSize} text-secondary dark:text-black mb-4`}>
+              <span className="text-secondary dark:text-black gotham-bold">
                 Pr Olivier BASTIEN,
               </span>{" "}
               Agence de la biomédecine

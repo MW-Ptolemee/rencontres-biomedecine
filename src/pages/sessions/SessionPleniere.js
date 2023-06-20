@@ -4,7 +4,6 @@ import TtsButton from "../../components/Button/TtsButton";
 
 
 const SessionPleniere = ({ textSize }) => {
-  window.scrollTo({ top: 0, behavior: "smooth" });
   return (
     <div className="px-2 md:container py-8 space-y-8">
       {/* <TtsButton /> */}
@@ -30,7 +29,7 @@ const SessionPleniere = ({ textSize }) => {
         Ouverture officielle
         </h2>
 
-        <p className="space-x-2 mb-6" >
+        <p className={`${textSize} space-x-2 mb-6`}>
         <span className="text-secondary dark:text-black">
             Discours de
           </span>
@@ -50,13 +49,6 @@ const SessionPleniere = ({ textSize }) => {
           directeur général adjoint en charge des stratégies médicales et scientifiques de l’Agence de la biomédecine
           </span>
         </p>
-
-       
-
-        
-
-       
-
         <button className="gotham-bold border-2 border-secondary dark:border-black dark:bg-white flex items-center text-secondary gotham-bold dark:text-black text-sm md:text-base py-2 px-4 font-bold mb-4 md:mb-6">
           <Link
             to="/Inscription"

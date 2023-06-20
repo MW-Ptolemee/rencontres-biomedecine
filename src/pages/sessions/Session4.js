@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import TtsButton from "../../components/Button/TtsButton";
 
 const Session4 = ({ textSize }) => {
-  window.scrollTo({ top: 0, behavior: "smooth" });
   return (
     <div className="px-2 md:container py-8 space-y-8">
     {/* <TtsButton /> */}
@@ -31,52 +30,52 @@ const Session4 = ({ textSize }) => {
 
       
 
-      <p className="space-x-2 mb-6">
-        <span className="text-[#a1c517] dark:text-black gotham-bold">
+      <p className={`${textSize} space-x-2 mb-6`}>
+        <span className={`${textSize} text-[#a1c517] dark:text-black gotham-bold`}>
           Modération :
         </span>
-        <span className="text-secondary dark:text-black gotham-bold">
+        <span className={`${textSize} text-secondary dark:text-black mb-4`}>
         Dr Pascale LEVY,
         </span>
-        <span className="text-secondary dark:text-black">
+          <span className={`${textSize} text-secondary dark:text-black mb-4`}>
         Agence de la biomédecine et
         </span>
         <span className="text-secondary dark:text-black gotham-bold">
         Pr Daniel SHERMAN,
         </span>
-        <span className="text-secondary dark:text-black">
+          <span className={`${textSize} text-secondary dark:text-black mb-4`}>
         Fondation maladies rares
         </span>
       </p>
 
       <ul className="list-dsc list-disc text-[#a1c517] dark:text-black mb-8">
-        <li className="mb-4">
+        <li className="ml-4 mb-4">
           <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
           Les nouveaux accès, les nouveaux besoins : état des lieux des évolutions technologiques, du panel aux tests fonctionnels en passant par le génome </h4>
-          <span className="text-secondary dark:text-black mb-4">
-            <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
+          <span className={`${textSize} text-secondary dark:text-black mb-4`}>
+            <span className="text-secondary dark:text-black gotham-bold">
             Pr Stanislas LYONNET,{" "} 
             </span>
             Institut <i>Imagine</i>, Paris
           </span>
         </li>
-        <li className="mb-4">
+        <li className="ml-4 mb-4">
           <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
           Enjeux des études en sciences humaines et sociales pour améliorer les étapes du parcours de soins en génétique
           </h4>
-          <span className="text-secondary dark:text-black mb-4">
-            <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
+        <span className={`${textSize} text-secondary dark:text-black mb-4`}>
+            <span className="text-secondary dark:text-black gotham-bold">
             Mme Hélène BERRUE-GAILLARD,{" "}  
             </span>
             Alliance maladies rares et Maladies Rares Infos
           </span>
         </li>
-        <li className="mb-4">
+        <li className="ml-4 mb-4">
           <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
           Vers un remboursement, impact sur la prescription des examens de génétique
           </h4>
-          <span className="text-secondary dark:text-black mb-4">
-            <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
+        <span className={`${textSize} text-secondary dark:text-black mb-4`}>
+            <span className="text-secondary dark:text-black gotham-bold">
             Mme Florence JUSOT,{" "}  
             </span>
             Université Paris Dauphine
@@ -84,7 +83,7 @@ const Session4 = ({ textSize }) => {
         </li>
       </ul>
 
-      <button className="gotham-bold border-2 border-[#a1c517] dark:border-black dark:bg-white flex items-center text-secondary gotham-bold dark:text-black text-sm md:text-base py-2 px-4 font-bold mb-4 md:mb-6">
+      <button className="gotham-bold border-2 border-[#a1c517] dark:border-black dark:bg-white flex items-center text-secondary gotham-bold dark:text-black py-2 px-4 font-bold mb-4 md:mb-6">
         <Link
           to="/Inscription"
           className={`w-max ${
@@ -95,7 +94,7 @@ const Session4 = ({ textSize }) => {
         </Link>
       </button>
 
-      <button className="gotham-bold bg-primary-light dark:bg-black flex items-center space-x-1 md:space-x-2 text-secondary dark:text-white text-sm md:text-base py-2 px-4 font-bold mr-[1px] md:mr-[8px]">
+      <button className="gotham-bold bg-primary-light dark:bg-black flex items-center space-x-1 md:space-x-2 text-secondary dark:text-white py-2 px-4 font-bold mr-[1px] md:mr-[8px]">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"

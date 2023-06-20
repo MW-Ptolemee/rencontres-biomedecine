@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import TtsButton from "../../components/Button/TtsButton";
 
 const Session8 = ({ textSize }) => {
-  window.scrollTo({ top: 0, behavior: "smooth" });
   return (
     <div className="px-2 md:container py-8 space-y-8">
       {/* <TtsButton /> */}
@@ -33,7 +32,7 @@ const Session8 = ({ textSize }) => {
 
 
 
-        <p className="space-x-2 mb-6">
+        <p className={`${textSize} space-x-2 mb-6`}>
           <span className="text-[#00a895] dark:text-black gotham-bold">
             Modération :
           </span>
@@ -52,45 +51,45 @@ const Session8 = ({ textSize }) => {
         </p>
 
         <ul className="list-dsc list-disc text-[#00a895] dark:text-black mb-8">
-          <li className="mb-4">
+          <li className="ml-4 mb-4">
             <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
             Les leçons de la crise Covid – l’anticipation de potentielles crises sanitaires
             </h4>
-            <span className="text-secondary dark:text-black mb-4">
+            <span className={`${textSize} text-secondary dark:text-black mb-4`}>
               Projet BRAVEST :{" "}
-              <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
+              <span className="text-secondary dark:text-black gotham-bold">
               Mme Devi MEY,
               </span>{" "}
               European Society for Organ Transplatation (ESOT) <br />
             </span>
-            <span className="text-secondary dark:text-black mb-4">
+            <span className={`${textSize} text-secondary dark:text-black mb-4`}>
               Projet EGALITE :{" "}
-              <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
+              <span className="text-secondary dark:text-black gotham-bold">
               Mme Rita PITEIRA,
               </span>{" "}
               Barcelona Tissue Bank, Espagne <br />
             </span>
           </li>
-          <li className="mb-4">
+          <li className="ml-4 mb-4">
             <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
             Collaboration internationale dans le domaine du don croisé de rein : l’exemple de la South Alliance for Transplantation*
             </h4>
             <h4 className="text-secondary dark:text-black md:text-2xl gotham-medium mb-2">
             International kidney paired exchange: the experience of the South Alliance for Transplantation
             </h4>
-            <span className="text-secondary dark:text-black mb-4">
-              <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
+            <span className={`${textSize} text-secondary dark:text-black mb-4`}>
+              <span className="text-secondary dark:text-black gotham-bold">
               Dr Beatriz DOMINGUEZ-GIL,
               </span>{" "}
               Organizacion Nacional de Transplantes, Madrid, Espagne
             </span>
           </li>
-          <li className="mb-4">
+          <li className="ml-4 mb-4">
             <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
             Plateforme FOEDUS – bilan depuis 2015 
             </h4>
-            <span className="text-secondary dark:text-black mb-4">
-              <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
+            <span className={`${textSize} text-secondary dark:text-black mb-4`}>
+              <span className="text-secondary dark:text-black gotham-bold">
               Dr Franz IMMER,
               </span>{" "}
               Swisstransplant, Berne, Suisse et président de Foedus

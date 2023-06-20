@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import TtsButton from "../../components/Button/TtsButton";
 
 const Session3 = ({ textSize }) => {
-  window.scrollTo({ top: 0, behavior: "smooth" });
   return (
     <div className="px-2 md:container py-8 space-y-8">
     {/* <TtsButton /> */}
@@ -30,7 +29,7 @@ const Session3 = ({ textSize }) => {
       le comité de suivi de la mise en œuvre de la loi de bioéthique
       </h2>
 
-      <p className="space-x-2 mb-6">
+        <p className={`${textSize} space-x-2 mb-6`}>
         <span className="text-[#f091a9] dark:text-black gotham-bold">
           Modération :
         </span>
@@ -43,22 +42,22 @@ const Session3 = ({ textSize }) => {
       </p>
 
       <ul className="list-dsc list-disc text-[#f091a9] dark:text-black mb-8">
-        <li className="mb-4">
+        <li className="ml-4 mb-4">
           <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
           Regards croisés entre différents membres du comité</h4>
-          <span className="text-secondary dark:text-black mb-4">
-            <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
+          <span className={`${textSize} text-secondary dark:text-black mb-4`}>
+            <span className="text-secondary dark:text-black gotham-bold">
             Dr Sophie MIRALLIE, 
             </span>{" "}
             CHU de Nantes
           </span>{" "}
-          <span className="text-secondary dark:text-black mb-4">
-            <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
+          <span className={`${textSize} text-secondary dark:text-black mb-4`}>
+            <span className="text-secondary dark:text-black gotham-bold">
             <br /> M. Laurent BUTOR, 
             </span>{" "}
             direction générale de la santé, Paris
           </span>
-          <span className="text-secondary dark:text-black mb-4">
+          <span className={`${textSize} text-secondary dark:text-black mb-4`} >
           
             <br />Un représentant d’une association membre du comité 
           </span>

@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import TtsButton from "../../components/Button/TtsButton";
 
 const Session9 = ({ textSize }) => {
-  window.scrollTo({ top: 0, behavior: "smooth" });
   return (
     <div className="px-2 md:container py-8 space-y-8">
       {/* <TtsButton /> */}
@@ -31,7 +30,7 @@ const Session9 = ({ textSize }) => {
 
     
 
-        <p className="space-x-2 mb-6">
+        <p className={`${textSize} space-x-2 mb-6`}>
           <span className="text-[#a1c517] dark:text-black gotham-bold">
             Modération :
           </span>
@@ -50,33 +49,33 @@ const Session9 = ({ textSize }) => {
         </p>
 
         <ul className="list-dsc list-disc text-[#a1c517] dark:text-black mb-8">
-          <li className="mb-4">
+          <li className="ml-4 mb-4">
             <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
             L’utilisation d’outils pangénomiques pour le diagnostic préimplantatoire dans le contexte de la réglementation française</h4>
-            <span className="text-secondary dark:text-black mb-4">
-              <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
+            <span className={`${textSize} text-secondary dark:text-black mb-4`}>
+              <span className="text-secondary dark:text-black gotham-bold">
               Pr Pierre RAY, 
               </span>{" "}
               CHU de Grenoble Alpes
             </span>
           </li>
-          <li className="mb-4">
+          <li className="ml-4 mb-4">
             <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
             Les avancées du diagnostic prénatal non invasif des maladies monogéniques
             </h4>
-            <span className="text-secondary dark:text-black mb-4">
-              <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
+            <span className={`${textSize} text-secondary dark:text-black mb-4`}>
+              <span className="text-secondary dark:text-black gotham-bold">
               Dr Juliette NECTOUX,
               </span>{" "}
               Hôpital Cochin, Paris
             </span>
           </li>
-          <li className="mb-4">
+          <li className="ml-4 mb-4">
             <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
             Séquençage d’exome : quels apport et enjeux en diagnostic prénatal ?
             </h4>
-            <span className="text-secondary dark:text-black mb-4">
-              <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
+            <span className={`${textSize} text-secondary dark:text-black mb-4`}>
+              <span className="text-secondary dark:text-black gotham-bold">
               Pr Tania ATTIE-BITACH,
               </span>{" "}
               Hôpital Necker-Enfants Malades, Paris

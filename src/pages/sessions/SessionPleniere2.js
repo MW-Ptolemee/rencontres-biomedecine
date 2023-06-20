@@ -4,7 +4,6 @@ import TtsButton from "../../components/Button/TtsButton";
 
 
 const SessionPleniere2 = ({ textSize }) => {
-  window.scrollTo({ top: 0, behavior: "smooth" });
   return (
     <div className="px-2 md:container py-8 space-y-8">
       {/* <TtsButton /> */}
@@ -47,35 +46,33 @@ const SessionPleniere2 = ({ textSize }) => {
 
         <hr className="border border-[#b3b3b3] dark:border-black mb-4" />    
 
-        <ul className="list-dsc list-disc text-primary dark:text-black mb-8">
-          
-            
+        <ul className={`${textSize} list-dsc list-disc text-primary dark:text-black mb-8`}>      
             <span className="text-secondary dark:text-black mb-4">
-              <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
+              <span className="text-secondary dark:text-black gotham-bold">
               M. Claude KIRCHNER,
               </span>{" "}
               directeur du Comité national pilote d’éthique du numérique, membre du CCNE, directeur de recherche émérite d’Inria
             </span>
             <span className="text-secondary dark:text-black mb-4">
-              <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
+              <span className="text-secondary dark:text-black gotham-bold">
               <br />Pr Alexandre LOUPY,
               </span>{" "}
               professeur de néphrologie et d’épidémiologie, hôpital Necker-Enfants malades et directeur de l’équipe « Approches multidimensionnelles en transplantation d'organes » au Centre de recherche PARCC INSERM
             </span>
             <span className="text-secondary dark:text-black mb-4">
-              <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
+              <span className="text-secondary dark:text-black gotham-bold">
               <br />M. Bertrand PAILHÈS,
               </span>{" "}
               directeur des technologies et de l’innovation de la CNIL, Paris
             </span>
             <span className="text-secondary dark:text-black mb-4">
-              <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
+              <span className="text-secondary dark:text-black gotham-bold">
               <br />Pr Catherine RONGIÈRES,
               </span>{" "}
               professeur Université de Strasbourg, responsable adjoint du pôle de Gynécologie Obstétrique et Fertilité, chef du Service Clinico Biologique d’AMP des Hôpitaux universitaires de Strasbourg
             </span>
             <span className="text-secondary dark:text-black mb-4">
-              <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
+              <span className="text-secondary dark:text-black gotham-bold">
               <br />Mme Marine JEANTET,
               </span>{" "}
               directrice générale de l’Agence de la biomédecine
@@ -83,21 +80,17 @@ const SessionPleniere2 = ({ textSize }) => {
          
           
         </ul>
-
-       
-
-<p className="space-x-2 mb-6">
-<span className="text-secondary dark:text-black">
-Animation par
-  </span>
-  <span className="text-secondary dark:text-black gotham-bold">
-  Mme Danielle MESSAGER,
-  </span>
-  <span className="text-secondary dark:text-black">
-    journaliste France Inter
-  </span>
- 
-</p>
+        <p className={`${textSize} space-x-2 mb-6`}>
+        <span className="text-secondary dark:text-black">
+        Animation par
+          </span>
+          <span className="text-secondary dark:text-black gotham-bold">
+          Mme Danielle MESSAGER,
+          </span>
+          <span className="text-secondary dark:text-black">
+            journaliste France Inter
+          </span>
+        </p>
 
         <button className="gotham-bold border-2 border-secondary dark:border-black dark:bg-white flex items-center text-secondary gotham-bold dark:text-black text-sm md:text-base py-2 px-4 font-bold mb-4 md:mb-6">
           <Link

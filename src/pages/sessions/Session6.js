@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import TtsButton from "../../components/Button/TtsButton";
 
 const Session6 = ({ textSize }) => {
-  window.scrollTo({ top: 0, behavior: "smooth" });
   return (
     <div className="px-2 md:container py-8 space-y-8">
     {/* <TtsButton /> */}
@@ -30,7 +29,7 @@ const Session6 = ({ textSize }) => {
       </h2>
 
 
-      <p className="space-x-2 mb-6">
+      <p className={`${textSize} space-x-2 mb-6`}>
         <span className="text-[#ef8661] dark:text-black gotham-bold">
           Modération :
         </span>
@@ -48,7 +47,7 @@ const Session6 = ({ textSize }) => {
         </span>
       </p>
 
-      <p className="space-x-2 mb-6">
+      <p className={`${textSize} space-x-2 mb-6`}>
       
           <span className="text-secondary dark:text-black mb-4">
             <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
