@@ -88,7 +88,7 @@ const Session1 = ({ textSize }) => {
           </li>
           <li className="ml-4 mb-4">
             <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
-            Intervenant américain – Université de Baltimore, Maryland, États-Unis
+            Intervenant en attente de confirmation – Université de Baltimore, Maryland, États-Unis
             </h4>
             
           </li>

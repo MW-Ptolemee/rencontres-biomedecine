@@ -39,8 +39,8 @@ const SessionPleniere2 = ({ textSize }) => {
         à la prédiction ou encore à la chirurgie. Cette table ronde sera l’occasion de mettre en lumière quelques technologies innovantes mais également de parler 
         de leurs applications sur le terrain et de la façon dont elles sont accueillies par les équipes soignantes. Ces dispositifs d’IA, porteurs de promesses et d’inquiétudes, 
         ouvrent la voie vers de nouvelles réflexions éthiques et réglementaires, que nos experts mettront en avant tout au long de la discussion. 
-        « La création d'une IA serait le plus grand événement de l'histoire de l'humanité. Mais il pourrait aussi être l'ultime. » 
-        Cette citation de S. Hawking, penseur éclairé du 21<sup>e</sup> siècle, nous rappelle que l’IA peut révolutionner notre monde mais 
+        <i>« La création d'une IA serait le plus grand événement de l'histoire de l'humanité. Mais il pourrait aussi être l'ultime. »</i>&nbsp;
+        Cette citation de S.&nbsp;Hawking, penseur éclairé du 21<sup>e</sup> siècle, nous rappelle que l’IA peut révolutionner notre monde mais 
         qu’il faut rester vigilant et veiller à ce qu’elle soit utilisée à bonne escient.
         </p>
 
@@ -63,7 +63,7 @@ const SessionPleniere2 = ({ textSize }) => {
               <span className="text-secondary dark:text-black gotham-bold">
               <br />M. Bertrand PAILHÈS,
               </span>{" "}
-              directeur des technologies et de l’innovation de la CNIL, Paris
+              directeur des technologies et de l’innovation de la CNIL
             </span>
             <span className="text-secondary dark:text-black mb-4">
               <span className="text-secondary dark:text-black gotham-bold">
@@ -88,7 +88,7 @@ const SessionPleniere2 = ({ textSize }) => {
           Mme Danielle MESSAGER,
           </span>
           <span className="text-secondary dark:text-black">
-            journaliste France Inter
+            journaliste (France Inter)
           </span>
         </p>
 
