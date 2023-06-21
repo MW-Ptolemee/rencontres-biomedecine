@@ -88,9 +88,14 @@ const Session1 = ({ textSize }) => {
           </li>
           <li className="ml-4 mb-4">
             <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
-            Intervenant en attente de confirmation – Université de Baltimore, Maryland, États-Unis
+            Advances in xenotransplantation. US reality 
             </h4>
-            
+            <span className={`${textSize} text-secondary dark:text-black mb-4`}>
+              <span className="text-secondary dark:text-black gotham-bold">
+              Muhammad M MOHIUDDIN MD. D.Sc (Hon),
+              </span>{" "}
+              University of Maryland School of Medicine, USA
+            </span>
           </li>
         </ul>
 

@@ -28,6 +28,17 @@ const Session12 = ({ textSize }) => {
       L’opposition au don d’organes et de tissus
       </h2>
 
+      <p className={`text-secondary dark:text-black mb-6 ${textSize} `}>
+      L’opposition au don d’organes et de tissus, si elle est prévue dans la Loi n’en demeure pas moins un sujet 
+      de préoccupation depuis de nombreuses années. Il s’agit d’un phénomène assurément multifactoriel 
+      dont le seul système de soins ne peut être tenu comme responsable. Dans une session très ouverte, 
+      des intervenants de tous horizons, issus du droit, de la santé ou du monde associatif nous présenteront 
+      les déterminants de ce refus en France. Enfin, le témoignage d’un acteur espagnol, pays « bon élève » 
+      en matière d’opposition en Europe, nous permettra de comprendre les facteurs clés de succès. 
+        </p> 
+
+        <hr className="border border-[#b3b3b3] dark:border-black mb-4" />
+
       <p className={`${textSize} space-x-2 mb-6`}>
         <span className="text-[#f091a9] dark:text-black gotham-bold">
           Modération :
@@ -42,37 +53,56 @@ const Session12 = ({ textSize }) => {
         Mme Carole GENTY,
         </span>
         <span className="text-secondary dark:text-black">
-        Association Française des Coordinateurs Hospitaliers, AFCH
+        Association Française des Coordinateurs Hospitaliers (AFCH)
         </span>
       </p>
 
-      <p className={`${textSize} space-x-2 mb-6`}>
-      
-      <span className="text-secondary dark:text-black mb-4">
-        <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
-        Mme Valérie DEPADT,{" "}  
-        </span>
-        Sorbonne Paris Nord
-      </span>
-      <span className="text-secondary dark:text-black mb-4">
-        <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
-        <br />Dr Régis BRONCHARD,{" "}  
-        </span>
-        Agence de la biomédecine
-      </span>
-      <span className="text-secondary dark:text-black mb-4">
-        <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
-        <br />Dr Chloé BALLESTE,{" "}  
-        </span>
-        Donation & Transplantation Institute - DTI, Barcelone, Espagne
-      </span>
-      <span className="text-secondary dark:text-black mb-4">
-        <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
-        <br />M. Pierre LEMARCHAL,{" "}  
-        </span>
-        Collectif Greffes+
-      </span>
-      </p>
+      <ul className="list-dsc list-disc text-[#f091a9] dark:text-black mb-8">
+        <li className="ml-4 mb-4">
+          <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
+          Prélèvement d'organes et de tissus dans le droit : un projet collectif à l'époque de l'individualité ?
+          </h4>
+            <span className={`${textSize} text-secondary dark:text-black mb-4`}>
+            <span className="text-secondary dark:text-black gotham-bold">
+            Mme Valérie DEPADT,
+            </span>{" "}
+            Sorbonne Paris Nord
+          </span>
+        </li>
+        <li className="ml-4 mb-4">
+          <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
+          Déterminants de l'opposition : résultats d'une étude menée par l'Agence de la biomédecine
+          </h4>
+            <span className={`${textSize} text-secondary dark:text-black mb-4`}>
+            <span className="text-secondary dark:text-black gotham-bold">
+            Dr Régis BRONCHARD, 
+            </span>{" "}
+            Agence de la biomédecine
+          </span>
+        </li>
+        <li className="ml-4 mb-4">
+          <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
+          Modèle espagnol et taux d'opposition
+          </h4>
+            <span className={`${textSize} text-secondary dark:text-black mb-4`}>
+            <span className="text-secondary dark:text-black gotham-bold">
+            Dr Chloé BALLESTE, 
+            </span>{" "}
+            Donation & Transplantation Institute - DTI, Barcelone, Espagne
+          </span>
+        </li>
+        <li className="ml-4 mb-4">
+          <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
+          Associations : quelles sont les actions possibles ?
+          </h4>
+            <span className={`${textSize} text-secondary dark:text-black mb-4`}>
+            <span className="text-secondary dark:text-black gotham-bold">
+            M. Pierre LEMARCHAL, 
+            </span>{" "}
+            Association Grégory Lemarchal, membre du Collectif Greffes+, Chambéry
+          </span>
+        </li>
+      </ul>
 
       <button className="gotham-bold border-2 border-[#f091a9] dark:border-black dark:bg-white flex items-center text-secondary gotham-bold dark:text-black text-sm md:text-base py-2 px-4 font-bold mb-4 md:mb-6">
         <Link

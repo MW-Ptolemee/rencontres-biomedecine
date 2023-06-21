@@ -37,17 +37,18 @@ const Session8 = ({ textSize }) => {
             Modération :
           </span>
           <span className="text-secondary dark:text-black gotham-bold">
-          Dr Stefaan VAN DER SPIEGEL,
-          </span>
-          <span className="text-secondary dark:text-black">
-          Head of sector, Substances of Human Origin, DG SANTE, European Commission et
-          </span>
-          <span className="text-secondary dark:text-black gotham-bold">
           Pr Emanuele COZZI,
           </span>
           <span className="text-secondary dark:text-black">
-          Director, Transplant Immunology Unit, Padua University Hospital, Italie
+          Padua University Hospital, Italie et
           </span>
+          <span className="text-secondary dark:text-black gotham-bold">
+          Dr Stefaan VAN DER SPIEGEL,
+          </span>
+          <span className="text-secondary dark:text-black">
+          Head of sector, Substances of Human Origin, DG SANTE, European Commission 
+          </span>
+          
         </p>
 
         <ul className="list-dsc list-disc text-[#00a895] dark:text-black mb-8">
@@ -72,10 +73,8 @@ const Session8 = ({ textSize }) => {
           </li>
           <li className="ml-4 mb-4">
             <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
-            Collaboration internationale dans le domaine du don croisé de rein : l’exemple de la South Alliance for Transplantation*
-            </h4>
-            <h4 className="text-secondary dark:text-black md:text-2xl gotham-medium mb-2">
-            International kidney paired exchange: the experience of the South Alliance for Transplantation
+            Collaboration internationale dans le domaine du don croisé de rein : l’exemple de la South Alliance for Transplantation{" "}
+            <i>(International kidney paired exchange: the experience of the South Alliance for Transplantation)</i>
             </h4>
             <span className={`${textSize} text-secondary dark:text-black mb-4`}>
               <span className="text-secondary dark:text-black gotham-bold">
@@ -99,10 +98,10 @@ const Session8 = ({ textSize }) => {
 
         <p className="space-x-2 mb-6">
           <span className="text-secondary dark:text-black">
-          * Session en anglais, une traduction vous sera proposée.
+          *Session en anglais, une traduction vous sera proposée.
           </span>
           <span className="text-secondary dark:text-black">
-          Session in English, translation available.
+          <i>Session in English, translation available.</i>
           </span>
         </p>
 

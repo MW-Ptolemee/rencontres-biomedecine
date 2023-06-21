@@ -47,27 +47,40 @@ const Session6 = ({ textSize }) => {
         </span>
       </p>
 
-      <p className={`${textSize} space-x-2 mb-6`}>
-      
-          <span className="text-secondary dark:text-black mb-4">
-            <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
-            Pr Gilles THURET,{" "}  
+      <ul className="list-dsc list-disc text-[#ef8661] dark:text-black mb-8">
+          <li className="ml-4 mb-4">
+            <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
+            Amélioration de la conservation des cornées : Active Storage Machine</h4>
+            <span className={`${textSize} text-secondary dark:text-black mb-4`}>
+              <span className="text-secondary dark:text-black gotham-bold">
+              Pr Gilles THURET, 
+              </span>{" "}
+              CHU de Saint-Étienne
             </span>
-            CHU de Saint Etienne
-          </span>
-          <span className="text-secondary dark:text-black mb-4">
-            <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
-            <br />Pr Vincent BORDERIE,{" "}  
+          </li>
+          <li className="ml-4 mb-4">
+            <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
+            Thérapie cellulaire en ophtalmologie
+            </h4>
+            <span className={`${textSize} text-secondary dark:text-black mb-4`}>
+              <span className="text-secondary dark:text-black gotham-bold">
+              Pr Vincent BORDERIE,
+              </span>{" "}
+              Centre Ophtalmologique National des Quinze-Vingt, Paris
             </span>
-            Centre Ophtalmologique National des Quinze-Vingt, Paris
-          </span>
-          <span className="text-secondary dark:text-black mb-4">
-            <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
-            <br />Pr Eric GABISON,{" "}  
+          </li>
+          <li className="ml-4 mb-4">
+            <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
+            Alternatives à la greffe : cornée artificielle et endothélium synthétique
+            </h4>
+            <span className={`${textSize} text-secondary dark:text-black mb-4`}>
+              <span className="text-secondary dark:text-black gotham-bold">
+              Pr Eric GABISON,
+              </span>{" "}
+              Fondation Ophtalmologique Rothschild, Paris
             </span>
-            Fondation Ophtalmologique Rothschild, Paris
-          </span>
-          </p>
+          </li>
+        </ul>
         
        
       

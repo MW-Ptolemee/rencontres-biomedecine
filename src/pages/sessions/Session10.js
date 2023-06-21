@@ -26,60 +26,66 @@ const Session10 = ({ textSize }) => {
         </div>
 
         <h2 className="md:text-4xl text-[#a1c517] dark:text-black gotham-bold mb-4">
-        Le parcours de soin post-greffe de CSH
+        L'AMP pour les femmes seules : quel accompagnement vers la parentalité ?
         </h2>
 
-    
+        <p className={`text-secondary dark:text-black mb-6 ${textSize} `}>
+        La loi de bioéthique du 2 août 2021 a ouvert l’Assistance médicale à la procréation (AMP) aux femmes non mariées. 
+        Si cette opportunité de fonder une famille a été pleinement réfléchie lors de la préparation de la loi et lors 
+        du débat parlementaire, il importe maintenant de se tourner vers sa mise en œuvre effective tant du point 
+        de vue des professionnels de santé que des personnes ayant recours à une telle approche. 
+        La session réunira un praticien de l’AMP, responsable d’un centre de don de gamètes, en contact régulier 
+        avec les personnes demandeuses, une représentante de l’association accompagnant les mamans et les futures mamans 
+        solos et un praticien de la petite enfance. Chacune apportera son expérience dont le fruit commun permettra 
+        de bâtir un chemin fiable et serein pour fonder une famille. 
+        </p> 
 
-        <p className="space-x-2 mb-6">
+        <hr className="border border-[#b3b3b3] dark:border-black mb-4" />
+
+        <p className={`${textSize} space-x-2 mb-6`}>
           <span className="text-[#a1c517] dark:text-black gotham-bold">
             Modération :
           </span>
           <span className="text-secondary dark:text-black gotham-bold">
-          Dr Bénédicte DEMEER,
+          Pr Philippe JONVEAUX,
           </span>
           <span className="text-secondary dark:text-black">
-          Agence de la biomédecine et
+          Agence de la biomédecine
           </span>
-          <span className="text-secondary dark:text-black gotham-bold">
-          Pr Véronique HOUFFLIN DEBARGE,
-          </span>
-          <span className="text-secondary dark:text-black">
-          CHU de Lille
-          </span>
+          
         </p>
 
         <ul className="list-dsc list-disc text-[#a1c517] dark:text-black mb-8">
-          <li className="mb-4">
+          <li className="ml-4 mb-4">
             <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
-            L’utilisation d’outils pangénomiques pour le diagnostic préimplantatoire dans le contexte de la réglementation française</h4>
-            <span className="text-secondary dark:text-black mb-4">
-              <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
-              Pr Pierre RAY, 
+            L’accompagnement et le rôle des professionnels de l’AMP auprès d’un nouveau public</h4>
+            <span className={`${textSize} text-secondary dark:text-black mb-4`}>
+              <span className="text-secondary dark:text-black gotham-bold">
+              Pr Rachel LEVY, 
               </span>{" "}
-              CHU de Grenoble Alpes
+              CECOS, Hôpital Tenon, AP-HP, Sorbonne Université, Paris
             </span>
           </li>
-          <li className="mb-4">
+          <li className="ml-4 mb-4">
             <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
-            Les avancées du diagnostic prénatal non invasif des maladies monogéniques
+            La maternité solo : une vision de la parentalité
             </h4>
-            <span className="text-secondary dark:text-black mb-4">
-              <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
-              Dr Juliette NECTOUX,
+            <span className={`${textSize} text-secondary dark:text-black mb-4`}>
+              <span className="text-secondary dark:text-black gotham-bold">
+              Mme Margaux GANDELON,
               </span>{" "}
-              Hôpital Cochin, Paris
+              Association Mam’en Solo
             </span>
           </li>
-          <li className="mb-4">
+          <li className="ml-4 mb-4">
             <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
-            Séquençage d’exome : quels apport et enjeux en diagnostic prénatal ?
+            Rôle de la parentalité dans la petite enfance / quelle différence avec un parent solo ?
             </h4>
-            <span className="text-secondary dark:text-black mb-4">
-              <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
-              Pr Tania ATTIE-BITACH,
+            <span className={`${textSize} text-secondary dark:text-black mb-4`}>
+              <span className="text-secondary dark:text-black gotham-bold">
+              Pr Brigitte CHABROL,
               </span>{" "}
-              Hôpital Necker-Enfants Malades, Paris
+              Hôpital Timone Enfants, Marseille
             </span>
           </li>
         </ul>

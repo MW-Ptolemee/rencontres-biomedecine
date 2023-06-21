@@ -83,7 +83,7 @@ sera au cœur de la table ronde proposée en ouverture.`,
   p5: `Nous vous attendons nombreux pour nos premières Rencontres de la
 biomédecine.`,
 
-  h2: `Seize sessions s’articuleront autour de 5 thèmes :`,
+  p3: `Seize sessions s’articuleront autour de 5 thèmes :`,
   h3: `Les Rencontres de la biomédecine répondent pleinement à cet objectif en
   réunissant des experts – professionnels de santé, chercheurs, associations,
   institutions, décideurs, etc. – afin de créer les conditions d’un dialogue
@@ -132,7 +132,7 @@ export const session = [
     clr: "hover:bg-[#a1c517]",
     borderColor: "border-[#a1c517]",
     textColor: "text-[#a1c517]",
-    link: "#",
+    link: "/session-2",
   },
   {
     title: "SANTÉ & SOCIÉTÉ",
@@ -232,7 +232,7 @@ export const octSession = [
     clr: "hover:bg-[#a1c517]",
     borderColor: "border-[#a1c517]",
     textColor: "text-[#a1c517]",
-    link: "#",
+    link: "/session-10",
   },
   {
     title: "RECHERCHE & INNOVATIONS",

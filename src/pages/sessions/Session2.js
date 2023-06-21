@@ -28,7 +28,7 @@ const Session2 = ({ textSize }) => {
         Le parcours de soin post-greffe de CSH
         </h2>
 
-        <p className={`text-secondary dark:text-black mb-6 ${textSize} `}>
+        {/* <p className={`text-secondary dark:text-black mb-6 ${textSize} `}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum,
           leo nec pharetra sodales, enim nisl euismod ante, vel rhoncus enim
           sapien faucibus sapien. Fusce dignissim sit amet risus fringilla
@@ -43,9 +43,9 @@ const Session2 = ({ textSize }) => {
           Integer vestibulum augue quis porttitor tempo
         </p>
 
-        <hr className="border border-[#b3b3b3] dark:border-black mb-4" />
+        <hr className="border border-[#b3b3b3] dark:border-black mb-4" /> */}
 
-        <p className="space-x-2 mb-6">
+        {/* <p className="space-x-2 mb-6">
           <span className="text-[#a1c517] dark:text-black gotham-bold">
             Modération :
           </span>
@@ -61,31 +61,43 @@ const Session2 = ({ textSize }) => {
           <span className="text-secondary dark:text-black">
           (organisme)
           </span>
-        </p>
+        </p> */}
 
-        <ul className="list-dsc list-disc text-[#a1c517] dark:text-black mb-8">
-          <li className="mb-4">
+<ul className="list-dsc list-disc text-[#a1c517] dark:text-black mb-8">
+          <li className="ml-4 mb-4">
             <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
-            Le suivi post étude Funnel Plot</h4>
-            <span className="text-secondary dark:text-black mb-4">
+            Rôle d'une structure associative dans le parcours de soins post greffe</h4>
+            <span className={`${textSize} text-secondary dark:text-black mb-4`}>
               <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
-              Dr Catherine FAUCHER 
+              Mme Anne-Pierre PICKAERT, 
               </span>{" "}
-              (Agence de la biomédecine)
+              associations EGMOS et Laurette Fugain
             </span>
           </li>
-          <li className="mb-4">
+          <li className="ml-4 mb-4">
             <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
             Le parcours du patient cancéreux dans la stratégie décennale
             </h4>
-            <span className="text-secondary dark:text-black mb-4">
+            <span className={`${textSize} text-secondary dark:text-black mb-4`}>
               <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
-              Prénom NOM
+              Dr Tereza COMAN,
               </span>{" "}
-              (organisme)
+              Département d'Hématologie, Institut Gustave Roussy, Villejuif
+            </span>
+          </li>
+          <li className="ml-4 mb-4">
+            <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
+            Le parcours du patient cancéreux dans la stratégie décennale
+            </h4>
+            <span className={`${textSize} text-secondary dark:text-black mb-4`}>
+              <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
+              Dr Catherine FAUCHER,
+              </span>{" "}
+              Agence de la biomédecine
             </span>
           </li>
         </ul>
+        
 
         <button className="gotham-bold border-2 border-[#a1c517] dark:border-black dark:bg-white flex items-center text-secondary gotham-bold dark:text-black text-sm md:text-base py-2 px-4 font-bold mb-4 md:mb-6">
           <Link

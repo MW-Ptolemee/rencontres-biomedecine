@@ -28,6 +28,20 @@ const Session3 = ({ textSize }) => {
       Un pilotage innovant d’une politique de santé publique : 
       le comité de suivi de la mise en œuvre de la loi de bioéthique
       </h2>
+        
+          <p className={`text-secondary dark:text-black mb-6 ${textSize} `}>
+          Le comité de suivi de la loi de bioéthique en matière d’Assistance médicale à la procréation (AMP) 
+          traduit une expérience innovante de politique de santé publique en rassemblant les partenaires 
+          impliqués dans la mise en œuvre des évolutions législatives : professionnels de santé, associations et institutionnels. 
+          Cette expérience a forgé une façon de procéder qui, au fil des séances, s’est enrichie et a favorisé les échanges pour assurer 
+          un suivi des sujets tant sur un plan organisationnel que réglementaire. Un praticien de centre d’AMP au cœur 
+          de la pratique clinico-biologique, une représentante d’association correspondant à un nouveau public ayant recours 
+          à l’AMP et un représentant de la DGS en charge des questions règlementaires de ce domaine échangeront leurs points de vue. 
+          Ces visions croisées témoigneront de l’apport dans les différents champs explorés au bénéfice de la mise en œuvre effective 
+          d’une loi mobilisant tous les acteurs de la démocratie sanitaire.
+        </p> 
+
+        <hr className="border border-[#b3b3b3] dark:border-black mb-4" />
 
         <p className={`${textSize} space-x-2 mb-6`}>
         <span className="text-[#f091a9] dark:text-black gotham-bold">
@@ -61,9 +75,8 @@ const Session3 = ({ textSize }) => {
           
             <br />Un représentant d’une association membre du comité 
           </span>
-        </li>
-        
-      </ul>
+          </li>
+          </ul>
 
       <button className="gotham-bold border-2 border-[#f091a9] dark:border-black dark:bg-white flex items-center text-secondary gotham-bold dark:text-black text-sm md:text-base py-2 px-4 font-bold mb-4 md:mb-6">
         <Link

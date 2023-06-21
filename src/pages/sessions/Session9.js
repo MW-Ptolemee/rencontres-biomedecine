@@ -28,7 +28,19 @@ const Session9 = ({ textSize }) => {
         Perspectives dans le champ des diagnostics en période anténatale
         </h2>
 
-    
+        <p className={`text-secondary dark:text-black mb-6 ${textSize} `}>
+        Les avancées technologiques dans le champ de la génétique permettent une analyse rapide, globale et fiable, 
+        à partir de faibles quantités d’ADN. Trois experts exposeront les opportunités d’application de telles analyses 
+        génétiques en matière de diagnostic prénatal. En premier lieu, à partir de quelques cellules recueillies très précocement 
+        sur l’embryon cultivé in vitro, dans l’optique de l’amélioration technique du diagnostic préimplantatoire. 
+        Puis, à partir de l’ADN libre fœtal circulant dans le sang maternel en tout début de la grossesse, pour contribuer 
+        au diagnostic non invasif lors de grossesses à risque connu de maladie monogénique. Enfin, sur les cellules fœtales 
+        prélevées in utero lors d’un signe d’appel échographique afin d’identifier une cause génétique à l’affection dont 
+        est atteint le fœtus et d’adapter le suivi de la grossesse. Les avantages et les limites de ces nouveaux outils 
+        d’analyse génomique seront particulièrement débattus dans le contexte spécifique de la médecine fœtale. 
+        </p> 
+
+        <hr className="border border-[#b3b3b3] dark:border-black mb-4" />
 
         <p className={`${textSize} space-x-2 mb-6`}>
           <span className="text-[#a1c517] dark:text-black gotham-bold">

@@ -30,18 +30,18 @@ const Session5 = ({ textSize }) => {
 
   
 
-      <p className={`${textSize}space-x-2 mb-6`}>
+      <p className={`${textSize} space-x-2 mb-6`}>
         <span className="text-primary dark:text-black gotham-bold">
-          Modération :
+          Modération :{" "} 
         </span>
         <span className="text-secondary dark:text-black gotham-bold">
         Pr Jérôme LARGHERO,
         </span>
         <span className="text-secondary dark:text-black">
-        Unité de Thérapie Cellulaire et Centre MEARY de Thérapie Cellulaire et Génique, Hôpital Saint-Louis, Paris et
+         Unité de Thérapie Cellulaire et Centre MEARY de Thérapie Cellulaire et Génique, Hôpital Saint-Louis, Paris et
         </span>
         <span className="text-secondary dark:text-black gotham-bold">
-        M. Franck YATES,
+         M. Franck YATES,
         </span>
         <span className="text-secondary dark:text-black">
         CEA/Sup'Biotech, Fontenay aux Roses
@@ -51,7 +51,7 @@ const Session5 = ({ textSize }) => {
       <ul className="list-dsc list-disc text-primary dark:text-black mb-8">
         <li className="ml-4 mb-4">
           <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
-          Les organoïdes hépatiques</h4>
+          Organes hépatiques pour la biologie et la médecine</h4>
           <span className={`${textSize} text-secondary dark:text-black mb-4`}>
             <span className="text-secondary dark:text-black gotham-bold">
             Mme Antonietta MESSINA,{" "}  
@@ -78,7 +78,7 @@ const Session5 = ({ textSize }) => {
             <span className="text-secondary dark:text-black gotham-bold">
             Pr Hervé CHNEIWEISS,{" "} 
             </span>
-            Inserm – Institut du cerveau, Paris
+            Inserm, Institut du cerveau, Paris
           </span>
         </li>
       </ul>

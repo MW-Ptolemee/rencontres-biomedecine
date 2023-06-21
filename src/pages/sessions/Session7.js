@@ -32,7 +32,10 @@ const Session7 = ({ textSize }) => {
       L’accès facilité aux bases de remboursements de l’Assurance maladie et aux données hospitalières représente une opportunité 
       immense pour la recherche en santé et l’évaluation des prises en charge. Cela permet de mener des études médico-économiques
       mais aussi différents types d’études sur les pathologies et les parcours de soin. Cette session a pour objectif, 
-      à travers 3 exemples concrets, d’illustrer l’apport de ces données et leur utilisation.
+      à travers 3 exemples concrets, d’illustrer l’apport de ces données et leur utilisation. L’Agence de la biomédecine expliquera comment ces données permettent 
+      de suivre différents effets indésirables en transplantation ou en AMP. Le deuxième exemple nous montrera comment ces données ont été utilisées pour mieux décrire 
+      le parcours de soin des enfants avec une maladie rénale chronique et comprendre l’impact de ces parcours dans le contexte d’initiation d’une suppléance rénale. Enfin, sera présentée 
+      l’approche développée par l’Assurance maladie pour suivre certaines pathologies dans la population générale à partir de leur consommation de soin.
       </p>
 
       <hr className="border border-[#b3b3b3] dark:border-black mb-4" />

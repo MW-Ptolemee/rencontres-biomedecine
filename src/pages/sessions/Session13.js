@@ -50,12 +50,12 @@ const Session13 = ({ textSize }) => {
       <ul className="list-dsc list-disc text-[#ef8661] dark:text-black mb-8">
           <li className="ml-4 mb-4">
             <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
-            États des lieux des essais cliniques en France et dans le monde</h4>
+            États des lieux des essais cliniques utilisant des cellules dérivées de cellules souches pluripotentes en France et dans le monde</h4>
             <span className={`${textSize} text-secondary dark:text-black mb-4`}>
               <span className="text-secondary dark:text-black gotham-bold">
               Pr John DE VOS, 
               </span>{" "}
-              Unité de Thérapie Cellulaire, Hôpital Saint-Eloi, Montpellier et président, French Society for Stem Cell Research (FSSCR)
+              Unité de Thérapie Cellulaire, Hôpital Saint-Eloi, Montpellier eet président de la French Society for Stem Cell Research (FSSCR)
             </span>
           </li>
           <li className="ml-4 mb-4">

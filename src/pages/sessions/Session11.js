@@ -37,7 +37,7 @@ const Session11 = ({ textSize }) => {
         Dr Etienne BAUDOUX,
         </span>
         <span className="text-secondary dark:text-black">
-        Laboratoire de thérapie cellulaire – CHU de Liège, Belgique et
+        Laboratoire de thérapie cellulaire – CHU de Liège, Belgique <br />et
         </span>
         <span className="text-secondary dark:text-black gotham-bold">
         Dr Maud D’AVENI-PINEY,
