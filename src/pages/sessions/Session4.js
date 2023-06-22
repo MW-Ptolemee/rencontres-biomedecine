@@ -27,7 +27,18 @@ const Session4 = ({ textSize }) => {
       <h2 className="md:text-4xl text-[#a1c517] dark:text-black gotham-bold mb-4">
       Examen génétique : quel accès aux soins dans un contexte technologique évolutif&nbsp;?
       </h2>
+      
+      <p className={`text-secondary dark:text-black mb-6 ${textSize} `}>
+      La médecine génomique traduit l'irruption des nouvelles technologies d'analyse et d'interprétation 
+      de toute une série d'examens ouvrant des perspectives inédites dans les parcours de soins des personnes atteintes 
+      d'une maladie génétique. Cette session réunira les acteurs clés d'une approche globale qui assure les différentes étapes 
+      sources de questionnements, et donc de réflexion, pour une pratique médicale éprouvée. Trois intervenants exposeront 
+      leurs expériences selon respectivement : la vision médicale de l'utilisation et la juste valorisation de prescription 
+      de ces nouvelles explorations, la vision en matière de sciences humaines et sociales de ces avancées et la vision 
+      de la prise en compte médico-économique de tels soins.
+      </p>
 
+      <hr className="border border-[#b3b3b3] dark:border-black mb-4" />
       
 
       <p className={`${textSize} space-x-2 mb-6`}>

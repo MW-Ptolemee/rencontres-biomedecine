@@ -55,7 +55,7 @@ const Session13 = ({ textSize }) => {
               <span className="text-secondary dark:text-black gotham-bold">
               Pr John DE VOS, 
               </span>{" "}
-              Unité de Thérapie Cellulaire, Hôpital Saint-Eloi, Montpellier eet président de la French Society for Stem Cell Research (FSSCR)
+              Unité de Thérapie Cellulaire, Hôpital Saint-Eloi, Montpellier et président de la French Society for Stem Cell Research (FSSCR)
             </span>
           </li>
           <li className="ml-4 mb-4">

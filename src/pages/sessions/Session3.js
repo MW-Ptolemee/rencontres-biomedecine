@@ -55,28 +55,26 @@ const Session3 = ({ textSize }) => {
         </span>
       </p>
 
-      <ul className="list-dsc list-disc text-[#f091a9] dark:text-black mb-8">
-        <li className="ml-4 mb-4">
+      
           <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
           Regards croisés entre différents membres du comité</h4>
           <span className={`${textSize} text-secondary dark:text-black mb-4`}>
             <span className="text-secondary dark:text-black gotham-bold">
-            Dr Sophie MIRALLIE, 
+            • Dr Sophie MIRALLIE, 
             </span>{" "}
             CHU de Nantes
           </span>{" "}
           <span className={`${textSize} text-secondary dark:text-black mb-4`}>
             <span className="text-secondary dark:text-black gotham-bold">
-            <br /> M. Laurent BUTOR, 
+            <br /> • M. Laurent BUTOR, 
             </span>{" "}
             direction générale de la santé, Paris
           </span>
           <span className={`${textSize} text-secondary dark:text-black mb-4`} >
           
-            <br />Un représentant d’une association membre du comité 
+            <br />• Un représentant d’une association membre du comité <br /><br />
           </span>
-          </li>
-          </ul>
+         
 
       <button className="gotham-bold border-2 border-[#f091a9] dark:border-black dark:bg-white flex items-center text-secondary gotham-bold dark:text-black text-sm md:text-base py-2 px-4 font-bold mb-4 md:mb-6">
         <Link

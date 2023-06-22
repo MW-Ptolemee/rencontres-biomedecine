@@ -1,7 +1,7 @@
 import React from "react";
 import TtsButton from "../components/Button/TtsButton";
 
-const FutureLegal = () => {
+const FutureLegal = ({ textSize }) => {
   window.scrollTo({ top: 0, behavior: "smooth" });
   return (
     <div className="px-2 md:container py-8 space-y-8">
@@ -12,7 +12,7 @@ const FutureLegal = () => {
         Mentions légales
         </h2>
        
-        <p className="text-secondary dark:text-black text-xl mb-4">
+        <p className={`text-secondary dark:text-black mb-6 ${textSize} `}>
         <bold>L’Agence de la biomédecine</bold>, agence nationale de l’État créée par la loi de bioéthique de 2004 modifiée en 2011 et 2013, 
         en qualité de responsable du traitement des données personnelles (encadrée par la loi « Informatique & Libertés » 
         du 6 janvier 1978) et dont le siège social se situe au 1 avenue du Stade de France, 93212 SAINT DENIS LA PLAINE Cedex 
@@ -28,7 +28,7 @@ const FutureLegal = () => {
         <h4 className="text-secondary dark:text-black gotham-bold text-[23px] mb-4">
         Quelles données collectons-nous ?
         </h4>
-        <p className="text-secondary dark:text-black text-xl mb-4">
+        <p className={`text-secondary dark:text-black mb-6 ${textSize} `}>
         Nous pouvons collecter une partie ou la totalité des données personnelles suivantes auprès des utilisateurs du Site :
         <br /> <bold>Données que vous nous communiquez à travers l’espace Inscription à l’événement du Site :</bold> civilité, nom, prénom, adresse email, organisme, type d’organisme, 
         fonction, pays, région, informations sur vos temps de participations aux rencontres.
@@ -41,7 +41,7 @@ const FutureLegal = () => {
         <h4 className="text-secondary dark:text-black gotham-bold text-[23px] mb-4">
         Comment utilisons-nous vos données personnelles ?
         </h4>
-        <p className="text-secondary dark:text-black text-xl mb-4">
+        <p className={`text-secondary dark:text-black mb-6 ${textSize} `}>
         En vertu du RGPD, nous devons toujours avoir une base légale pour l'utilisation des données personnelles. 
         Cela peut être parce que les données sont nécessaires ou parce qu'il est dans notre intérêt commercial légitime de les utiliser.
         <br /><br />Vos données personnelles peuvent être utilisées à des fins suivantes :
@@ -55,7 +55,7 @@ const FutureLegal = () => {
         <h4 className="text-secondary dark:text-black gotham-bold text-[23px] mb-4">
         Quels sont vos droits ?
         </h4>
-        <p className="text-secondary dark:text-black text-xl mb-4">
+        <p className={`text-secondary dark:text-black mb-6 ${textSize} `}>
         Vous avez le droit de demander l'accès et de recevoir des informations sur vos données personnelles ; 
         mettre à jour, corriger ou effacer vos données personnelles ; limiter ou vous opposer (pour des raisons légitimes) 
         au traitement de vos données personnelles auprès du Délégué de protection des données (« DPO ») 
@@ -76,7 +76,7 @@ const FutureLegal = () => {
         <h4 className="text-secondary dark:text-black gotham-bold text-[23px] mb-4">
         Combien de temps conservons-nous vos données personnelles ?
         </h4>
-        <p className="text-secondary dark:text-black text-xl mb-4">
+        <p className={`text-secondary dark:text-black mb-6 ${textSize} `}>
         Vos données à caractère personnel recueillies par l’Agence de la biomédecine sont conservées 
         sous une forme qui permet votre identification juste pendant le temps nécessaire aux fins pour lesquelles 
         les données à caractère personnel sont traitées. Plus précisément : 
@@ -90,7 +90,7 @@ const FutureLegal = () => {
         <h4 className="text-secondary dark:text-black gotham-bold text-[23px] mb-4">
         Comment sécurisons-nous vos données personnelles ?
         </h4>
-        <p className="text-secondary dark:text-black text-xl mb-4">
+        <p className={`text-secondary dark:text-black mb-6 ${textSize} `}>
         Nous avons mis en place des mesures de sécurité techniques et organisationnelles appropriées et commercialement 
         raisonnables pour garder vos données personnelles que nous recueillons et détenons confidentielles et pour les protéger 
         contre la divulgation ou l'accès non autorisé ou illégal, la perte accidentelle, destruction, altération ou dommages 
@@ -102,7 +102,7 @@ const FutureLegal = () => {
         <h4 className="text-secondary dark:text-black gotham-bold text-[23px] mb-4">
         Partageons-nous vos données personnelles ?
         </h4>
-        <p className="text-secondary dark:text-black text-xl mb-4">
+        <p className={`text-secondary dark:text-black mb-6 ${textSize} `}>
         Vos données personnelles traitées par l’Agence de la biomédecine ne seront accessibles que par une liste limitée 
         de destinataires sur la base d'un besoin de savoir ou lorsque la loi l'exige, y compris, mais sans s'y limiter :
 
@@ -116,7 +116,7 @@ const FutureLegal = () => {
         <h4 className="text-secondary dark:text-black gotham-bold text-[23px] mb-4">
         Droit et juridiction
         </h4>
-        <p className="text-secondary dark:text-black text-xl mb-4">
+        <p className={`text-secondary dark:text-black mb-6 ${textSize} `}>
         La présente politique est régie par la loi française, pour les règles de fond et les règles de forme. 
         Tout différend sera porté devant les tribunaux compétents de Paris (France).
         L’application des règles de conflit de lois, qui restreindrait la pleine application de la loi française, est, par la présente, exclue. 

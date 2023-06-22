@@ -44,7 +44,7 @@ const Session5 = ({ textSize }) => {
          M. Franck YATES,
         </span>
         <span className="text-secondary dark:text-black">
-        CEA/Sup'Biotech, Fontenay aux Roses
+        SupBiotech, Villejuif et CEA/SupBiotech, Fontenay-aux-Roses
         </span>
       </p>
 

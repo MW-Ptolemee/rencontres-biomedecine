@@ -52,12 +52,10 @@ const Accessibility = ({ textSize }) => {
         Non conformité
         </h4>
         <p className={`text-secondary dark:text-black mb-6 ${textSize} `}>
-        Ne sont listées ici que les non-conformités jugées les plus impactantes et présentes en quantités importantes dans les pages du site internet :
-        <br />• Certains textes sont dans des balises ou certaines balises paragraphes sont vides et servent à faire des espaces.
+        • Certains textes sont dans des balises ou certaines balises paragraphes sont vides et servent à faire des espaces.
         <br />• Pas de page plan du site.
-        <br />• Pages non accessibles
-        <br />• Documents téléchargeables non accessibles
-        <br />• Défilement vertical du formulaire, une fois l’inscription terminée
+        <br />• Pages non accessibles.
+        <br />• Défilement vertical du formulaire, une fois l’inscription terminée.
 
         </p>
       </div>
@@ -85,7 +83,7 @@ const Accessibility = ({ textSize }) => {
         Établissement de cette déclaration d’accessibilité
         </h4>
         <p className={`text-secondary dark:text-black mb-6 ${textSize} `}>
-        Cette déclaration a été établie le 09/06/2023. 
+        Cette déclaration a été établie le 21/06/2023. 
         </p>
       </div>
 

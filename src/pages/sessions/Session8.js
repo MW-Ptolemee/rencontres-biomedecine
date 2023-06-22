@@ -85,7 +85,7 @@ const Session8 = ({ textSize }) => {
           </li>
           <li className="ml-4 mb-4">
             <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
-            Plateforme FOEDUS – bilan depuis 2015 
+            Plateforme FOEDUS – Bilan depuis 2015 
             </h4>
             <span className={`${textSize} text-secondary dark:text-black mb-4`}>
               <span className="text-secondary dark:text-black gotham-bold">
