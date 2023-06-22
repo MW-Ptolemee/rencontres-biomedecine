@@ -44,7 +44,7 @@ const Content = ({ textSize, darkMode }) => {
           <div className="md:hidden">
             <img
               className="md:w-full md:h-auto mb-4"
-              src={darkMode === "light" ? img1Grey : img1}
+              src={darkMode === "light" ? img2Grey : img2}
               alt="Mme Marine JEANTET"
             />
             <h4 className="text-secondary dark:text-black gotham-bold">
@@ -95,6 +95,10 @@ const Content = ({ textSize, darkMode }) => {
             {text.p4}
           </p>
 
+          <p className={`text-secondary dark:text-black ${textSize} mb-4`}>
+            {text.p5}
+          </p>
+          
           <ul className="text-secondary text-lg mb-4 md:pl-4">
             <li className="gotham-bold text-secondary dark:text-black list-disc">
               <span className="text-primary dark:text-black">{text?.l1}</span>
@@ -115,9 +119,7 @@ const Content = ({ textSize, darkMode }) => {
             </li>
           </ul>
 
-          <p className={`text-secondary dark:text-black ${textSize} mb-4`}>
-            {text.p5}
-          </p>
+          
 
           <p className={`text-secondary dark:text-black ${textSize} mb-4`}>
             {text.p6}
@@ -128,6 +130,17 @@ const Content = ({ textSize, darkMode }) => {
           </p>
 
         </div>
+        <div className="hidden mb-4">
+        <img
+          className="md:w-full md:h-auto mb-4"
+          src={darkMode === "light" ? img2Grey : img2}
+          alt="Mme Marine JEANTET"
+        />
+        <h4 className="text-secondary dark:text-black gotham-bold">Mme Marine JEANTET,</h4>
+        <p className="text-secondary dark:text-black font-medium">
+        Directrice générale de l’Agence de la biomédecine
+        </p>
+      </div>
 
         <div className="md:hidden md:w-[30%]">
           <img
@@ -144,17 +157,7 @@ const Content = ({ textSize, darkMode }) => {
         </div>
       </div>
 
-      <div className="hidden mb-4">
-        <img
-          className="md:w-full md:h-auto mb-4"
-          src={darkMode === "light" ? img2Grey : img2}
-          alt="Mme Marine JEANTET"
-        />
-        <h4 className="text-secondary dark:text-black gotham-bold">Mme Marine JEANTET,</h4>
-        <p className="text-secondary dark:text-black font-medium">
-        Directrice générale de l’Agence de la biomédecine
-        </p>
-      </div>
+      
     </div>
   );
 };

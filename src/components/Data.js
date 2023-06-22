@@ -77,7 +77,7 @@ offre par la recherche. La thérapie cellulaire, la xénogreffe, les diagnostics
 période anténatale, l’AMP pour les femmes seules, sont autant de sujets qui
 animeront les discussions.`,
 
-  p5: `Seize sessions s’articuleront autour de 5 thèmes :`,
+  p5: `Quinze sessions s’articuleront autour de 5 thèmes :`,
 
   l1: `Science & éthique`,
   l2: `Parcours de soin`,
