@@ -128,7 +128,7 @@ const Oct = ({ handleText }) => {
               } mb-2 md:mb-0`}
             >
               Pr Jean-François DELFRAISSY, {" "}
-              <span className="text-secondary dark:text-white md:text-base">
+              <span className="text-secondary dark:text-white">
               président du Comité consultatif national d'éthique pour les sciences de la vie et de la santé 
                 
               </span>

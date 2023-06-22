@@ -41,7 +41,7 @@ const Session5 = ({ textSize }) => {
          Unité de Thérapie Cellulaire et Centre MEARY de Thérapie Cellulaire et Génique, Hôpital Saint-Louis, Paris et
         </span>
         <span className="text-secondary dark:text-black gotham-bold">
-         M. Franck YATES,
+         M. Frank YATES,
         </span>
         <span className="text-secondary dark:text-black">
         SupBiotech, Villejuif et CEA/SupBiotech, Fontenay-aux-Roses
