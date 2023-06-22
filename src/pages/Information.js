@@ -78,7 +78,7 @@ const Information = ({ textSize, darkMode }) => {
               href="mailto: presse@biomedecine.fr"
               className={`text-primary dark:text-black ${textSize} mb-8 md:mb-0`}
             >
-              presse@biomedecine.fr
+              presse@biomedecine.fr  <br /><br />
             </a>
           </div>
         </div>
