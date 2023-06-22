@@ -1,6 +1,8 @@
 import React from "react";
 import img1 from "../assets/img1.jpg";
 import img1Grey from "../assets/img1_grey.png";
+import img2 from "../assets/img2.webp";
+import img2Grey from "../assets/img2_grey.png";
 
 const SideBar = ({ darkMode }) => {
   return (
@@ -8,13 +10,12 @@ const SideBar = ({ darkMode }) => {
       <div className="hidden md:block mb-4">
         <img
           className="md:w-full md:h-auto mb-4"
-          src={darkMode === "light" ? img1Grey : img1}
-          alt="Pr Michel TSIMARATOS"
+          src={darkMode === "light" ? img2Grey : img2}
+          alt="Mme Marine JEANTET"
         />
-        <h4 className="text-secondary dark:text-black gotham-bold">Pr Michel TSIMARATOS,</h4>
+        <h4 className="text-secondary dark:text-black gotham-bold">Mme Marine JEANTET,</h4>
         <p className="text-secondary dark:text-black font-medium">
-          Directeur général adjoint de l’Agence de la biomédecine, en charge des
-          stratégies médicales et scientifiques
+        Directrice générale de l’Agence de la biomédecine
         </p>
       </div>
 

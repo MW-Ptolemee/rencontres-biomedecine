@@ -13,22 +13,87 @@ const Content = ({ textSize, darkMode }) => {
     <div>
       <div className="flex flex-col md:flex-row justify-between items-start gap-8 md:gap-16 mb-4">
         <div className="md:w-[70%]">
-          <Title title={text?.h1} textSize={`md:text-[24px]`} />
-          <p
-            className={`text-secondary dark:text-black ${textSize} font-medium mb-4`}
-          >
+        <p className={`text-secondary dark:text-black ${textSize} mb-4`}>
+            {text.p8}{" "}
+          </p>
+
+          <p className={`text-secondary dark:text-black ${textSize} mb-4`}>
+            {text.p9}{" "}
+          </p>
+
+        <Title title={text?.h3} textSize={`md:text-[22px]`} />
+          
+          
+          
+
+          
+
+          <p className={`text-secondary dark:text-black ${textSize} mb-4`}>
+            {text.p10}
+          </p>
+
+          
+         
+          
+
+          
+          
+
+          
+
+          <div className="md:hidden">
+            <img
+              className="md:w-full md:h-auto mb-4"
+              src={darkMode === "light" ? img1Grey : img1}
+              alt="Mme Marine JEANTET"
+            />
+            <h4 className="text-secondary dark:text-black gotham-bold">
+              Mme Marine JEANTET,
+            </h4>
+            <p className="text-secondary dark:text-black font-medium">
+              Directeur général adjoint de l’Agence de la biomédecine, en charge
+              des stratégies médicales et scientifiques
+            </p>
+          </div>
+        </div>
+
+        <SideBar darkMode={darkMode} />
+      </div>
+
+      <hr className="border-2 mb-8" />
+
+      <div className="flex flex-col md:flex-row gap-8 md:gap-16">
+        <div className="hidden md:block md:w-[30%]">
+          <img
+            className="md:w-full mb-4"
+            src={darkMode === "light" ? img1Grey : img1}
+            alt="Pr Michel TSIMARATOS"
+          />
+          <h4 className="text-secondary dark:text-black gotham-bold">Pr Michel TSIMARATOS,</h4>
+          <p className="text-secondary dark:text-black font-medium">
+          Directeur général adjoint de l’Agence de la biomédecine, en charge des stratégies médicales et scientifiques
+          </p>
+        </div>
+
+        <div className="md:w-[70%]">
+        <Title title={text?.h1} textSize={`md:text-[22px]`} />
+
+          <p className={`text-secondary dark:text-black ${textSize} mb-4`}>
             {text.p1}
           </p>
 
-          <p className={`text-secondary dark:text-black ${textSize} mb-4`}>
-            {text.p2}{" "}
-          </p>
+          
 
+          <p className={`text-secondary dark:text-black ${textSize} mb-4`}>
+            {text.p2}
+          </p>
+          
           <p className={`text-secondary dark:text-black ${textSize} mb-4`}>
             {text.p3}
           </p>
-
-          <Title title={text?.h2} textSize={`md:text-2xl`} />
+          <p className={`text-secondary dark:text-black ${textSize} mb-4`}>
+            {text.p4}
+          </p>
 
           <ul className="text-secondary text-lg mb-4 md:pl-4">
             <li className="gotham-bold text-secondary dark:text-black list-disc">
@@ -51,47 +116,9 @@ const Content = ({ textSize, darkMode }) => {
           </ul>
 
           <p className={`text-secondary dark:text-black ${textSize} mb-4`}>
-            {text.p4}
-          </p>
-          <p className={`text-secondary dark:text-black ${textSize} mb-4`}>
             {text.p5}
           </p>
 
-          <div className="md:hidden">
-            <img
-              className="md:w-full md:h-auto mb-4"
-              src={darkMode === "light" ? img1Grey : img1}
-              alt="Mme Marine JEANTET"
-            />
-            <h4 className="text-secondary dark:text-black gotham-bold">
-              Pr Michel TSIMARATOS,
-            </h4>
-            <p className="text-secondary dark:text-black font-medium">
-              Directeur général adjoint de l’Agence de la biomédecine, en charge
-              des stratégies médicales et scientifiques
-            </p>
-          </div>
-        </div>
-
-        <SideBar darkMode={darkMode} />
-      </div>
-
-      <hr className="border-2 mb-8" />
-
-      <div className="flex flex-col md:flex-row gap-8 md:gap-16">
-        <div className="hidden md:block md:w-[30%]">
-          <img
-            className="md:w-full mb-4"
-            src={darkMode === "light" ? img2Grey : img2}
-            alt="Mme Marine JEANTET"
-          />
-          <h4 className="text-secondary dark:text-black gotham-bold">Mme Marine JEANTET,</h4>
-          <p className="text-secondary dark:text-black font-medium">
-            Directrice générale de l’Agence de la biomédecine
-          </p>
-        </div>
-
-        <div className="md:w-[70%]">
           <p className={`text-secondary dark:text-black ${textSize} mb-4`}>
             {text.p6}
           </p>
@@ -100,22 +127,19 @@ const Content = ({ textSize, darkMode }) => {
             {text.p7}
           </p>
 
-          <Title title={text?.h3} textSize={`md:text-2xl`} />
-
-          <p className={`text-secondary dark:text-black ${textSize} mb-4`}>
-            {text.p8}
-          </p>
         </div>
 
         <div className="md:hidden md:w-[30%]">
           <img
             className="md:w-full mb-4"
-            src={darkMode === "light" ? img2Grey : img2}
-            alt="Mme Marine JEANTET"
+            
+            src={darkMode === "light" ? img1Grey : img1}
+            alt="Pr Michel TSIMARATOS"
           />
-          <h4 className="text-secondary dark:text-black gotham-bold">Mme Marine JEANTET,</h4>
+          <h4 className="text-secondary dark:text-black gotham-bold">Pr Michel TSIMARATOS,</h4>
           <p className="text-secondary dark:text-black font-medium">
-            Directrice générale de l’Agence de la biomédecine
+          Directeur général adjoint de l’Agence de la biomédecine, en charge des
+          stratégies médicales et scientifiques
           </p>
         </div>
       </div>
@@ -123,13 +147,12 @@ const Content = ({ textSize, darkMode }) => {
       <div className="hidden mb-4">
         <img
           className="md:w-full md:h-auto mb-4"
-          src={darkMode === "light" ? img1Grey : img1}
-          alt="Pr Michel TSIMARATOS"
+          src={darkMode === "light" ? img2Grey : img2}
+          alt="Mme Marine JEANTET"
         />
-        <h4 className="text-secondary dark:text-black gotham-bold">Pr Michel TSIMARATOS,</h4>
+        <h4 className="text-secondary dark:text-black gotham-bold">Mme Marine JEANTET,</h4>
         <p className="text-secondary dark:text-black font-medium">
-          Directeur général adjoint de l’Agence de la biomédecine, en charge des
-          stratégies médicales et scientifiques
+        Directrice générale de l’Agence de la biomédecine
         </p>
       </div>
     </div>

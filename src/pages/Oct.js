@@ -127,8 +127,8 @@ const Oct = ({ handleText }) => {
                 textSize === "text-xl md:text-2xl" ? `gotham-bold` : ``
               } mb-2 md:mb-0`}
             >
-              Pr Jean-François DELFRAISSY, {" "}
-              <span className="text-secondary dark:text-white">
+              <br />Pr Jean-François DELFRAISSY, {" "}
+              <span className="text-secondary dark:text-white `gotham`">
               président du Comité consultatif national d'éthique pour les sciences de la vie et de la santé 
                 
               </span>

@@ -76,18 +76,8 @@ vers l’avenir et de parler de l’évolution des pratiques et des progrès que
 offre par la recherche. La thérapie cellulaire, la xénogreffe, les diagnostics en
 période anténatale, l’AMP pour les femmes seules, sont autant de sujets qui
 animeront les discussions.`,
-  p4: `Lors des plénières d’ouverture et de clôture, nous vous convions à assister à
-des prises de parole passionnantes pour une plongée directe dans les enjeux
-et les challenges de demain pour la biomédecine. L’intelligence artificielle
-sera au cœur de la table ronde proposée en ouverture.`,
-  p5: `Nous vous attendons nombreux pour nos premières Rencontres de la
-biomédecine.`,
 
-  p3: `Seize sessions s’articuleront autour de 5 thèmes :`,
-  h3: `Les Rencontres de la biomédecine répondent pleinement à cet objectif en
-  réunissant des experts – professionnels de santé, chercheurs, associations,
-  institutions, décideurs, etc. – afin de créer les conditions d’un dialogue
-  constructif et à haute valeur ajoutée.`,
+  p5: `Seize sessions s’articuleront autour de 5 thèmes :`,
 
   l1: `Science & éthique`,
   l2: `Parcours de soin`,
@@ -95,19 +85,35 @@ biomédecine.`,
   l4: `Santé & société`,
   l5: `Recherche & innovations`,
 
-  p6: `Je suis ravie d’inaugurer les premières Rencontres de la biomédecine.
+  p6: `Lors des plénières d’ouverture et de clôture, nous vous convions à assister à
+des prises de parole passionnantes pour une plongée directe dans les enjeux
+et les challenges de demain pour la biomédecine. L’intelligence artificielle
+sera au cœur de la table ronde proposée en ouverture.`,
+  
+  p7: `Nous vous attendons nombreux pour nos premières Rencontres de la
+biomédecine.`,
+
+  
+  h3: `Les Rencontres de la biomédecine répondent pleinement à cet objectif en
+  réunissant des experts – professionnels de santé, chercheurs, associations,
+  institutions, décideurs, etc. – afin de créer les conditions d’un dialogue
+  constructif et à haute valeur ajoutée.`,
+
+
+
+  p8: `Je suis ravie d’inaugurer les premières Rencontres de la biomédecine.
   Les contours de cet événement correspondent pleinement à l’esprit que
   je souhaite insuffler au sein de l’Agence de la biomédecine : l’approche
   collaborative et la valorisation de l’expertise sont au cœur de mes valeurs,
   comme de celles de l’agence.`,
-  p7: `Le vote de la nouvelle loi relative à la bioéthique en 2021 puis l’adoption des
+  p9: `Le vote de la nouvelle loi relative à la bioéthique en 2021 puis l’adoption des
   plans ministériels de nos trois champs d’activité en 2022, ont fixé un cadre
   stratégique clair à l’Agence pour les années à venir. Notre rôle de référent
   pour les activités de la biomédecine doit nous permettre de mobiliser et de
   travailler étroitement avec l’ensemble des acteurs concernés pour réussir le
   déploiement opérationnel de ces décisions stratégiques et toujours mieux
   répondre aux besoins des patients in fine.`,
-  p8: `Au plaisir de vous rencontrer les 12 et 13 octobre prochains.`,
+  p10: `Au plaisir de vous rencontrer les 12 et 13 octobre prochains.`,
 };
 
 export const session = [
