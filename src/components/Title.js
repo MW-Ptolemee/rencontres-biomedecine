@@ -5,7 +5,7 @@ const Title = ({ title, textLight, textSize }) => {
     <h1
       className={`gotham-bold mb-4 text-[18px] ${
         textSize ? textSize : "md:text-3xl"
-      } font-bold text-secondary dark:text-black`}
+      } font-bold text-secondary dark:text-black leading-7`}
     >
       {title} <span className="gotham-thin">{textLight}</span>
     </h1>

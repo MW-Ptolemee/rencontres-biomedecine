@@ -11,22 +11,23 @@ const Content = ({ textSize, darkMode }) => {
 
   return (
     <div>
-      <div className="flex flex-col md:flex-row justify-between items-start gap-8 md:gap-16 mb-4">
+      <div className="mt-3 flex flex-col md:flex-row justify-between items-start gap-8 md:gap-16 mb-4">
         <div className="md:w-[70%]">
         <p className={`text-secondary dark:text-black ${textSize} mb-4`}>
             {text.p8}{" "}
           </p>
 
           <p className={`text-secondary dark:text-black ${textSize} mb-4`}>
-            {text.p9}{" "}
+          Le vote de la nouvelle loi relative à la bioéthique en 2021 puis l’adoption des
+          plans ministériels de nos trois champs d’activité en 2022, ont fixé un cadre
+          stratégique clair à l’Agence pour les années à venir. Notre rôle de référent
+          pour les activités de la biomédecine doit nous permettre de mobiliser et de
+          travailler étroitement avec l’ensemble des acteurs concernés pour réussir le
+          déploiement opérationnel de ces décisions stratégiques et toujours mieux
+          répondre aux besoins des patients <span className="italic">in fine.</span>
           </p>
 
         <Title title={text?.h3} textSize={`md:text-[22px]`} />
-          
-          
-          
-
-          
 
           <p className={`text-secondary dark:text-black ${textSize} mb-4`}>
             {text.p10}
@@ -79,7 +80,14 @@ const Content = ({ textSize, darkMode }) => {
         <Title title={text?.h1} textSize={`md:text-[22px]`} />
 
           <p className={`text-secondary dark:text-black ${textSize} mb-4`}>
-            {text.p1}
+          Ce nouveau temps fort intervient deux ans après la dernière édition des
+          Journées de l’Agence de la biomédecine consacrée à la nouvelle loi relative à
+          la bioéthique. Celle-ci a été suivie de près par l’adoption des trois nouveaux
+          plans ministériels pour les activités pilotées par l’Agence, puis de l’élaboration
+          d’un cadre de coopération avec les associations et les usagers du système
+          de santé, un an plus tard.<span className="gotham-bold"> Fort de ces nouvelles feuilles de route stratégiques,
+          j’ai voulu réorienter notre événement en créant les Rencontres de la
+          biomédecine.</span> 
           </p>
 
           
@@ -89,7 +97,12 @@ const Content = ({ textSize, darkMode }) => {
           </p>
           
           <p className={`text-secondary dark:text-black ${textSize} mb-4`}>
-            {text.p3} 
+          Ce changement réaffirme également le rôle central de l’Agence dans ses
+          domaines de compétence. Coordonner les professionnels du don, de la
+          greffe et de l’AMP, mobiliser pour mettre en action, réfléchir avec les experts
+          et les usagers pour améliorer les pratiques, font partie des savoir-faire de
+          l’Agence, afin de répondre à un seul et même enjeu que nous partageons tous
+          :<span className="gotham-bold"> apporter un accompagnement toujours plus adapté aux patients.</span>
             
           </p>
          

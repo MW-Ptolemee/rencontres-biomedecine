@@ -6,7 +6,6 @@ import { Link } from "react-router-dom";
 import { octSession, octSession2 } from "../components/Data";
 
 const Oct = ({ handleText }) => {
-  window.scrollTo({ top: 0, behavior: "auto" });
   const textSize = "text-xl md:text-2xl";
   return (
     <div className="px-2 md:container py-8">
@@ -121,18 +120,18 @@ const Oct = ({ handleText }) => {
           >
             Conférence de clôture
           </p>
-          <div className="flex flex-col md:flex-row md:items-end md:gap-8">
+          <div className="flex flex-col md:flex-row md:items-end md:gap-2">
             <p
               className={`${
                 textSize === "text-xl md:text-2xl" ? `gotham-bold` : ``
               } mb-2 md:mb-0`}
             >
-              <br />Pr Jean-François DELFRAISSY, {" "}
+              <br />Pr Jean-François DELFRAISSY,
+            </p>
               <span className="text-secondary dark:text-white">
               président du Comité consultatif national d'éthique pour les sciences de la vie et de la santé 
                 
               </span>
-            </p>
              {/* <Link
             to="/Session-Pleniere2"
             > <button className="w-max flex items-center border-2 font-bold border-secondary dark:border-white px-3 py-2  hover:bg-secondary hover:text-white dark:hover:bg-black dark:hover:text-white">
