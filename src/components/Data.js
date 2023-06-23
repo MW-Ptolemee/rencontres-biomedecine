@@ -24,7 +24,7 @@ export const footerMenu = [
   },
   {
     title: "Mentions légales",
-    link: "/mentions-légales",
+    link: "/mentions-legales",
   },
   // {
   //   title: "Politique des cookies",

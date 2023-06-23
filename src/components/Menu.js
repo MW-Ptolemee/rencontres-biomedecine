@@ -16,7 +16,7 @@ const Menu = () => {
             <NavLink
               className={`${
                 (location.match("/session") && item.title == "Programme") ||
-                (location.match("/friday-october-13") &&
+                (location.match("/vendredi-13-octobre") &&
                   item.title == "Programme")
                   ? "active"
                   : null

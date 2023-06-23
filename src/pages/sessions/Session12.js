@@ -47,10 +47,10 @@ const Session12 = ({ textSize }) => {
         Dr Benoît AVERLAND,
         </span>
         <span className="text-secondary dark:text-black">
-        Agence de la biomédecine et
+        Agence de la biomédecine 
         </span>
         <span className="text-secondary dark:text-black gotham-bold">
-        Mme Carole GENTY,
+        <br />et Mme Carole GENTY,
         </span>
         <span className="text-secondary dark:text-black">
         Association Française des Coordinateurs Hospitaliers (AFCH)
@@ -131,7 +131,7 @@ const Session12 = ({ textSize }) => {
           />
         </svg>
         <Link
-          to="/friday-october-13"
+          to="/vendredi-13-octobre"
           className={`w-max ${
             textSize === "text-xl md:text-2xl" ? `gotham-bold` : ``
           }`}

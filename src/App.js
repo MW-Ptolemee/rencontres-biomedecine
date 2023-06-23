@@ -92,7 +92,7 @@ function App() {
             }
           />
           <Route
-            path="/mentions-légales"
+            path="/mentions-legales"
             element={
               <FutureLegal handleText={handleText} textSize={textSize} />
             }
@@ -108,7 +108,7 @@ function App() {
             element={<Faq handleText={handleText} textSize={textSize} />}
           />
           <Route
-            path="/friday-october-13"
+            path="/vendredi-13-octobre"
             element={<Oct handleText={handleText} textSize={textSize} />}
           />
           <Route

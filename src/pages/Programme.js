@@ -40,7 +40,7 @@ const Programme = ({ handleText }) => {
             </span>
           </button>
           <Link
-            to="/friday-october-13"
+            to="/vendredi-13-octobre"
             className="border-[3px] border-program-button dark:border-black hover:bg-program-button duration-100 transition-all dark:bg-black flex items-center space-x-1 md:space-x-2 text-secondary dark:text-white text-[10px] md:text-base  py-1 px-1 md:px-4 font-bold"
           >
             <span

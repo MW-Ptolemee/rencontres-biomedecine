@@ -101,7 +101,7 @@ const Session11 = ({ textSize }) => {
           />
         </svg>
         <Link
-          to="/friday-october-13"
+          to="/vendredi-13-octobre"
           className={`w-max ${
             textSize === "text-xl md:text-2xl" ? `gotham-bold` : ``
           }`}

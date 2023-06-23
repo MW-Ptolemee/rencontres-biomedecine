@@ -43,7 +43,7 @@ const Oct = ({ handleText }) => {
             </span>
           </Link>
           <Link
-            to="/friday-october-13"
+            to="/vendredi-13-octobre"
             className="bg-secondary dark:bg-black flex items-center space-x-1 md:space-x-2 text-white dark:text-white text-[10px] md:text-base py-1 px-1 md:px-4 font-bold"
           >
             <span
