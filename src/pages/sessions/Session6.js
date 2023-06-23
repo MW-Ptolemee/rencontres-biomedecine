@@ -28,6 +28,16 @@ const Session6 = ({ textSize }) => {
       Innovation dans la greffe de tissus : focus sur la cornée 
       </h2>
 
+      <p className={`text-secondary dark:text-black mb-6 ${textSize} `}>
+      Le prélèvement des tissus cornéens chez des donneurs reste, aujourd’hui encore, 
+      le traitement de référence pour restaurer la vue dans certaines pathologies. 
+      Cependant, de grands progrès sont accomplis chaque jour par les chercheurs dans ce domaine. 
+      L’occasion nous est donnée dans cette session de comprendre comment nous pourrions améliorer l’accès à 
+      la greffe de cornée en modifiant sa conservation, découvrir les avancées en thérapie cellulaire et discuter 
+      des utilisations thérapeutiques de «&nbsp;la cornée artificielle » … Préparez vos questions, le débat sera passionnant !
+        </p> 
+
+        <hr className="border border-[#b3b3b3] dark:border-black mb-4" />
 
       <p className={`${textSize} space-x-2 mb-6`}>
         <span className="text-[#ef8661] dark:text-black gotham-bold">

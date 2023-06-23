@@ -45,7 +45,7 @@ const Session4 = ({ textSize }) => {
         <span className={`${textSize} text-[#a1c517] dark:text-black gotham-bold`}>
           Modération :
         </span>
-        <span className={`${textSize} text-secondary dark:text-black mb-4`}>
+        <span className="text-secondary dark:text-black gotham-bold">
         Dr Pascale LEVY,
         </span>
           <span className={`${textSize} text-secondary dark:text-black mb-4`}>

@@ -134,7 +134,7 @@ const Programme = ({ handleText }) => {
 
       <div className="flex flex-row md:items-center space-x-8 text-sm md:text-base text-secondary p-4 md:px-8 mb-4 ">
         <p>12h00 {">"} 14h00</p>
-        <p>Pause déjeuner</p>
+        <p>Cocktail déjeunatoire</p>
       </div>
 
       <div className="mb-4 md:mb-8">

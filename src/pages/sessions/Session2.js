@@ -45,23 +45,23 @@ const Session2 = ({ textSize }) => {
 
         <hr className="border border-[#b3b3b3] dark:border-black mb-4" /> */}
 
-        {/* <p className="space-x-2 mb-6">
+        <p className={`${textSize} space-x-2 mb-6`}>
           <span className="text-[#a1c517] dark:text-black gotham-bold">
             Modération :
           </span>
           <span className="text-secondary dark:text-black gotham-bold">
-          Prénom NOM
+          Mme Catherine BAUER, 
           </span>
           <span className="text-secondary dark:text-black">
-          (organisme) et
+          associations EGMOS et Laurette Fugain, 
           </span>
           <span className="text-secondary dark:text-black gotham-bold">
-          Prénom NOM
+          Dr Daniel HABOLD 
           </span>
           <span className="text-secondary dark:text-black">
-          (organisme)
+          ARS Nouvelle Aquitaine
           </span>
-        </p> */}
+        </p>
 
 <ul className="list-dsc list-disc text-[#a1c517] dark:text-black mb-8">
           <li className="ml-4 mb-4">

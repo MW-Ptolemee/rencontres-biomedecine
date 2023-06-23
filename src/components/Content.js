@@ -85,12 +85,14 @@ const Content = ({ textSize, darkMode }) => {
           
 
           <p className={`text-secondary dark:text-black ${textSize} mb-4`}>
-            {text.p2}
+            {text.p2} 
           </p>
           
           <p className={`text-secondary dark:text-black ${textSize} mb-4`}>
-            {text.p3}
+            {text.p3} 
+            
           </p>
+         
           <p className={`text-secondary dark:text-black ${textSize} mb-4`}>
             {text.p4}
           </p>

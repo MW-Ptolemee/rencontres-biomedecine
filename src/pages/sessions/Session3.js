@@ -59,20 +59,28 @@ const Session3 = ({ textSize }) => {
           <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
           Regards croisés entre différents membres du comité</h4>
           <span className={`${textSize} text-secondary dark:text-black mb-4`}>
+            <span className="text-[#f091a9] dark:text-black gotham-bold">
+            • </span>{" "}
             <span className="text-secondary dark:text-black gotham-bold">
-            • Dr Sophie MIRALLIE, 
+            Dr Sophie MIRALLIE,   
             </span>{" "}
             CHU de Nantes
           </span>{" "}
           <span className={`${textSize} text-secondary dark:text-black mb-4`}>
+          <span className="text-[#f091a9] dark:text-black gotham-bold">
+          <br />• </span>{" "}
             <span className="text-secondary dark:text-black gotham-bold">
-            <br /> • M. Laurent BUTOR, 
+            M. Laurent BUTOR, 
             </span>{" "}
-            direction générale de la santé, Paris
+            Direction générale de la santé, Paris
           </span>
+          <span className={`${textSize} text-secondary dark:text-black mb-4`}>
+          <span className="text-[#f091a9] dark:text-black gotham-bold">
+          <br />• </span>{" "}
           <span className={`${textSize} text-secondary dark:text-black mb-4`} >
           
-            <br />• Un représentant d’une association membre du comité <br /><br />
+          Un représentant d’une association membre du comité <br /><br />
+          </span>
           </span>
          
 

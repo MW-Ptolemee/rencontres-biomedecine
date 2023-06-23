@@ -27,7 +27,7 @@ const Session15 = ({ textSize }) => {
         </div>
 
         <h2 className="md:text-4xl text-[#00a895] dark:text-black gotham-bold mb-4">
-        Les allogreffes composites vascularisées : la greffe visible&nbsp;! 
+        Les allogreffes composites vascularisées :<br />la greffe visible&nbsp;! 
         </h2>
 
         
@@ -52,24 +52,41 @@ const Session15 = ({ textSize }) => {
 
         <p className={`${textSize} space-x-2 mb-6`}>
       
-      <span className={`${textSize} text-secondary dark:text-black mb-4`}>
-        <span className="text-secondary dark:text-black gotham-bold">
-        M. Martin DUMONT,{" "}  
-        </span>
-        MCU, Paris Créteil
-      </span>
-      <span className={`${textSize} text-secondary dark:text-black mb-4`}>
-        <span className="text-secondary dark:text-black gotham-bold">
-        <br />Pr Benoît LENGELE ,{" "}  
-        </span>
-        UCL Bruxelles, Belgique
-      </span>
-      <span className={`${textSize} text-secondary dark:text-black mb-4`}>
-        <span className="text-secondary dark:text-black gotham-bold">
-        <br />M. Felix GRETARSSON{" "}  
-        </span>
-    
-      </span>
+        <ul className="list-dsc list-disc text-[#00a895] dark:text-black mb-8">
+          <li className="ml-4 mb-4">
+            <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
+            Vivre avec la partie visible d’un autre…
+            </h4>
+            <span className={`${textSize} text-secondary dark:text-black mb-4`}>
+              <span className="text-secondary dark:text-black gotham-bold">
+              M. Martin DUMONT,
+              </span>{" "}
+              Université Paris Est Créteil et Hôtel Dieu, Paris
+            </span>
+          </li>
+          <li className="ml-4 mb-4">
+            <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
+            Le rêve du Minotaure ou la fabrique d’organes envisagée comme issue imaginaire à la transplantation 
+            </h4>
+            <span className={`${textSize} text-secondary dark:text-black mb-4`}>
+              <span className="text-secondary dark:text-black gotham-bold">
+              Pr Benoît LENGELE,
+              </span>{" "}
+              Cliniques universitaires St Luc, Bruxelles, Belgique
+            </span>
+          </li>
+          <li className="ml-4 mb-4">
+            <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
+            Témoignage d’un patient greffé 
+            </h4>
+            <span className={`${textSize} text-secondary dark:text-black mb-4`}>
+              <span className="text-secondary dark:text-black gotham-bold">
+              M. Felix GRETARSSON
+              </span>
+              
+            </span>
+          </li>
+        </ul>
       
       </p>
 

@@ -33,7 +33,7 @@ const Session12 = ({ textSize }) => {
       de préoccupation depuis de nombreuses années. Il s’agit d’un phénomène assurément multifactoriel 
       dont le seul système de soins ne peut être tenu comme responsable. Dans une session très ouverte, 
       des intervenants de tous horizons, issus du droit, de la santé ou du monde associatif nous présenteront 
-      les déterminants de ce refus en France. Enfin, le témoignage d’un acteur espagnol, pays « bon élève » 
+      les déterminants de ce refus en France. Enfin, le témoignage d’une praticienne espagnole, pays « bon élève » 
       en matière d’opposition en Europe, nous permettra de comprendre les facteurs clés de succès. 
         </p> 
 

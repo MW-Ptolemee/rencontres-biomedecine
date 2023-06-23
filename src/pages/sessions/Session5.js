@@ -38,7 +38,7 @@ const Session5 = ({ textSize }) => {
         Pr Jérôme LARGHERO,
         </span>
         <span className="text-secondary dark:text-black">
-         Unité de Thérapie Cellulaire et Centre MEARY de Thérapie Cellulaire et Génique, Hôpital Saint-Louis, Paris et
+         Unité de Thérapie Cellulaire et Centre MEARY de Thérapie Cellulaire et Génique,<br />Hôpital Saint-Louis, Paris et
         </span>
         <span className="text-secondary dark:text-black gotham-bold">
          M. Frank YATES,

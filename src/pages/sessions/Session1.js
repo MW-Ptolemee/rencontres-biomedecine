@@ -28,22 +28,17 @@ const Session1 = ({ textSize }) => {
           Aux frontières de la transplantation : la xénogreffe !
         </h2>
 
-        {/* <p className={`text-secondary dark:text-black mb-6 ${textSize} `}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dictum,
-          leo nec pharetra sodales, enim nisl euismod ante, vel rhoncus enim
-          sapien faucibus sapien. Fusce dignissim sit amet risus fringilla
-          egestas. Quisque et mi non augue fringilla condimentum in quis elit.
-          Curabitur et euismod metus, a tempor magna. Phasellus non venenatis
-          enim, sit amet convallis felis. Sed urna leo, faucibus nec nibh
-          dictum, vestibulum faucibus orci. Nunc purus eros, ultricies eu
-          gravida non, tincidunt vel urna. Mauris in tempor nibh. Aliquam
-          molestie ut eros sit amet accumsan. Aliquam ac tincidunt nisi. Fusce
-          et eleifend ligula. Phasellus rhoncus mauris vel interdum fermentum.
-          Fusce iaculis fermentum ornare. Integer iaculis blandit auctor.
-          Integer vestibulum augue quis porttitor tempo
-        </p> */}
+        <p className={`text-secondary dark:text-black mb-6 ${textSize} `}>
+        Résoudre la pénurie d’accès à la greffe par l’utilisation d’organes animaux est une idée ancienne. 
+        D’ailleurs, les premières xénotransplantations ne concernaient pas des organes, mais des tissus (os, peau) et des cellules (sang), 
+        dès le 17<sup>ème</sup> siècle. Il faudra attendre le début du 20<sup>ème</sup> siècle pour qu’un chirurgien lyonnais ne tente la greffe 
+        d’un rein de chèvre sur un humain. Cette session débutera donc par une réflexion philosophique sur la frontière entre l’homme 
+        et l’animal. Un état de l’art de la xénogreffe sera ensuite présenté, suivi du témoignage d’un praticien américain en pointe 
+        sur cette discipline assez peu connue du grand public mais dont les récentes avancées pourraient bien remettre ce sujet 
+        à l’ordre du jour européen.
+        </p> 
 
-        {/* <hr className="border border-[#b3b3b3] dark:border-black mb-4" /> */}
+        <hr className="border border-[#b3b3b3] dark:border-black mb-4" />
 
         <p className={`${textSize} space-x-2 mb-6`}>
           <span className="text-primary dark:text-black gotham-bold">
@@ -94,7 +89,7 @@ const Session1 = ({ textSize }) => {
               <span className="text-secondary dark:text-black gotham-bold">
               Muhammad M MOHIUDDIN MD. D.Sc (Hon),
               </span>{" "}
-              University of Maryland School of Medicine, USA
+              University of Maryland School of Medicine, États-Unis
             </span>
           </li>
         </ul>

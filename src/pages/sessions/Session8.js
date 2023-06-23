@@ -46,7 +46,7 @@ const Session8 = ({ textSize }) => {
           Dr Stefaan VAN DER SPIEGEL,
           </span>
           <span className="text-secondary dark:text-black">
-          Head of sector, Substances of Human Origin, DG SANTE, European Commission 
+          Head of sector, European Commission 
           </span>
           
         </p>
@@ -61,7 +61,7 @@ const Session8 = ({ textSize }) => {
               <span className="text-secondary dark:text-black gotham-bold">
               Mme Devi MEY,
               </span>{" "}
-              European Society for Organ Transplatation (ESOT) <br />
+              European Society for Organ Transplatation (ESOT), Italie <br />
             </span>
             <span className={`${textSize} text-secondary dark:text-black mb-4`}>
               Projet EGALITE :{" "}
@@ -73,8 +73,8 @@ const Session8 = ({ textSize }) => {
           </li>
           <li className="ml-4 mb-4">
             <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
-            Collaboration internationale dans le domaine du don croisé de rein : l’exemple de la South Alliance for Transplantation{" "}
-            <i>(International kidney paired exchange: the experience of the South Alliance for Transplantation)</i>
+            Collaboration internationale dans le domaine du don croisé de rein : l’exemple de la South Alliance for&nbsp;Transplantation{" "}
+            
             </h4>
             <span className={`${textSize} text-secondary dark:text-black mb-4`}>
               <span className="text-secondary dark:text-black gotham-bold">

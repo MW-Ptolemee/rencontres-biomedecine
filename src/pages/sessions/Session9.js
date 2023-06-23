@@ -32,10 +32,10 @@ const Session9 = ({ textSize }) => {
         Les avancées technologiques dans le champ de la génétique permettent une analyse rapide, globale et fiable, 
         à partir de faibles quantités d’ADN. Trois experts exposeront les opportunités d’application de telles analyses 
         génétiques en matière de diagnostic prénatal. En premier lieu, à partir de quelques cellules recueillies très précocement 
-        sur l’embryon cultivé in vitro, dans l’optique de l’amélioration technique du diagnostic préimplantatoire. 
+        sur l’embryon cultivé <i>in vitro</i>, dans l’optique de l’amélioration technique du diagnostic préimplantatoire. 
         Puis, à partir de l’ADN libre fœtal circulant dans le sang maternel en tout début de la grossesse, pour contribuer 
         au diagnostic non invasif lors de grossesses à risque connu de maladie monogénique. Enfin, sur les cellules fœtales 
-        prélevées in utero lors d’un signe d’appel échographique afin d’identifier une cause génétique à l’affection dont 
+        prélevées <i>in utero</i> lors d’un signe d’appel échographique afin d’identifier une cause génétique à l’affection dont 
         est atteint le fœtus et d’adapter le suivi de la grossesse. Les avantages et les limites de ces nouveaux outils 
         d’analyse génomique seront particulièrement débattus dans le contexte spécifique de la médecine fœtale. 
         </p> 
