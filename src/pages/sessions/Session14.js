@@ -40,7 +40,7 @@ const Session14 = ({ textSize }) => {
           Dr Federico GARNIER,
           </span>
           <span className="text-secondary dark:text-black">
-          Agence de la biomédecine et
+          Agence de la biomédecine < br/>et
           </span>
           <span className="text-secondary dark:text-black gotham-bold">
           Dr Marie PRAT-LEPESANT,
