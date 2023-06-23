@@ -56,7 +56,7 @@ const Session2 = ({ textSize }) => {
           association RESTART et
           </span>
           <span className="text-secondary dark:text-black gotham-bold">
-          Dr Daniel HABOLD 
+          Dr Daniel HABOLD, 
           </span>
           <span className="text-secondary dark:text-black">
           ARS Nouvelle Aquitaine
