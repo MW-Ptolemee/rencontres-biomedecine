@@ -6,7 +6,7 @@ const Session10 = ({ textSize }) => {
   window.scrollTo({ top: 0, behavior: "smooth" });
   return (
     <div className="px-2 md:container py-8 space-y-8">
-      <TtsButton />
+      {/* <TtsButton /> */}
 
       <div>
         <div className="flex flex-wrap items-center mb-4">

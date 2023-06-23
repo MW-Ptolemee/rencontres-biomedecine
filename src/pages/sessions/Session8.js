@@ -46,7 +46,7 @@ const Session8 = ({ textSize }) => {
           Dr Stefaan VAN DER SPIEGEL,
           </span>
           <span className="text-secondary dark:text-black">
-          Head of sector, European Commission 
+          European Commission 
           </span>
           
         </p>
@@ -61,7 +61,7 @@ const Session8 = ({ textSize }) => {
               <span className="text-secondary dark:text-black gotham-bold">
               Mme Devi MEY,
               </span>{" "}
-              European Society for Organ Transplatation (ESOT), Italie <br />
+              European Society for Organ Transplantation (ESOT), Italie <br />
             </span>
             <span className={`${textSize} text-secondary dark:text-black mb-4`}>
               Projet EGALITE :{" "}

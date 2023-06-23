@@ -53,7 +53,7 @@ const Session2 = ({ textSize }) => {
           Mme Catherine BAUER, 
           </span>
           <span className="text-secondary dark:text-black">
-          associations EGMOS et Laurette Fugain, 
+          association RESTART, 
           </span>
           <span className="text-secondary dark:text-black gotham-bold">
           Dr Daniel HABOLD 
