@@ -35,9 +35,9 @@ const Session10 = ({ textSize }) => {
         Si cette opportunité de fonder une famille a été pleinement réfléchie lors de la préparation de la loi et lors 
         du débat parlementaire, il importe maintenant de se tourner vers sa mise en œuvre effective tant du point 
         de vue des professionnels de santé que des personnes ayant recours à une telle approche. 
-        La session réunira notamment un praticien de l’AMP, responsable d’un centre de don de gamètes, en contact régulier 
-        avec les personnes demandeuses et une représentante de l’association accompagnant les mamans et les futures mamans 
-        solos. 
+        La session réunira un praticien de l'AMP, responsable d'un centre de don de gamètes, en contact régulier avec les personnes demandeuses, 
+        une représentante de l'association accompagnant les mamans et les futures mamans solos et un praticien de la petite enfance. 
+        Chacune apportera son expérience dont le fruit commun permettra de bâtir un chemin fiable et serein pour fonder une famille. 
         </p> 
 
         <hr className="border border-[#b3b3b3] dark:border-black mb-4" />
@@ -77,9 +77,9 @@ const Session10 = ({ textSize }) => {
               Association Mam’en Solo
             </span>
           </li>
-          {/* <li className="ml-4 mb-4">
+          <li className="ml-4 mb-4">
             <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
-            Rôle de la parentalité dans la petite enfance / quelle différence avec un parent solo ?
+            Le rôle de la parentalité dans la petite enfance
             </h4>
             <span className={`${textSize} text-secondary dark:text-black mb-4`}>
               <span className="text-secondary dark:text-black gotham-bold">
@@ -87,7 +87,7 @@ const Session10 = ({ textSize }) => {
               </span>{" "}
               Hôpital Timone Enfants, Marseille
             </span>
-          </li> */}
+          </li>
         </ul>
 
         <p className={`${textSize} space-x-2 mb-6`}>
