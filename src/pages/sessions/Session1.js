@@ -29,13 +29,13 @@ const Session1 = ({ textSize }) => {
         </h2>
 
         <p className={`text-secondary dark:text-black mb-6 ${textSize} `}>
-        Résoudre la pénurie d’accès à la greffe par l’utilisation d’organes animaux est une idée ancienne. 
+        <div id="session1">Résoudre la pénurie d’accès à la greffe par l’utilisation d’organes animaux est une idée ancienne. 
         D’ailleurs, les premières xénotransplantations ne concernaient pas des organes, mais des tissus (os, peau) et des cellules (sang), 
         dès le 17<sup>ème</sup> siècle. Il faudra attendre le début du 20<sup>ème</sup> siècle pour qu’un chirurgien lyonnais ne tente la greffe 
         d’un rein de chèvre sur un humain. Cette session débutera donc par une réflexion philosophique sur la frontière entre l’homme 
         et l’animal. Un état de l’art de la xénogreffe sera ensuite présenté, suivi du témoignage d’un praticien américain en pointe 
         sur cette discipline assez peu connue du grand public mais dont les récentes avancées pourraient bien remettre ce sujet 
-        à l’ordre du jour européen.
+        à l’ordre du jour européen.</div>
         </p> 
 
         <hr className="border border-[#b3b3b3] dark:border-black mb-4" />
