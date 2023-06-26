@@ -7,6 +7,7 @@ import { octSession, octSession2 } from "../components/Data";
 
 const Oct = ({ handleText }) => {
   const textSize = "text-xl md:text-2xl";
+  window.scrollTo({ top: 0, behavior: "auto" });
   return (
     <div className="px-2 md:container py-8">
       {/* <TtsButton /> */}
