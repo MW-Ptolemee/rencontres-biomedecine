@@ -73,7 +73,7 @@ les réflexions sur les pratiques médicales et scientifiques actuelles et les
 parcours de soin en matière de don, de prélèvement et de greffe, d’assistance
 médicale à la procréation et de génétique. Nous n’oublierons pas de regarder
 vers l’avenir et de parler de l’évolution des pratiques et des progrès que nous
-offre par la recherche. La thérapie cellulaire, la xénogreffe, les diagnostics en
+offre la recherche. La thérapie cellulaire, la xénogreffe, les diagnostics en
 période anténatale, l’AMP pour les femmes seules, sont autant de sujets qui
 animeront les discussions.`,
 
