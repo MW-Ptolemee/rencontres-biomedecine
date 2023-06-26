@@ -35,10 +35,9 @@ const Session10 = ({ textSize }) => {
         Si cette opportunité de fonder une famille a été pleinement réfléchie lors de la préparation de la loi et lors 
         du débat parlementaire, il importe maintenant de se tourner vers sa mise en œuvre effective tant du point 
         de vue des professionnels de santé que des personnes ayant recours à une telle approche. 
-        La session réunira un praticien de l’AMP, responsable d’un centre de don de gamètes, en contact régulier 
-        avec les personnes demandeuses, une représentante de l’association accompagnant les mamans et les futures mamans 
-        solos et un praticien de la petite enfance. Chacune apportera son expérience dont le fruit commun permettra 
-        de bâtir un chemin fiable et serein pour fonder une famille. 
+        La session réunira notamment un praticien de l’AMP, responsable d’un centre de don de gamètes, en contact régulier 
+        avec les personnes demandeuses et une représentante de l’association accompagnant les mamans et les futures mamans 
+        solos. 
         </p> 
 
         <hr className="border border-[#b3b3b3] dark:border-black mb-4" />
@@ -78,7 +77,7 @@ const Session10 = ({ textSize }) => {
               Association Mam’en Solo
             </span>
           </li>
-          <li className="ml-4 mb-4">
+          {/* <li className="ml-4 mb-4">
             <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
             Rôle de la parentalité dans la petite enfance / quelle différence avec un parent solo ?
             </h4>
@@ -88,7 +87,7 @@ const Session10 = ({ textSize }) => {
               </span>{" "}
               Hôpital Timone Enfants, Marseille
             </span>
-          </li>
+          </li> */}
         </ul>
 
         <button className="gotham-bold border-2 border-[#a1c517] dark:border-black dark:bg-white flex items-center text-secondary gotham-bold dark:text-black text-sm md:text-base py-2 px-4 font-bold mb-4 md:mb-6 hover:bg-[#a1c517] hover:text-white dark:hover:bg-black dark:hover:text-white">
