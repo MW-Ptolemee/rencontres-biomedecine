@@ -77,7 +77,7 @@ const Session13 = ({ textSize }) => {
             </h4>
             <span className={`${textSize} text-secondary dark:text-black mb-4`}>
               <span className="text-secondary dark:text-black gotham-bold">
-              M. Nicolas RIVRON,
+              M. Nicolas RIVERON,
               </span>{" "}
               Institute of Molecular Biotechnology, Austrian Acadmy of Sciences, Vienne, Autriche
             </span>
