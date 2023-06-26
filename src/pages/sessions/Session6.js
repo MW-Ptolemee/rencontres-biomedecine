@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import TtsButton from "../../components/Button/TtsButton";
 
 const Session6 = ({ textSize }) => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
   return (
     <div className="px-2 md:container py-8 space-y-8">
     {/* <TtsButton /> */}
@@ -65,7 +66,7 @@ const Session6 = ({ textSize }) => {
               <span className="text-secondary dark:text-black gotham-bold">
               Pr Gilles THURET, 
               </span>{" "}
-              CHU de Saint-Étienne
+              CHU Saint-Étienne et laboratoire "Biologie, ingénierie et imagerie pour l'Ophtalmologie, BiiO", Université Jean Monnet, Saint-Étienne
             </span>
           </li>
           <li className="ml-4 mb-4">
