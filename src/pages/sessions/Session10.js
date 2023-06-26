@@ -90,6 +90,14 @@ const Session10 = ({ textSize }) => {
           </li> */}
         </ul>
 
+        <p className={`${textSize} space-x-2 mb-6`}>
+         
+          <span className="text-secondary dark:text-black">
+          <i>Session en cours de construction.</i>
+          </span>
+          
+        </p>
+
         <button className="gotham-bold border-2 border-[#a1c517] dark:border-black dark:bg-white flex items-center text-secondary gotham-bold dark:text-black text-sm md:text-base py-2 px-4 font-bold mb-4 md:mb-6 hover:bg-[#a1c517] hover:text-white dark:hover:bg-black dark:hover:text-white">
           <Link
             to="/Inscription"
