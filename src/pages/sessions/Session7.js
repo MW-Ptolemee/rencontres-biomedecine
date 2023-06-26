@@ -98,7 +98,7 @@ const Session7 = ({ textSize }) => {
         </li>
       </ul>
 
-      <button className="gotham-bold border-2 border-[#f091a9] dark:border-black dark:bg-white flex items-center text-secondary gotham-bold dark:text-black text-sm md:text-base py-2 px-4 font-bold mb-4 md:mb-6">
+      <button className="gotham-bold border-2 border-[#f091a9] dark:border-black dark:bg-white flex items-center text-secondary gotham-bold dark:text-black text-sm md:text-base py-2 px-4 font-bold mb-4 md:mb-6 hover:bg-[#f091a9] hover:text-white dark:hover:bg-black dark:hover:text-white">
         <Link
           to="/Inscription"
           className={`w-max ${
@@ -109,7 +109,7 @@ const Session7 = ({ textSize }) => {
         </Link>
       </button>
 
-      <button className="gotham-bold bg-primary-light dark:bg-black flex items-center space-x-1 md:space-x-2 text-secondary dark:text-white text-sm md:text-base py-2 px-4 font-bold mr-[1px] md:mr-[8px]">
+      <button className="gotham-bold bg-primary-light dark:bg-black flex items-center space-x-1 md:space-x-2 text-secondary dark:text-white text-sm md:text-base py-2 px-4 font-bold mr-[1px] md:mr-[8px] hover:bg-secondary hover:text-white dark:hover:bg-black dark:hover:text-white">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
