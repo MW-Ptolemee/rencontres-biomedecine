@@ -35,7 +35,7 @@ const Session13 = ({ textSize }) => {
       Le <span className="text-secondary dark:text-black gotham-bold">Pr John DE VOS</span> dressera un état des lieux de essais cliniques en cours à ce jour. Par ailleurs, les cellules souches pluripotentes ont été 
       utilisées en recherche fondamentale pour étudier les phases précoces du développement embryonnaire. Très récemment, des modèles cellulaires 
       ont été obtenus reconstituant des structures semblables à l’embryon pré et post implantatoire. Ces modèles constituent de précieux outils pour 
-      étudier certaines phases du développement, inaccessibles à ce jour. Mais, ils posent des questions éthiques nouvelles. <span className="text-secondary dark:text-black gotham-bold">M. Nicolas RIVERON</span> présentera 
+      étudier certaines phases du développement, inaccessibles à ce jour. Mais, ils posent des questions éthiques nouvelles. <span className="text-secondary dark:text-black gotham-bold">M. Nicolas RIVRON</span> présentera 
       l’état des recherches sur ces modèles embryonnaires et  <span className="text-secondary dark:text-black gotham-bold">M.&nbsp;Bernard BAERTSCHI</span> discutera des aspects éthiques.
       </p>
 
@@ -77,7 +77,7 @@ const Session13 = ({ textSize }) => {
             </h4>
             <span className={`${textSize} text-secondary dark:text-black mb-4`}>
               <span className="text-secondary dark:text-black gotham-bold">
-              M. Nicolas RIVERON,
+              M. Nicolas RIVRON,
               </span>{" "}
               Institute of Molecular Biotechnology, Austrian Acadmy of Sciences, Vienne, Autriche
             </span>
