@@ -134,7 +134,7 @@ const Session15 = ({ textSize }) => {
               textSize === "text-xl md:text-2xl" ? `gotham-bold` : ``
             }`}
           >
-            Revenir aux Rencontres
+            Revenir au programme
           </Link>
         </button>
       </div>
