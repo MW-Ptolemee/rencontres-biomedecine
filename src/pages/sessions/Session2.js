@@ -50,7 +50,7 @@ const Session2 = ({ textSize }) => {
             Modération :
           </span>
           <span className="text-secondary dark:text-black gotham-bold">
-          Mme Catherine BAUER, 
+          Mme Catherine BOUVIER-BAUER, 
           </span>
           <span className="text-secondary dark:text-black">
           association RESTART et

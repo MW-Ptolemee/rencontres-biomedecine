@@ -24,11 +24,24 @@ const Session5 = ({ textSize }) => {
         <p className="text-secondary dark:text-black text-sm md:text-xl py-4 md:ml-0">16h00 {`>`} 17h30</p>
       </div>
 
+
+      
+
+
       <h2 className="md:text-4xl text-primary dark:text-black gotham-bold mb-4">
       Les organoïdes : état des lieux, perspectives et questionnements éthiques
       </h2>
 
-  
+      <p className={`text-secondary dark:text-black mb-6 ${textSize} `}>
+      Le terme organoïde désigne un assemblage tridimensionnel d’un ou plusieurs types cellulaires, qui mime la micro-anatomie d’un organe et assure, 
+      {" "} <i>in vitro</i>, une ou plusieurs de ses fonctions. Le comportement de cet assemblage de cellules, qui mime le fonctionnement physiologique 
+      d’un organe, fait des organoïdes un des nouveaux outils de prédilection de la recherche en biologie, avec des applications thérapeutiques envisageables à terme.{" "}  
+      <span className="text-secondary dark:text-black gotham-bold">Mme Antonietta MESSINA</span> présentera l’état des recherches sur les organoïdes de foie. Certains organoïdes soulèvent des questions éthiques inédites 
+      qui font actuellement l’objet de réflexions : il s’agit notamment des organoïdes neuraux. <span className="text-secondary dark:text-black gotham-bold">M. Olivier GOUREAU</span> présentera l’exemple des organoïdes de rétine 
+      et le <span className="text-secondary dark:text-black gotham-bold">Pr Hervé CHNEIWEISS</span> exposera l’état des réflexions éthiques autour de ces modèles.
+      </p>
+
+      <hr className="border border-[#b3b3b3] dark:border-black mb-4" />
 
       <p className={`${textSize} space-x-2 mb-6`}>
         <span className="text-primary dark:text-black gotham-bold">

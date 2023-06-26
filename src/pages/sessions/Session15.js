@@ -30,6 +30,17 @@ const Session15 = ({ textSize }) => {
         Les allogreffes composites vascularisées :<br />la greffe visible&nbsp;! 
         </h2>
 
+
+
+      <p className={`text-secondary dark:text-black mb-6 ${textSize} `}>
+      Les défis incroyables auxquels sont soumis les professionnels qui se sont engagés dans cette aventure sont immenses : 
+      philosophiques, éthiques, techniques et immunologiques. Nous tenterons, dans un premier temps, de comprendre les déterminants 
+      philosophiques de cette greffe si particulière. Puis, avant d’écouter le témoignage et d’échanger avec un patient Islandais qui a bénéficié, 
+      il y a plusieurs années en France, d’une allogreffe composite vascularisée des deux bras, nous partagerons l’expérience de l’un des chirurgiens 
+      ayant participé à une allogreffe composite célèbre : la première greffe de la face en 2005 à Amiens.
+      </p>
+
+      <hr className="border border-[#b3b3b3] dark:border-black mb-4" />
         
 
         <p className={`${textSize} space-x-2 mb-6`}>

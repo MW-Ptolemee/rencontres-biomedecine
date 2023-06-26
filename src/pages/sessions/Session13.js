@@ -28,6 +28,19 @@ const Session13 = ({ textSize }) => {
       Les derniers développements en matière de recherche sur les cellules souches embryonnaires / IPS 
       </h2>
 
+      <p className={`text-secondary dark:text-black mb-6 ${textSize} `}>
+      Depuis la description des premières lignées de cellules souches embryonnaires en 1998 et des cellules induites à la pluripotence (iPS) en 2007, 
+      les cellules souches pluripotentes humaines ont suscités de nombreux espoirs quant à leur utilisation en médecine régénératrice. 
+      Aujourd’hui, ces espoirs se sont concrétisés et de nombreux essais cliniques ont vu le jour à travers le monde. 
+      Le <span className="text-secondary dark:text-black gotham-bold">Pr John DE VOS</span> dressera un état des lieux de essais cliniques en cours à ce jour. Par ailleurs, les cellules souches pluripotentes ont été 
+      utilisées en recherche fondamentale pour étudier les phases précoces du développement embryonnaire. Très récemment, des modèles cellulaires 
+      ont été obtenus reconstituant des structures semblables à l’embryon pré et post implantatoire. Ces modèles constituent de précieux outils pour 
+      étudier certaines phases du développement, inaccessibles à ce jour. Mais, ils posent des questions éthiques nouvelles. <span className="text-secondary dark:text-black gotham-bold">M. Nicolas RIVERON</span> présentera 
+      l’état des recherches sur ces modèles embryonnaires et  <span className="text-secondary dark:text-black gotham-bold">M.&nbsp;Bernard BAERTSCHI</span> discutera des aspects éthiques.
+      </p>
+
+      <hr className="border border-[#b3b3b3] dark:border-black mb-4" />
+
 
       <p className={`${textSize} space-x-2 mb-6`}>
         <span className="text-[#ef8661] dark:text-black gotham-bold">
