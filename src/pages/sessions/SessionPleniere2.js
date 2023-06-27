@@ -89,7 +89,7 @@ const SessionPleniere2 = ({ textSize }) => {
           Mme Danielle MESSAGER,
           </span>
           <span className="text-secondary dark:text-black">
-            journaliste (France Inter)
+            journaliste santé
           </span>
         </p>
 
