@@ -50,7 +50,13 @@ const Session10 = ({ textSize }) => {
           Pr Philippe JONVEAUX,
           </span>
           <span className="text-secondary dark:text-black">
-          Agence de la biomédecine
+          Agence de la biomédecine < br/>et
+          </span>
+          <span className="text-secondary dark:text-black gotham-bold">
+          Dr Sarah BYDLOWSKI,
+          </span>
+          <span className="text-secondary dark:text-black">
+          ASM13, Paris et Université de Paris Cité, Boulogne-Billancourt
           </span>
           
         </p>

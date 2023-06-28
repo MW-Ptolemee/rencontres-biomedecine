@@ -77,7 +77,7 @@ const Session6 = ({ textSize }) => {
               <span className="text-secondary dark:text-black gotham-bold">
               Pr Vincent BORDERIE,
               </span>{" "}
-              Centre Ophtalmologique National des Quinze-Vingt, Paris
+              Hôpital National des 15-20, Paris
             </span>
           </li>
           <li className="ml-4 mb-4">
