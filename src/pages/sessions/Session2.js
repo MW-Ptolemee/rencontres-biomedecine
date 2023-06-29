@@ -69,7 +69,7 @@ const Session2 = ({ textSize }) => {
             <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
             Rôle d'une structure associative dans le parcours de soins post greffe</h4>
             <span className={`${textSize} text-secondary dark:text-black mb-4`}>
-              <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
+              <span className="text-secondary dark:text-black gotham-bold">
               Mme Anne-Pierre PICKAERT, 
               </span>{" "}
               associations EGMOS et Laurette Fugain
@@ -80,7 +80,7 @@ const Session2 = ({ textSize }) => {
             Le parcours du patient cancéreux dans la stratégie décennale
             </h4>
             <span className={`${textSize} text-secondary dark:text-black mb-4`}>
-              <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
+              <span className="text-secondary dark:text-black gotham-bold">
               Dr Tereza COMAN,
               </span>{" "}
               Département d'Hématologie, Institut Gustave Roussy, Villejuif
@@ -91,7 +91,7 @@ const Session2 = ({ textSize }) => {
             Le parcours du patient cancéreux dans la stratégie décennale
             </h4>
             <span className={`${textSize} text-secondary dark:text-black mb-4`}>
-              <span className="text-secondary dark:text-black text-sm md:text-base gotham-bold">
+              <span className="text-secondary dark:text-black gotham-bold">
               Dr Catherine FAUCHER,
               </span>{" "}
               Agence de la biomédecine
