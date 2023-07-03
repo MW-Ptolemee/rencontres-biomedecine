@@ -78,10 +78,11 @@ const Session3 = ({ textSize }) => {
           <span className={`${textSize} text-secondary dark:text-black mb-4`}>
           <span className="text-[#f091a9] dark:text-black gotham-bold">
           <br />• </span>{" "}
-          <span className={`${textSize} text-secondary dark:text-black mb-4`} >
-          
-          Un représentant d’une association membre du comité <br /><br />
-          </span>
+          <span className="text-secondary dark:text-black gotham-bold">
+          Mme Céline CESTER, 
+            </span>{" "}
+            Association Les Enfants d'Arc en ciel – l'Asso ! <br /> <br />
+         
           </span>
          
 

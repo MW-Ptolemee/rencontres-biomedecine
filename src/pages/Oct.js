@@ -13,7 +13,7 @@ const Oct = ({ handleText }) => {
       {/* <TtsButton /> */}
 
       <div className="flex flex-col md:flex-row justify-between md:items-center mb-8">
-        <Title title="PROGRAMME" textLight={`PRÉVISIONNEL`} />
+        <Title title="PROGRAMME" />
 
         <div className="flex">
           <Link

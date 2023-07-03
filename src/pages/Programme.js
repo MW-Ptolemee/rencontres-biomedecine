@@ -13,7 +13,7 @@ const Programme = ({ handleText }) => {
       {/* <TtsButton /> */}
 
       <div className="flex flex-col md:flex-row justify-between md:items-center mb-8">
-        <Title title="PROGRAMME" textLight={`PRÉVISIONNEL`} />
+        <Title title="PROGRAMME" />
 
         <div className="flex">
           <button className="bg-secondary dark:bg-black flex items-center space-x-1 md:space-x-2 text-white dark:text-white text-[10px] md:text-base  py-1 px-1 md:px-4 font-bold mr-[1px] md:mr-[8px]">
