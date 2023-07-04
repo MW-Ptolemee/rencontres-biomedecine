@@ -172,7 +172,7 @@ const Programme = ({ handleText }) => {
         </div>
       </div>
 
-      <div className="md:flex justify-center items-center">
+      {/* <div className="md:flex justify-center items-center">
         <div></div>
         <Link
             to="/documents/PROGRAMME-RBM-2023.pdf" target="_blank" >
@@ -194,7 +194,7 @@ const Programme = ({ handleText }) => {
           </svg>
         </button>
         </Link>
-      </div> 
+      </div>  */}
     </div>
   );
 };
