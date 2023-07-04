@@ -153,8 +153,9 @@ const Oct = ({ handleText }) => {
           <p>Cocktail déjeunatoire </p>
         </div>
 
-      {/* <div className="md:flex justify-center items-center">
+        <div className="md:flex justify-center items-center">
         <div></div>
+        <a href="https://ptolemee.com/rencontres-biomedecine/PROGRAMME-RBM-2023.pdf" target="_blank">
         <button className="relative flex items-center space-x-2 text-secondary dark:text-black font-bold border-[2px] border-primary dark:border-black px-4 py-2">
           <span className="text-xs">TÉLÉCHARGER LE PROGRAMME </span>
           <svg
@@ -172,7 +173,8 @@ const Oct = ({ handleText }) => {
             />
           </svg>
         </button>
-      </div> */}
+        </a>
+      </div> 
     </div>
   );
 };
