@@ -31,7 +31,7 @@ const SessionPleniere2 = ({ textSize }) => {
         </h2>
 
         <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
-        Table ronde - L’intelligence artificielle et éthique, <br />quels enjeux pour les domaines de la biomédecine demain ?
+        Table ronde <span className="text-primary dark:text-black mb-4">- L’intelligence artificielle et éthique, <br />quels enjeux pour les domaines de la biomédecine demain ?</span>
             </h4>
 
         <p className={`text-secondary dark:text-black mb-6 ${textSize} `}>
