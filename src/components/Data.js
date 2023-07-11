@@ -227,19 +227,7 @@ export const octSession = [
     textColor: "text-[#a1c517]",
     link: "/session-9",
   },
-  {
-    title: "PARCOURS DE SOIN",
-    desc: `L'AMP pour
-    les femmes seules :
-    quel accompagnement
-    vers la parentalité ?`,
-    btnText: "EN SAVOIR PLUS",
-    color: "bg-[#a1c517]",
-    clr: "hover:bg-[#a1c517]",
-    borderColor: "border-[#a1c517]",
-    textColor: "text-[#a1c517]",
-    link: "/session-10",
-  },
+
   {
     title: "RECHERCHE & INNOVATIONS",
     desc: `Les innovations
@@ -263,6 +251,17 @@ export const octSession = [
     textColor: "text-[#f091a9]",
     link: "/session-12",
   },
+ // {
+  //   title: "SANTÉ & SOCIÉTÉ",
+  //   desc: `Titre à venir`,
+  //   btnText: "EN SAVOIR PLUS",
+  //   color: "bg-[#f091a9]",
+  //   clr: "hover:bg-[#f091a9]",
+  //   borderColor: "border-[#f091a9]",
+  //   textColor: "text-[#f091a9]",
+  //   link: "#",
+  // },
+
 ];
 
 export const octSession2 = [
@@ -301,16 +300,20 @@ export const octSession2 = [
     textColor: "text-[#00a895]",
     link: "/session-15",
   },
-  // {
-  //   title: "SANTÉ & SOCIÉTÉ",
-  //   desc: `Titre à venir`,
-  //   btnText: "EN SAVOIR PLUS",
-  //   color: "bg-[#f091a9]",
-  //   clr: "hover:bg-[#f091a9]",
-  //   borderColor: "border-[#f091a9]",
-  //   textColor: "text-[#f091a9]",
-  //   link: "#",
-  // },
+  {
+    title: "PARCOURS DE SOIN",
+    desc: `L'AMP pour
+    les femmes seules :
+    quel accompagnement
+    vers la parentalité ?`,
+    btnText: "EN SAVOIR PLUS",
+    color: "bg-[#a1c517]",
+    clr: "hover:bg-[#a1c517]",
+    borderColor: "border-[#a1c517]",
+    textColor: "text-[#a1c517]",
+    link: "/session-10",
+  },
+ 
 ];
 
 // {
