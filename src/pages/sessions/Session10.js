@@ -23,7 +23,7 @@ const Session10 = ({ textSize }) => {
           <h4 className="text-sm md:text-xl mr-4 gotham-bold text-secondary dark:text-black pr-4 border-r-[4px] border-[#a1c517] dark:border-black">
             Vendredi 13 octobre
           </h4>
-          <p className="text-secondary dark:text-black text-sm md:text-xl py-4 md:ml-0">08h30 {`>`} 10h00</p>
+          <p className="text-secondary dark:text-black text-sm md:text-xl py-4 md:ml-0">10h30 {`>`} 12h00</p>
         </div>
 
         <h2 className="md:text-4xl text-[#a1c517] dark:text-black gotham-bold mb-4">
