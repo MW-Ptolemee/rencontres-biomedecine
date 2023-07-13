@@ -57,7 +57,7 @@ const Session13 = ({ textSize }) => {
         Mme Cécile MARTINAT,
         </span>
         <span className="text-secondary dark:text-black">
-        Inserm, I-Stem, Evry
+        Inserm, I-Stem, Évry
         </span>
       </p>
 
