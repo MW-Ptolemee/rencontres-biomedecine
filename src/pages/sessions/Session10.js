@@ -56,7 +56,7 @@ const Session10 = ({ textSize }) => {
           Dr Sarah BYDLOWSKI,
           </span>
           <span className="text-secondary dark:text-black">
-          Association de Santé Mentale du XIII<sup>ème</sup> arrondissement de Paris (ASM13) et Université de Paris Cité, Boulogne-Billancourt
+          Association de Santé Mentale du XIII<sup>ème</sup> arrondissement de Paris (ASM13) et Université de Paris Cité,&nbsp;Boulogne-Billancourt
           </span>
           
         </p>
