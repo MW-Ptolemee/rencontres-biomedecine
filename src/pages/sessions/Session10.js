@@ -47,16 +47,16 @@ const Session10 = ({ textSize }) => {
             Modération :
           </span>
           <span className="text-secondary dark:text-black gotham-bold">
-          Pr Philippe JONVEAUX,
-          </span>
-          <span className="text-secondary dark:text-black">
-          Agence de la biomédecine < br/>et
-          </span>
-          <span className="text-secondary dark:text-black gotham-bold">
           Dr Sarah BYDLOWSKI,
           </span>
           <span className="text-secondary dark:text-black">
-          Association de Santé Mentale du XIII<sup>ème</sup> arrondissement de Paris (ASM13) et< br/>Université de Paris Cité, Boulogne-Billancourt
+          Association de Santé Mentale du XIII<sup>ème</sup> arrondissement de Paris (ASM13) et< br/>Université de Paris Cité, Boulogne-Billancourt et
+          </span>
+          <span className="text-secondary dark:text-black gotham-bold">
+          Pr Philippe JONVEAUX,
+          </span>
+          <span className="text-secondary dark:text-black">
+          Agence de la biomédecine
           </span>
           
         </p>
