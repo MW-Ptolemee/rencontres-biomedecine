@@ -36,7 +36,7 @@ const Session8 = ({ textSize }) => {
         tels que l'éthique du don, l'équité de l'accès aux soins et la solidarité. Ces principes sont notamment portés par les instances européennes au travers de conventions, 
         règlements, directives et recommandations. Le partage de ces valeurs a permis la mise en place de coopérations entre États dans le cadre de projets soutenus 
         par la Commission européenne ou d'alliances, telle que la South Alliance for Transplant (SAT) regroupant les pays du sud de l’Europe (Espagne, France, Grèce, Italie, Portugal, République Tchèque et Suisse). 
-        Plusieurs exemples de collaborations seront présentés au cours de cette session. <span className="text-secondary dark:text-black gotham-bold">Mme Devy MEY</span> et <span className="text-secondary dark:text-black gotham-bold">Mme Rita PITEIRA</span> parleront de deux projets, BRAVEST et EGALITE, 
+        Plusieurs exemples de collaborations seront présentés au cours de cette session. <span className="text-secondary dark:text-black gotham-bold">Dr Vincent KARAM</span> et <span className="text-secondary dark:text-black gotham-bold">Mme Rita PITEIRA</span> parleront de deux projets, BRAVEST et EGALITE, 
         visant à tirer les leçons de la crise Covid au niveau européen. Le <span className="text-secondary dark:text-black gotham-bold">Dr Beatriz DOMINGUEZ</span> évoquera le programme de don croisé de rein mis en place au sein de l'alliance SAT. 
         Enfin, le <span className="text-secondary dark:text-black gotham-bold">Dr Franz IMMER</span> dressera un état des lieux de la plateforme d'échanges d'organes européenne Foedus.
       </p>
@@ -72,9 +72,9 @@ const Session8 = ({ textSize }) => {
             <span className={`${textSize} text-secondary dark:text-black mb-4`}>
               Projet BRAVEST :{" "}
               <span className="text-secondary dark:text-black gotham-bold">
-              Mme Devi MEY,
+              Dr Vincent KARAM,
               </span>{" "}
-              European Society for Organ Transplantation (ESOT), Italie <br />
+              ESOT Registries General Manager, European Society for Organ Transplantation <br />
             </span>
             <span className={`${textSize} text-secondary dark:text-black mb-4`}>
               Projet EGALITE :{" "}
