@@ -74,7 +74,7 @@ const Session8 = ({ textSize }) => {
               <span className="text-secondary dark:text-black gotham-bold">
               Dr Vincent KARAM,
               </span>{" "}
-              ESOT Registries General Manager, European Society for Organ Transplantation <br />
+              ESOT Registries General Manager, European Society for Organ Transplantation,<br />Amsterdam, Pays-Bas <br />
             </span>
             <span className={`${textSize} text-secondary dark:text-black mb-4`}>
               Projet EGALITE :{" "}
