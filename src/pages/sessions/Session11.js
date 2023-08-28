@@ -29,6 +29,15 @@ const Session11 = ({ textSize }) => {
       Les innovations en thérapie cellulaire 
       </h2>
 
+      <p className={`text-secondary dark:text-black mb-6 ${textSize} `}>
+      Au cours de la dernière décennie, la prise en charge de nombreuses pathologies cancéreuses a été révolutionnée par le développement de l’immunothérapie. 
+      Des avancées thérapeutiques majeures, comme l’immunothérapie adoptive antiinfectieuse après allogreffe de CSH, ainsi que les cellules CAR-T, traitement innovant combinant de la thérapie cellulaire et de la thérapie génique, 
+      représentent de nouveaux traitements sur-mesure, véritables espoirs pour les patients souffrant de leucémies, de lymphomes réfractaires ou ayant des complications virales graves après l’allogreffe de CSH. La production à petite échelle, 
+      sur prescription nominative de médicaments, dans des centres autorisés, soumis à une réglementation de bonnes pratiques de fabrication, offrira aux patients un accès plus large à ces traitements innovants sur le territoire national.
+        </p>
+
+        <hr className="border border-[#b3b3b3] dark:border-black mb-4" />
+
 
       <p className={`${textSize} space-x-2 mb-6`}>
         <span className="text-[#ef8661] dark:text-black gotham-bold">

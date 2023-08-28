@@ -31,6 +31,16 @@ const Session14 = ({ textSize }) => {
         Qualité des greffons de CSH dans des situations critiques 
         </h2>
 
+        <p className={`text-secondary dark:text-black mb-6 ${textSize} `}>
+        Certaines situations inhabituelles peuvent avoir un impact sur la qualité des greffons de CSH, et par conséquent, 
+        sur l’évolution de l’état du patient ayant reçu le greffon. La situation d'urgence liée à la pandémie Covid-19 a entrainé 
+        un changement de pratiques afin de sécuriser les procédures de greffe allogénique. Cette session débutera par la présentation d’une étude qui décryptera l’impact de ce changement exceptionnel de pratiques. 
+        La faible mobilisation de CSH pendant le prélèvement par aphérèse représente une autre situation, heureusement rare, qui peut affecter la qualité du greffon. 
+        La seconde partie de la session sera consacrée à l’analyse de la littérature existante concernant l’utilisation d’un médicament indiqué dans cette situation, 
+        dont l’utilisation est hétérogène en Europe et en France, afin d’éviter le recours, en urgence, à un prélèvement de moelle osseuse.  
+        </p>
+
+        <hr className="border border-[#b3b3b3] dark:border-black mb-4" />
         
 
         <p className={`${textSize} space-x-2 mb-6`}>
