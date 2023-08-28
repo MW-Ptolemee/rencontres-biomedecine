@@ -53,7 +53,7 @@ const Session2 = ({ textSize }) => {
           Dr Daniel HABOLD, 
           </span>
           <span className="text-secondary dark:text-black">
-          ARS Nouvelle Aquitaine
+          ARS Nouvelle-Aquitaine
           </span>
         </p>
 
