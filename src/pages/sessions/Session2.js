@@ -81,7 +81,7 @@ const Session2 = ({ textSize }) => {
           </li>
           <li className="ml-4 mb-4">
             <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
-            Le parcours du patient cancéreux dans la stratégie décennale
+            Le suivi post étude Funnel Plot
             </h4>
             <span className={`${textSize} text-secondary dark:text-black mb-4`}>
               <span className="text-secondary dark:text-black gotham-bold">
