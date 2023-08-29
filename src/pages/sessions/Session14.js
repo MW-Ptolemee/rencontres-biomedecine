@@ -10,7 +10,7 @@ const Session14 = ({ textSize }) => {
 
       <div>
         <div className="flex flex-wrap items-center mb-4">
-          <button className="bg-[#00a895] mr-4 dark:bg-black flex items-center text-white dark:text-white text-[10px] md:text-base py-2 px-1 md:px-4 font-bold">
+          <button className="bg-[#00a895] mr-4 dark:bg-black flex items-center text-white dark:text-white text-[10px] md:text-base py-2 px-1 md:px-4 gotham-bold">
             <span
               className={`w-max ${
                 textSize === "text-xl md:text-2xl" ? `gotham-bold` : ``
