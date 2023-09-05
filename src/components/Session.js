@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Session = ({ data, handleText, textSize }) => {
   return (
-    <div className="grid grid-cols-2 md:grid-cols-4 justify-between gap-4">
+    <>
       {data.map((item, i) => {
         return (
           <div
@@ -35,7 +35,7 @@ const Session = ({ data, handleText, textSize }) => {
           </div>
         );
       })}
-    </div>
+    </>
   );
 };
 

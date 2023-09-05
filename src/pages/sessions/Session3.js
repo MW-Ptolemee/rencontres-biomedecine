@@ -49,7 +49,7 @@ const Session3 = ({ textSize }) => {
           Modération :
         </span>
         <span className="text-secondary dark:text-black gotham-bold">
-        Dr Claire DE VIENNE,
+        Pr Philippe JONVEAUX,
         </span>{" "}
         <span className="text-secondary dark:text-black">
         Agence de la biomédecine

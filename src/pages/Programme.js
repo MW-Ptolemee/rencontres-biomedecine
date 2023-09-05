@@ -84,7 +84,7 @@ const Programme = ({ handleText }) => {
             > <button className="w-max flex items-center border-2 font-bold border-secondary dark:border-white px-3 py-2  hover:bg-secondary hover:text-white dark:hover:bg-white dark:hover:text-black">
             <span className="text-[10px] md:text-[14px] mr-1 md:mr-2">
             
- EN SAVOIR PLUS
+              EN SAVOIR PLUS
             
              
             </span>
@@ -121,10 +121,7 @@ const Programme = ({ handleText }) => {
             to="/Session-Pleniere2"
             > <button className="w-max flex items-center border-2 font-bold border-secondary dark:border-white px-3 py-2  hover:bg-secondary hover:text-white dark:hover:bg-white dark:hover:text-black">
             <span className="text-[10px] md:text-[14px] mr-1 md:mr-2">
-            
- EN SAVOIR PLUS
-            
-             
+             EN SAVOIR PLUS          
             </span>
           </button>
           </Link>
@@ -143,9 +140,70 @@ const Programme = ({ handleText }) => {
             <p className="dark:text-white">14h00 {">"} 15h30</p>
             <h1 className="gotham-bold dark:text-white md:text-xl">Sessions parallèles</h1>
           </div>
-        
+            {/* Session en dur */}
+          <div className="grid grid-cols-2 md:grid-cols-4 justify-between gap-4">
+          {/* <div
+            className="md:h-[300px] bg-white flex flex-col justify-between"
+          >
+            <div>
+            <h1
+              className={`${
+                textSize === "text-xl md:text-2xl" ? `gotham-bold` : ``
+              } text-white text-[10px] md:text-[14px] py-1.5 px-4 font-bold dark:bg-black bg-primary`}
+            >
+              SCIENCE & ÉTHIQUE
+            </h1>
+            <h3 className="bg-secondary dark:bg-white flex items-center space-x-1 md:space-x-2 text-white dark:text-black text-[10px] md:text-base  py-1 px-1 md:px-4 gotham-bold">COMPLET</h3>
+            </div>
+            <h2
+              className={`gotham-bold text-xs md:text-xl text-primary dark:text-black p-4`}
+            >
+              Aux frontières
+                de la transplantation :
+                la xénogreffe !
+            </h2>
+
+            <Link
+              to="/session-1"
+              className={`w-max self-center text-[10px] md:text-base border-2 border-primary dark:border-black font-bold px-3 py-2 m-4 hover:bg-primary hover:text-white dark:hover:bg-black dark:hover:text-white`}
+            >
+              EN SAVOIR PLUS
+            </Link>
+          </div> */}
+
+          {/* <div
+            className="md:h-[300px] bg-white flex flex-col justify-between"
+          >
+            <div>
+            <h1
+              className={`${
+                textSize === "text-xl md:text-2xl" ? `gotham-bold` : ``
+              } text-white text-[10px] md:text-[14px] py-1.5 px-4 font-bold dark:bg-black bg-[#a1c517]`}
+            >
+              PARCOURS DE SOIN
+            </h1>
+            <h3 className="bg-secondary dark:bg-white flex items-center space-x-1 md:space-x-2 text-white dark:text-black text-[10px] md:text-base  py-1 px-1 md:px-4 gotham-bold">COMPLET</h3>
+            </div>
+            <h2
+              className={`gotham-bold text-xs md:text-xl text-[#a1c517] dark:text-black p-4`}
+            >
+              Le parcours de soin post-greffe de CSH
+            </h2>
+
+            <Link
+              to="/session-2"
+              className={`w-max self-center text-[10px] md:text-base border-2 border-primary dark:border-black font-bold px-3 py-2 m-4 hover:bg-primary hover:text-white dark:hover:bg-black dark:hover:text-white`}
+            >
+              EN SAVOIR PLUS
+            </Link>
+          </div> */}
+              {/* Fin de la session */}
+              
+              
           <Session data={session} handleText={handleText} textSize={textSize} />
         </div>
+        </div>
+        
 
         <div className="flex flex-row md:items-center space-x-8 text-sm md:text-base text-secondary p-4 md:p-8">
           <p className="">15h30 {">"} 16h00</p>
@@ -163,12 +221,13 @@ const Programme = ({ handleText }) => {
               Sessions parallèles
             </h1>
           </div>
-
+          <div className="grid grid-cols-2 md:grid-cols-4 justify-between gap-4">
           <Session
             data={session2}
             handleText={handleText}
             textSize={textSize}
           />
+          </div>
         </div>
       </div>
 

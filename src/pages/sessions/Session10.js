@@ -53,10 +53,10 @@ const Session10 = ({ textSize }) => {
           Association de Santé Mentale du XIII<sup>ème</sup> arrondissement de Paris (ASM13) et< br/>Université de Paris Cité, Boulogne-Billancourt et
           </span>
           <span className="text-secondary dark:text-black gotham-bold">
-          Pr Philippe JONVEAUX,
+          Pr Jean-François GUÉRIN,
           </span>
           <span className="text-secondary dark:text-black">
-          Agence de la biomédecine
+          Université Claude Bernard Lyon 1 / CHU de Lyon, Agence de la biomédecine
           </span>
           
         </p>

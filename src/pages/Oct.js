@@ -77,12 +77,13 @@ const Oct = ({ handleText }) => {
             <p className="dark:text-white">08h30 {">"} 10h00</p>
             <h1 className="gotham-bold dark:text-white md:text-xl">Sessions parallèles</h1>
           </div>
-
+          <div className="grid grid-cols-2 md:grid-cols-4 justify-between gap-4">
           <Session
             data={octSession}
             handleText={handleText}
             textSize={textSize}
           />
+          </div>
         </div>
 
         <div className="flex flex-row md:items-center space-x-8 text-sm md:text-base text-secondary p-4 md:p-8">
@@ -101,12 +102,13 @@ const Oct = ({ handleText }) => {
               Sessions parallèles
             </h1>
           </div>
-
+          <div className="grid grid-cols-2 md:grid-cols-4 justify-between gap-4">
           <Session
             data={octSession2}
             handleText={handleText}
             textSize={textSize}
           />
+          </div>
         </div>
       </div>
 

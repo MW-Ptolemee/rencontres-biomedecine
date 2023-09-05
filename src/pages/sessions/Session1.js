@@ -62,7 +62,7 @@ const Session1 = ({ textSize }) => {
         <ul className="list-dsc list-disc text-primary dark:text-black mb-8">
           <li className="ml-4 mb-4">
             <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
-              La xénogreffe : quelles frontières philosophiques ?
+            Les xénogreffes transgressent-elles les frontières philosophiques ?
             </h4>
             <span className={`${textSize} text-secondary dark:text-black mb-4`}>
               <span className="text-secondary dark:text-black gotham-bold">
