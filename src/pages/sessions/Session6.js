@@ -54,7 +54,7 @@ const Session6 = ({ textSize }) => {
         Pr Marc MURAINE,
         </span>
         <span className="text-secondary dark:text-black">
-        Banque Française des Yeux, Paris
+        CHU de Rouen, Hôpital Charles Nicolle, association Banque Française des Yeux, Paris
         </span>
       </p>
 

@@ -56,7 +56,7 @@ const Session10 = ({ textSize }) => {
           Pr Jean-François GUÉRIN,
           </span>
           <span className="text-secondary dark:text-black">
-          Université Claude Bernard Lyon 1 / CHU de Lyon, Agence de la biomédecine
+          faculté de médecine Lyon Est, université Claude Bernard Lyon 1, conseil d’orientation de l'Agence de la biomédecine
           </span>
           
         </p>

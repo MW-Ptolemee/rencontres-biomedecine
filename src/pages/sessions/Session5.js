@@ -92,7 +92,7 @@ const Session5 = ({ textSize }) => {
             <span className="text-secondary dark:text-black gotham-bold">
             Pr Hervé CHNEIWEISS,{" "} 
             </span>
-            Inserm, Institut du cerveau, Paris
+            Neuroscience Paris Seine (Sorbonne Université, CNRS, Inserm), comité d’éthique de l’Inserm, Paris
           </span>
         </li>
       </ul>

@@ -45,17 +45,18 @@ const Session1 = ({ textSize }) => {
           <span className="text-primary dark:text-black gotham-bold">
             Modération :
           </span>
-          <span className="text-secondary dark:text-black gotham-bold">
-            Pr Gilles BLANCHO,
-          </span>
-          <span className="text-secondary dark:text-black">
-            CHU Nantes et
-          </span>
+
           <span className="text-secondary dark:text-black gotham-bold">
             Pr François KERBAUL,
           </span>
           <span className="text-secondary dark:text-black">
-            Agence de la biomédecine
+            Agence de la biomédecine et
+          </span>
+          <span className="text-secondary dark:text-black gotham-bold">
+          Pr Jean-Christian ROUSSEL,
+          </span>
+          <span className="text-secondary dark:text-black">
+          CHU de Nantes
           </span>
         </p>
 
