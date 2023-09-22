@@ -48,16 +48,16 @@ const Session13 = ({ textSize }) => {
           Modération :
         </span>
         <span className="text-secondary dark:text-black gotham-bold">
-        Dr Laurent DAVID,
-        </span>
-        <span className="text-secondary dark:text-black">
-        Nantes Université, CHU Nantes, Inserm, CNRS et
-        </span>
-        <span className="text-secondary dark:text-black gotham-bold">
         Mme Cécile MARTINAT,
         </span>
         <span className="text-secondary dark:text-black">
-        Inserm, I-Stem, Évry
+        Inserm, I-Stem, Évry et
+        </span>
+        <span className="text-secondary dark:text-black gotham-bold">
+        Dr Hélène LETUR,
+        </span>
+        <span className="text-secondary dark:text-black">
+        Hôpital Foch, Suresnes, Polyclinique de Navarre, Pau, Groupe d’études pour le don d’ovocytes (GEDO)
         </span>
       </p>
 
