@@ -23,7 +23,7 @@ const Information = ({ textSize, darkMode }) => {
               Jeudi 12 octobre 2023
             </p>
             <p className={`${textSize} text-secondary dark:text-black mb-4`}>
-              de 10h00 à 17h30 - Accueil à partir de 09h30
+              de 10h00 à 17h30 - Accueil à partir de 09h00
             </p>
             <p
               className={`text-secondary dark:text-black gotham-bold ${textSize}`}
