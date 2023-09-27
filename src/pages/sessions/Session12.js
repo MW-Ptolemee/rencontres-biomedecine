@@ -50,12 +50,7 @@ const Session12 = ({ textSize }) => {
         <span className="text-secondary dark:text-black">
         Agence de la biomédecine 
         </span>
-        <span className="text-secondary dark:text-black gotham-bold">
-        <br />et Mme Carole GENTY,
-        </span>
-        <span className="text-secondary dark:text-black">
-        Association Française des Coordinateurs Hospitaliers (AFCH)
-        </span>
+        
       </p>
 
       <ul className="list-dsc list-disc text-[#f091a9] dark:text-black mb-8">
