@@ -53,7 +53,7 @@ const Session4 = ({ textSize }) => {
         Agence de la biomédecine et
         </span>
         <span className="text-secondary dark:text-black gotham-bold">
-        Pr Daniel SHERMAN,
+        Pr Daniel SCHERMAN,
         </span>
           <span className={`${textSize} text-secondary dark:text-black mb-4`}>
         Fondation maladies rares

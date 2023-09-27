@@ -88,7 +88,7 @@ const Session6 = ({ textSize }) => {
               <span className="text-secondary dark:text-black gotham-bold">
               Pr Eric GABISON,
               </span>{" "}
-              Fondation Ophtalmologique Rothschild, Université Paris cité
+              Hôpital Fondation Rothschild et Université Paris Cité
             </span>
           </li>
         </ul>
