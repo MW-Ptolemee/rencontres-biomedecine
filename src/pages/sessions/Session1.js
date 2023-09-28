@@ -67,7 +67,7 @@ const Session1 = ({ textSize }) => {
             </h4>
             <span className={`${textSize} text-secondary dark:text-black mb-4`}>
               <span className="text-secondary dark:text-black gotham-bold">
-              M. Jean Michel BESNIER,
+              M. Jean-Michel BESNIER,
               </span>{" "}
               Paris Sorbonne Université
             </span>
