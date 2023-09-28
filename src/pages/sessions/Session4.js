@@ -56,7 +56,7 @@ const Session4 = ({ textSize }) => {
         Pr Daniel SCHERMAN,
         </span>
           <span className={`${textSize} text-secondary dark:text-black mb-4`}>
-        Fondation maladies rares
+        Fondation Maladies Rares
         </span>
       </p>
 

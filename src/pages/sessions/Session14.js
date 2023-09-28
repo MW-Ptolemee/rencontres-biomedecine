@@ -57,7 +57,7 @@ const Session14 = ({ textSize }) => {
           Dr Marie PRAT-LEPESANT,
           </span>
           <span className="text-secondary dark:text-black">
-          Société Française de Bio Ingénierie Cellulaire et Tissulaire (SFBCT)
+          Société Française de Bio Ingénierie Cellulaire et Tissulaire (SFBCT), EFS Centre-Pays de la Loire, Tours
           </span>
         </p>
 

@@ -50,7 +50,7 @@ const Session11 = ({ textSize }) => {
         Laboratoire de thérapie cellulaire – CHU de Liège, Belgique <br />et
         </span>
         <span className="text-secondary dark:text-black gotham-bold">
-        Dr Maud D’AVENI-PINEY,
+        Dr Maud D’AVENI,
         </span>
         <span className="text-secondary dark:text-black">
         CHRU de Nancy
