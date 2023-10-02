@@ -69,7 +69,7 @@ const Session9 = ({ textSize }) => {
               <span className="text-secondary dark:text-black gotham-bold">
               Pr Pierre RAY, 
               </span>{" "}
-              CHU de Grenoble Alpes
+              CHU Grenoble Alpes
             </span>
           </li>
           <li className="ml-4 mb-4">

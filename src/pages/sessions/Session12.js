@@ -48,7 +48,13 @@ const Session12 = ({ textSize }) => {
         Dr Benoît AVERLAND,
         </span>
         <span className="text-secondary dark:text-black">
-        Agence de la biomédecine 
+        Agence de la biomédecine et
+        </span>
+        <span className="text-secondary dark:text-black gotham-bold">
+        Mme Carine RAFFESTIN,
+        </span>
+        <span className="text-secondary dark:text-black">
+        Association française des coordinateurs hospitaliers (AFCH), CH de Moulins-Yzeure
         </span>
         
       </p>
