@@ -228,29 +228,29 @@ export const octSession = [
     link: "/session-9",
   },
 
-  {
-    title: "RECHERCHE & INNOVATIONS",
-    desc: `Les innovations
-    en thérapie cellulaire
-    `,
-    btnText: "EN SAVOIR PLUS",
-    color: "bg-[#ef8661]",
-    clr: "hover:bg-[#ef8661]",
-    borderColor: "border-[#ef8661]",
-    textColor: "text-[#ef8661]",
-    link: "/session-11",
-  },
-  {
-    title: "SANTÉ & SOCIÉTÉ",
-    desc: `L’opposition au don
-    d’organes et de tissus`,
-    btnText: "EN SAVOIR PLUS",
-    color: "bg-[#f091a9]",
-    clr: "hover:bg-[#f091a9]",
-    borderColor: "border-[#f091a9]",
-    textColor: "text-[#f091a9]",
-    link: "/session-12",
-  },
+  // {
+  //   title: "RECHERCHE & INNOVATIONS",
+  //   desc: `Les innovations
+  //   en thérapie cellulaire
+  //   `,
+  //   btnText: "EN SAVOIR PLUS",
+  //   color: "bg-[#ef8661]",
+  //   clr: "hover:bg-[#ef8661]",
+  //   borderColor: "border-[#ef8661]",
+  //   textColor: "text-[#ef8661]",
+  //   link: "/session-11",
+  // },
+  // {
+  //   title: "SANTÉ & SOCIÉTÉ",
+  //   desc: `L’opposition au don
+  //   d’organes et de tissus`,
+  //   btnText: "EN SAVOIR PLUS",
+  //   color: "bg-[#f091a9]",
+  //   clr: "hover:bg-[#f091a9]",
+  //   borderColor: "border-[#f091a9]",
+  //   textColor: "text-[#f091a9]",
+  //   link: "/session-12",
+  // },
  // {
   //   title: "SANTÉ & SOCIÉTÉ",
   //   desc: `Titre à venir`,
