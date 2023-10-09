@@ -287,32 +287,33 @@ export const octSession2 = [
     borderColor: "border-[#00a895]",
     textColor: "text-[#00a895]",
     link: "/session-14",
-  },{
-    title: "PRATIQUES MÉDICALES",
-    desc: `Les allogreffes
-    composites
-    vascularisées :
-    la greffe visible !`,
-    btnText: "EN SAVOIR PLUS",
-    color: "bg-[#00a895]",
-    clr: "hover:bg-[#00a895]",
-    borderColor: "border-[#00a895]",
-    textColor: "text-[#00a895]",
-    link: "/session-15",
   },
-  {
-    title: "PARCOURS DE SOIN",
-    desc: `L'AMP pour
-    les femmes seules :
-    quel accompagnement
-    vers la parentalité ?`,
-    btnText: "EN SAVOIR PLUS",
-    color: "bg-[#a1c517]",
-    clr: "hover:bg-[#a1c517]",
-    borderColor: "border-[#a1c517]",
-    textColor: "text-[#a1c517]",
-    link: "/session-10",
-  },
+  // {
+  //   title: "PRATIQUES MÉDICALES",
+  //   desc: `Les allogreffes
+  //   composites
+  //   vascularisées :
+  //   la greffe visible !`,
+  //   btnText: "EN SAVOIR PLUS",
+  //   color: "bg-[#00a895]",
+  //   clr: "hover:bg-[#00a895]",
+  //   borderColor: "border-[#00a895]",
+  //   textColor: "text-[#00a895]",
+  //   link: "/session-15",
+  // },
+  // {
+  //   title: "PARCOURS DE SOIN",
+  //   desc: `L'AMP pour
+  //   les femmes seules :
+  //   quel accompagnement
+  //   vers la parentalité ?`,
+  //   btnText: "EN SAVOIR PLUS",
+  //   color: "bg-[#a1c517]",
+  //   clr: "hover:bg-[#a1c517]",
+  //   borderColor: "border-[#a1c517]",
+  //   textColor: "text-[#a1c517]",
+  //   link: "/session-10",
+  // },
  
 ];
 

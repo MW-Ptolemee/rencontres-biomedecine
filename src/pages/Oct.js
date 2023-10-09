@@ -174,7 +174,36 @@ const Oct = ({ handleText }) => {
             textSize={textSize}
           />
 
-{/* <div
+<div
+            className="md:h-[300px] bg-white flex flex-col justify-between"
+          >
+            <div>
+            <h1
+              className={`${
+                textSize === "text-xl md:text-2xl" ? `gotham-bold` : ``
+              } text-white text-[10px] md:text-[14px] py-1.5 px-4 font-bold dark:bg-black bg-[#00a895]`}
+            >
+              PRATIQUES MÉDICALES
+            </h1>
+            <h3 className="bg-secondary dark:bg-white flex items-center space-x-1 md:space-x-2 text-white dark:text-black text-[10px] md:text-base  py-1 px-1 md:px-4 gotham-bold">SESSION COMPLÈTE</h3>
+            </div>
+            <h2
+              className={`gotham-bold text-xs md:text-xl text-[#00a895] dark:text-black p-4`}
+            >
+              Les allogreffes composites vascularisées : la greffe visible !
+            </h2>
+
+            <Link
+              to="/session-15"
+              className={`w-max self-center text-[10px] md:text-base border-2 border-[#00a895] dark:border-black font-bold px-3 py-2 m-4 hover:bg-[#00a895] hover:text-white dark:hover:bg-black dark:hover:text-white`}
+            >
+              EN SAVOIR PLUS
+            </Link>
+          </div> 
+
+
+
+<div
             className="md:h-[300px] bg-white flex flex-col justify-between"
           >
             <div>
@@ -185,15 +214,12 @@ const Oct = ({ handleText }) => {
             >
               PARCOURS DE SOIN
             </h1>
-            <h3 className="bg-secondary dark:bg-white flex items-center space-x-1 md:space-x-2 text-white dark:text-black text-[10px] md:text-base  py-1 px-1 md:px-4 gotham-bold">SESSION COMPLÈTE</h3>
+            {/* <h3 className="bg-secondary dark:bg-white flex items-center space-x-1 md:space-x-2 text-white dark:text-black text-[10px] md:text-base  py-1 px-1 md:px-4 gotham-bold">SESSION COMPLÈTE</h3> */}
             </div>
             <h2
               className={`gotham-bold text-xs md:text-xl text-[#a1c517] dark:text-black p-4`}
             >
-              L'AMP pour
-    les femmes seules :
-    quel accompagnement
-    vers la parentalité ?
+              L'AMP pour les femmes seules : quel accompagnement vers la parentalité ?
             </h2>
 
             <Link
@@ -202,7 +228,7 @@ const Oct = ({ handleText }) => {
             >
               EN SAVOIR PLUS
             </Link>
-          </div> */}
+          </div> 
 
           </div>
         </div>
