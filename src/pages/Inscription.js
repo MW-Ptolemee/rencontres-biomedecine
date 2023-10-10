@@ -12,7 +12,7 @@ const Inscription = ({ textSize }) => {
             // frameborder="0"
             // border="0"
             src="https://public.message-business.com/form/58393/222/form.aspx"
-            className="w-full h-[2100px] md:h-[2000px]"
+            className="w-full h-[500px] md:h-[800px]"
           ></iframe>
           {/* <FormComponent /> */}
         </div>
