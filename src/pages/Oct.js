@@ -257,23 +257,41 @@ const Oct = ({ handleText }) => {
               président du Comité consultatif national d'éthique pour les sciences de la vie et de la santé 
                 
               </span>
-             {/* <Link
-            to="/Session-Pleniere2"
-            > <button className="w-max flex items-center border-2 font-bold border-secondary dark:border-white px-3 py-2  hover:bg-secondary hover:text-white dark:hover:bg-black dark:hover:text-white">
-            <span className="text-[10px] md:text-[14px] mr-1 md:mr-2">
-            
- EN SAVOIR PLUS
-            
              
-            </span>
-          </button>
-          </Link> */}
+          </div>
+        </div>
+      </div>
+
+      <div className="flex flex-row gap-8 bg-program-button dark:bg-black text-sm md:text-base text-secondary dark:text-white p-4 md:p-8 mb-4 ">
+        <p className="">13h00 {">"} 13h20 </p>
+
+        <div className="w-[50%] md:w-max text-start flex flex-col">
+          <p
+            className={`${
+              textSize === "text-xl md:text-2xl" ? `gotham-bold` : ``
+            } mb-2 md:mb-0 md:text-xl`}
+          >
+            Prise de parole
+          </p>
+          <div className="flex flex-col md:flex-row md:items-end md:gap-2">
+            <p
+              className={`${
+                textSize === "text-xl md:text-2xl" ? `gotham-bold` : ``
+              } mb-2 md:mb-0`}
+            >
+              <br />Madame Agnès FIRMIN LE BODO,
+            </p>
+              <span className="text-secondary dark:text-white">
+              ministre déléguée chargée de l’Organisation territoriale et des Professions de santé 
+                
+              </span>
+             
           </div>
         </div>
       </div>
 
       <div className="flex flex-row md:items-center space-x-8 text-sm md:text-base text-secondary p-4 md:p-8">
-          <p className="">13h00 {">"} 14h30</p>
+          <p className="">Jusqu’à 14h30</p>
           <p>Cocktail déjeunatoire </p>
         </div>
 
