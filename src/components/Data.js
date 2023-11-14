@@ -7,12 +7,12 @@ export const menu = [
     title: "Programme",
     link: "/Programme",
   },
+  // {
+  //   title: "Inscription",
+  //   link: "/Inscription",
+  // },
   {
-    title: "Inscription",
-    link: "/Inscription",
-  },
-  {
-    title: "Informations pratiques",
+    title: "Contacts",
     link: "/Informations-pratiques",
   },
 ];
@@ -34,10 +34,10 @@ export const footerMenu = [
     title: "Accessibilité",
     link: "/accessibilité",
   },
-  {
-    title: "FAQ",
-    link: "/faq",
-  },
+  // {
+  //   title: "FAQ",
+  //   link: "/faq",
+  // },
 ];
 
 export const text = {
@@ -94,26 +94,16 @@ sera au cœur de la table ronde proposée en ouverture.`,
 biomédecine.`,
 
   
-  h3: `Les Rencontres de la biomédecine répondent pleinement à cet objectif en
-  réunissant des experts – professionnels de santé, chercheurs, associations,
-  institutions, décideurs, etc. – afin de créer les conditions d’un dialogue
-  constructif et à haute valeur ajoutée.`,
+  h3: `Nous avons été ravis de vous accueillir si nombreux aux premières Rencontres de la biomédecine 
+  les jeudi 12 et vendredi 13 octobre 2023.`,
 
 
 
-  p8: `Je suis ravie d’inaugurer les premières Rencontres de la biomédecine.
-  Les contours de cet événement correspondent pleinement à l’esprit que
-  je souhaite insuffler au sein de l’Agence de la biomédecine : l’approche
-  collaborative et la valorisation de l’expertise sont au cœur de mes valeurs,
-  comme de celles de l’agence.`,
-  p9: `Le vote de la nouvelle loi relative à la bioéthique en 2021 puis l’adoption des
-  plans ministériels de nos trois champs d’activité en 2022, ont fixé un cadre
-  stratégique clair à l’Agence pour les années à venir. Notre rôle de référent
-  pour les activités de la biomédecine doit nous permettre de mobiliser et de
-  travailler étroitement avec l’ensemble des acteurs concernés pour réussir le
-  déploiement opérationnel de ces décisions stratégiques et toujours mieux
-  répondre aux besoins des patients in fine.`,
-  p10: `Au plaisir de vous rencontrer les 12 et 13 octobre prochains.`,
+  p8: `Ces deux jours ont été riches de rencontres et d’échanges sur des sujets au cœur des enjeux éthiques, 
+  scientifiques et sociétaux de la médecine de demain. `,
+  p9: `Vous pouvez voir ou revoir les plénières et les sessions proposées grâce aux vidéos disponibles sur notre chaine YouTube. 
+  Les diaporamas des intervenants sont à votre disposition dans l’onglet Programme. Il vous suffit de cliquer sur la session de votre choix.`,
+  p10: `Nous vous donnons rendez-vous en octobre 2025 ! `,
 };
 
 export const session = [
@@ -228,29 +218,29 @@ export const octSession = [
     link: "/session-9",
   },
 
-  // {
-  //   title: "RECHERCHE & INNOVATIONS",
-  //   desc: `Les innovations
-  //   en thérapie cellulaire
-  //   `,
-  //   btnText: "EN SAVOIR PLUS",
-  //   color: "bg-[#ef8661]",
-  //   clr: "hover:bg-[#ef8661]",
-  //   borderColor: "border-[#ef8661]",
-  //   textColor: "text-[#ef8661]",
-  //   link: "/session-11",
-  // },
-  // {
-  //   title: "SANTÉ & SOCIÉTÉ",
-  //   desc: `L’opposition au don
-  //   d’organes et de tissus`,
-  //   btnText: "EN SAVOIR PLUS",
-  //   color: "bg-[#f091a9]",
-  //   clr: "hover:bg-[#f091a9]",
-  //   borderColor: "border-[#f091a9]",
-  //   textColor: "text-[#f091a9]",
-  //   link: "/session-12",
-  // },
+  {
+    title: "RECHERCHE & INNOVATIONS",
+    desc: `Les innovations
+    en thérapie cellulaire
+    `,
+    btnText: "EN SAVOIR PLUS",
+    color: "bg-[#ef8661]",
+    clr: "hover:bg-[#ef8661]",
+    borderColor: "border-[#ef8661]",
+    textColor: "text-[#ef8661]",
+    link: "/session-11",
+  },
+  {
+    title: "SANTÉ & SOCIÉTÉ",
+    desc: `L’opposition au don
+    d’organes et de tissus`,
+    btnText: "EN SAVOIR PLUS",
+    color: "bg-[#f091a9]",
+    clr: "hover:bg-[#f091a9]",
+    borderColor: "border-[#f091a9]",
+    textColor: "text-[#f091a9]",
+    link: "/session-12",
+  },
  // {
   //   title: "SANTÉ & SOCIÉTÉ",
   //   desc: `Titre à venir`,
@@ -288,32 +278,32 @@ export const octSession2 = [
     textColor: "text-[#00a895]",
     link: "/session-14",
   },
-  // {
-  //   title: "PRATIQUES MÉDICALES",
-  //   desc: `Les allogreffes
-  //   composites
-  //   vascularisées :
-  //   la greffe visible !`,
-  //   btnText: "EN SAVOIR PLUS",
-  //   color: "bg-[#00a895]",
-  //   clr: "hover:bg-[#00a895]",
-  //   borderColor: "border-[#00a895]",
-  //   textColor: "text-[#00a895]",
-  //   link: "/session-15",
-  // },
-  // {
-  //   title: "PARCOURS DE SOIN",
-  //   desc: `L'AMP pour
-  //   les femmes seules :
-  //   quel accompagnement
-  //   vers la parentalité ?`,
-  //   btnText: "EN SAVOIR PLUS",
-  //   color: "bg-[#a1c517]",
-  //   clr: "hover:bg-[#a1c517]",
-  //   borderColor: "border-[#a1c517]",
-  //   textColor: "text-[#a1c517]",
-  //   link: "/session-10",
-  // },
+  {
+    title: "PRATIQUES MÉDICALES",
+    desc: `Les allogreffes
+    composites
+    vascularisées :
+    la greffe visible !`,
+    btnText: "EN SAVOIR PLUS",
+    color: "bg-[#00a895]",
+    clr: "hover:bg-[#00a895]",
+    borderColor: "border-[#00a895]",
+    textColor: "text-[#00a895]",
+    link: "/session-15",
+  },
+  {
+    title: "PARCOURS DE SOIN",
+    desc: `L'AMP pour
+    les femmes seules :
+    quel accompagnement
+    vers la parentalité ?`,
+    btnText: "EN SAVOIR PLUS",
+    color: "bg-[#a1c517]",
+    clr: "hover:bg-[#a1c517]",
+    borderColor: "border-[#a1c517]",
+    textColor: "text-[#a1c517]",
+    link: "/session-10",
+  },
  
 ];
 

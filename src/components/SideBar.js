@@ -13,10 +13,15 @@ const SideBar = ({ darkMode }) => {
           src={darkMode === "light" ? img2Grey : img2}
           alt="Mme Marine JEANTET"
         />
-        <h4 className="text-secondary dark:text-black gotham-bold">Mme Marine JEANTET,</h4>
+        {/* <img
+          className="md:w-full md:h-auto mb-4"
+          src={darkMode === "light" ? img1Grey : img1}
+          alt="Mme Marine JEANTET"
+        /> */}
+        {/* <h4 className="text-secondary dark:text-black gotham-bold">Mme Marine JEANTET,</h4>
         <p className="text-secondary dark:text-black font-medium">
         Directrice générale de l’Agence de la biomédecine
-        </p>
+        </p> */}
       </div>
 
       {/* <div>

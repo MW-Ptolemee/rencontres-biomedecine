@@ -60,6 +60,32 @@ const Session1 = ({ textSize }) => {
           </span>
         </p>
 
+        <button className="gotham-bold bg-secondary dark:bg-black flex items-center space-x-1 md:space-x-2 text-white dark:text-white text-sm md:text-base py-2 px-4 font-bold mb-4 md:mb-6 hover:bg-primary hover:text-white dark:hover:bg-black dark:hover:text-white">
+          {/* <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={1.5}
+            stroke="currentColor"
+            className="w-6 h-6 md:w-8 md:h-8 -ml-1 md:-ml-3"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M15.75 19.5L8.25 12l7.5-7.5"
+            />
+          </svg> */}
+          <Link
+            to="#"
+            className={`w-max ${
+              textSize === "text-xl md:text-2xl" ? `gotham-bold` : ``
+            }`}
+          >
+            Voir la vidéo de la session
+          </Link>
+        </button>
+
+
         <ul className="list-dsc list-disc text-primary dark:text-black mb-8">
           <li className="ml-4 mb-4">
             <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
@@ -70,8 +96,15 @@ const Session1 = ({ textSize }) => {
               M. Jean-Michel BESNIER,
               </span>{" "}
               Paris Sorbonne Université
-            </span>
+            </span> <br />
+           
+
           </li>
+          </ul>
+
+          
+
+          <ul className="list-dsc list-disc text-primary dark:text-black mb-8">
           <li className="ml-4 mb-4">
             <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
               La xénogreffe en 2023 : état de l’art
@@ -81,8 +114,24 @@ const Session1 = ({ textSize }) => {
                 Pr Olivier BASTIEN,
               </span>{" "}
               Agence de la biomédecine
-            </span>
+            </span><br />
+            <span className="text-secondary dark:text-black gotham-bold">
+            &nbsp;
+              </span>
+            <a href="https://ptolemee.com/rencontres-biomedecine/12-10_14h_Aux-frontieres-de-la-transplantation-la-xenogreffe_BASTIEN-Olivier.pdf" target="_blank">
+            <button className="gotham-bold border-2 border-primary dark:border-black dark:bg-white flex items-center text-secondary gotham-bold dark:text-black text-sm md:text-base py-2 px-4 font-bold mb-4 md:mb-6 hover:bg-primary hover:text-white dark:hover:bg-black dark:hover:text-white">
+      
+            Voir la présentation
+          
+        </button>
+        </a>
           </li>
+         
+          </ul>
+
+         
+
+          <ul className="list-dsc list-disc text-primary dark:text-black mb-8">
           <li className="ml-4 mb-4">
             <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
             Advances in xenotransplantation. US reality 
@@ -92,20 +141,19 @@ const Session1 = ({ textSize }) => {
               Muhammad M MOHIUDDIN MD. D.Sc (Hon),
               </span>{" "}
               University of Maryland School of Medicine, États-Unis
-            </span>
+            </span><br />
+            <span className="text-secondary dark:text-black gotham-bold">
+            &nbsp;
+              </span><br />
+              <a href="https://ptolemee.com/rencontres-biomedecine/12-10_14h_Aux-frontieres-de-la-transplantation-la-xenogreffe_M-MOHIUDDIN-Muhammad.pdf" target="_blank">
+            <button className="gotham-bold border-2 border-primary dark:border-black dark:bg-white flex items-center text-secondary gotham-bold dark:text-black text-sm md:text-base py-2 px-4 font-bold mb-4 md:mb-6 hover:bg-primary hover:text-white dark:hover:bg-black dark:hover:text-white">
+      
+            Voir la présentation
+          
+        </button>
+        </a>
           </li>
         </ul>
-
-        <button className="gotham-bold border-2 border-primary dark:border-black dark:bg-white flex items-center text-secondary gotham-bold dark:text-black text-sm md:text-base py-2 px-4 font-bold mb-4 md:mb-6 hover:bg-primary hover:text-white dark:hover:bg-black dark:hover:text-white">
-          <Link
-            to="/Inscription"
-            className={`w-max ${
-              textSize === "text-xl md:text-2xl" ? `gotham-bold` : ``
-            }`}
-          >
-            Je m’inscris aux Rencontres
-          </Link>
-        </button>
 
         <button className="gotham-bold bg-primary-light dark:bg-black flex items-center space-x-1 md:space-x-2 text-secondary dark:text-white text-sm md:text-base py-2 px-4 font-bold mr-[1px] md:mr-[8px] hover:bg-secondary hover:text-white dark:hover:bg-black dark:hover:text-white">
           <svg
@@ -123,7 +171,7 @@ const Session1 = ({ textSize }) => {
             />
           </svg>
           <Link
-            to="/Programme/#session12matin"
+            to="/Programme"
             className={`w-max ${
               textSize === "text-xl md:text-2xl" ? `gotham-bold` : ``
             }`}
@@ -131,6 +179,8 @@ const Session1 = ({ textSize }) => {
             Revenir au programme
           </Link>
         </button>
+
+        
       </div>
     </div>
   );

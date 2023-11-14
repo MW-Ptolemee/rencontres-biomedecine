@@ -13,21 +13,22 @@ const Content = ({ textSize, darkMode }) => {
     <div>
       <div className="mt-3 flex flex-col md:flex-row justify-between items-start gap-8 md:gap-16 mb-4">
         <div className="md:w-[70%]">
+        <Title title={text?.h3} textSize={`md:text-[22px]`} />
         <p className={`text-secondary dark:text-black ${textSize} mb-4`}>
             {text.p8}{" "}
           </p>
 
           <p className={`text-secondary dark:text-black ${textSize} mb-4`}>
-          Le vote de la nouvelle loi relative à la bioéthique en 2021 puis l’adoption des
-          plans ministériels de nos trois champs d’activité en 2022, ont fixé un cadre
-          stratégique clair à l’Agence pour les années à venir. Notre rôle de référent
-          pour les activités de la biomédecine doit nous permettre de mobiliser et de
-          travailler étroitement avec l’ensemble des acteurs concernés pour réussir le
-          déploiement opérationnel de ces décisions stratégiques et toujours mieux
-          répondre aux besoins des patients <span className="italic">in fine.</span>
+        Vous pouvez voir ou revoir les plénières et les sessions proposées grâce aux vidéos disponibles sur notre chaîne <a
+              href="https://www.youtube.com/@agencedelabiomedecine" target="_blank" className={`text-primary hover:underline gotham-bold dark:text-black mb-4`}>YouTube</a>. 
+        Les diaporamas des intervenants sont à votre disposition dans l’onglet <a
+              href="Programme" className={`text-primary hover:underline gotham-bold dark:text-black mb-4`}>Programme</a>. 
+        Il vous suffit de cliquer sur la session de votre choix.
           </p>
 
-        <Title title={text?.h3} textSize={`md:text-[22px]`} />
+       
+
+       
 
           <p className={`text-secondary dark:text-black ${textSize} mb-4`}>
             {text.p10}
@@ -37,7 +38,17 @@ const Content = ({ textSize, darkMode }) => {
          
           
 
-          
+          <div className="hidden mb-4">
+        <img
+          className="md:w-full md:h-auto mb-4"
+          src={darkMode === "light" ? img2Grey : img2}
+          alt="Mme Marine JEANTET"
+        />
+        <h4 className="text-secondary dark:text-black gotham-bold">Mme Marine JEANTET,</h4>
+        <p className="text-secondary dark:text-black font-medium">
+        Directrice générale de l’Agence de la biomédecine
+        </p>
+      </div>
           
 
           
@@ -48,22 +59,32 @@ const Content = ({ textSize, darkMode }) => {
               src={darkMode === "light" ? img2Grey : img2}
               alt="Mme Marine JEANTET"
             />
-            <h4 className="text-secondary dark:text-black gotham-bold">
+ </div>
+
+ <div className="md:hidden md:w-[30%]">
+          {/* <img
+            className="md:w-full mb-4"
+            
+            src={darkMode === "light" ? img1Grey : img1}
+            alt="Pr Michel TSIMARATOS"
+          /> */}
+            
+            {/* <h4 className="text-secondary dark:text-black gotham-bold">
               Mme Marine JEANTET,
             </h4>
             <p className="text-secondary dark:text-black font-medium">
               Directeur général adjoint de l’Agence de la biomédecine, en charge
               des stratégies médicales et scientifiques
-            </p>
+            </p>  */}
           </div>
         </div>
 
         <SideBar darkMode={darkMode} />
       </div>
 
-      <hr className="border-2 mb-8" />
+      {/* <hr className="border-2 mb-8" /> */}
 
-      <div className="flex flex-col md:flex-row gap-8 md:gap-16">
+      {/* <div className="flex flex-col md:flex-row gap-8 md:gap-16">
         <div className="hidden md:block md:w-[30%]">
           <img
             className="md:w-full mb-4"
@@ -170,7 +191,7 @@ const Content = ({ textSize, darkMode }) => {
           stratégies médicales et scientifiques
           </p>
         </div>
-      </div>
+      </div> */}
 
       
     </div>

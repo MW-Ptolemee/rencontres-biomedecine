@@ -62,6 +62,31 @@ const Session5 = ({ textSize }) => {
         </span>
       </p>
 
+      <button className="gotham-bold bg-secondary dark:bg-black flex items-center space-x-1 md:space-x-2 text-white dark:text-white text-sm md:text-base py-2 px-4 font-bold mb-4 md:mb-6 hover:bg-primary hover:text-white dark:hover:bg-black dark:hover:text-white">
+          {/* <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={1.5}
+            stroke="currentColor"
+            className="w-6 h-6 md:w-8 md:h-8 -ml-1 md:-ml-3"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M15.75 19.5L8.25 12l7.5-7.5"
+            />
+          </svg> */}
+          <Link
+            to="#"
+            className={`w-max ${
+              textSize === "text-xl md:text-2xl" ? `gotham-bold` : ``
+            }`}
+          >
+            Voir la vidéo de la session
+          </Link>
+        </button>
+
       <ul className="list-dsc list-disc text-primary dark:text-black mb-8">
         <li className="ml-4 mb-4">
           <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
@@ -72,7 +97,18 @@ const Session5 = ({ textSize }) => {
             </span>
             Inserm, CHU Paul Brousse, Villejuif
           </span>
-        </li>
+          <br /><br />
+              <a href="https://ptolemee.com/rencontres-biomedecine/12-10_16h_Les-organoides_MESSINA-Antonietta.pdf" target="_blank">
+            <button className="gotham-bold border-2 border-primary dark:border-black dark:bg-white flex items-center text-secondary gotham-bold dark:text-black text-sm md:text-base py-2 px-4 font-bold mb-4 md:mb-6 hover:bg-primary hover:text-white dark:hover:bg-black dark:hover:text-white">
+      
+            Voir la présentation
+          
+        </button>
+        </a>
+          </li>
+        </ul>
+
+        <ul className="list-dsc list-disc text-primary dark:text-black mb-8">
         <li className="ml-4 mb-4">
           <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
           Les organoïdes neuraux : exemple de la rétine
@@ -80,10 +116,20 @@ const Session5 = ({ textSize }) => {
           <span className={`${textSize} text-secondary dark:text-black mb-4`}>
             <span className="text-secondary dark:text-black gotham-bold">
             M. Olivier GOUREAU,{" "} 
-            </span>
-            Inserm, Institut de la vision – Sorbonne Université, Paris
-          </span>
-        </li>
+            </span><br />
+           
+              </span><br />
+              <a href="https://ptolemee.com/rencontres-biomedecine/12-10_16h_Les-organoides_GOUREAU-Olivier.pdf" target="_blank">
+            <button className="gotham-bold border-2 border-primary dark:border-black dark:bg-white flex items-center text-secondary gotham-bold dark:text-black text-sm md:text-base py-2 px-4 font-bold mb-4 md:mb-6 hover:bg-primary hover:text-white dark:hover:bg-black dark:hover:text-white">
+      
+            Voir la présentation
+          
+        </button>
+        </a>
+          </li>
+        </ul>
+
+        <ul className="list-dsc list-disc text-primary dark:text-black mb-8">
         <li className="ml-4 mb-4">
           <h4 className="text-secondary dark:text-black md:text-2xl gotham-bold mb-2">
           Enjeux éthiques liés à la recherche sur les organoïdes
@@ -94,10 +140,18 @@ const Session5 = ({ textSize }) => {
             </span>
             Neuroscience Paris Seine (Sorbonne Université, CNRS, Inserm), comité d’éthique de l’Inserm, Paris
           </span>
-        </li>
-      </ul>
+          <br /><br />
+              <a href="https://ptolemee.com/rencontres-biomedecine/12-10_16h_Les-organoides_CHNEIWEISS-Herve.pdf" target="_blank">
+            <button className="gotham-bold border-2 border-primary dark:border-black dark:bg-white flex items-center text-secondary gotham-bold dark:text-black text-sm md:text-base py-2 px-4 font-bold mb-4 md:mb-6 hover:bg-primary hover:text-white dark:hover:bg-black dark:hover:text-white">
+      
+            Voir la présentation
+          
+        </button>
+        </a>
+          </li>
+        </ul>
 
-      <button className="gotham-bold border-2 border-primary dark:border-black dark:bg-white flex items-center text-secondary gotham-bold dark:text-black text-sm md:text-base py-2 px-4 font-bold mb-4 md:mb-6 hover:bg-primary hover:text-white dark:hover:bg-black dark:hover:text-white">
+      {/* <button className="gotham-bold border-2 border-primary dark:border-black dark:bg-white flex items-center text-secondary gotham-bold dark:text-black text-sm md:text-base py-2 px-4 font-bold mb-4 md:mb-6 hover:bg-primary hover:text-white dark:hover:bg-black dark:hover:text-white">
         <Link
           to="/Inscription"
           className={`w-max ${
@@ -106,7 +160,7 @@ const Session5 = ({ textSize }) => {
         >
           Je m’inscris aux Rencontres
         </Link>
-      </button>
+      </button> */}
 
       <button className="gotham-bold bg-primary-light dark:bg-black flex items-center space-x-1 md:space-x-2 text-secondary dark:text-white text-sm md:text-base py-2 px-4 font-bold mr-[1px] md:mr-[8px] hover:bg-secondary hover:text-white dark:hover:bg-black dark:hover:text-white">
         <svg
