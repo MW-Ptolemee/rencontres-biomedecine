@@ -47,6 +47,31 @@ const SessionPleniere2 = ({ textSize }) => {
 
         <hr className="border border-[#b3b3b3] dark:border-black mb-4" />    
 
+        <button className="gotham-bold bg-secondary dark:bg-black flex items-center space-x-1 md:space-x-2 text-white dark:text-white text-sm md:text-base py-2 px-4 font-bold mb-4 md:mb-6 hover:bg-primary hover:text-white dark:hover:bg-black dark:hover:text-white">
+          {/* <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={1.5}
+            stroke="currentColor"
+            className="w-6 h-6 md:w-8 md:h-8 -ml-1 md:-ml-3"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M15.75 19.5L8.25 12l7.5-7.5"
+            />
+          </svg> */}
+          <Link
+            to="#"
+            className={`w-max ${
+              textSize === "text-xl md:text-2xl" ? `gotham-bold` : ``
+            }`}
+          >
+            Voir la vidéo
+          </Link>
+        </button>
+
         <ul className={`${textSize} list-dsc list-disc text-primary dark:text-black mb-8`}>      
             <span className="text-secondary dark:text-black mb-4">
               <span className="text-secondary dark:text-black gotham-bold">

@@ -116,8 +116,9 @@ const Session5 = ({ textSize }) => {
           <span className={`${textSize} text-secondary dark:text-black mb-4`}>
             <span className="text-secondary dark:text-black gotham-bold">
             M. Olivier GOUREAU,{" "} 
-            </span><br />
-           
+            </span>
+            Institut de la Vision, Sorbonne Université, Inserm, CNRS, Paris<br />
+          
               </span><br />
               <a href="https://ptolemee.com/rencontres-biomedecine/12-10_16h_Les-organoides_GOUREAU-Olivier.pdf" target="_blank">
             <button className="gotham-bold border-2 border-primary dark:border-black dark:bg-white flex items-center text-secondary gotham-bold dark:text-black text-sm md:text-base py-2 px-4 font-bold mb-4 md:mb-6 hover:bg-primary hover:text-white dark:hover:bg-black dark:hover:text-white">

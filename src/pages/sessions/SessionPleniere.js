@@ -50,16 +50,30 @@ const SessionPleniere = ({ textSize }) => {
           directeur général adjoint en charge des stratégies médicales et scientifiques de l’Agence de la biomédecine
           </span>
         </p>
-        {/* <button className="gotham-bold border-2 border-secondary dark:border-black dark:bg-white flex items-center text-secondary gotham-bold dark:text-black text-sm md:text-base py-2 px-4 font-bold mb-4 md:mb-6 hover:bg-secondary hover:text-white dark:hover:bg-black dark:hover:text-white">
+        <button className="gotham-bold bg-secondary dark:bg-black flex items-center space-x-1 md:space-x-2 text-white dark:text-white text-sm md:text-base py-2 px-4 font-bold mb-4 md:mb-6 hover:bg-primary hover:text-white dark:hover:bg-black dark:hover:text-white">
+          {/* <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={1.5}
+            stroke="currentColor"
+            className="w-6 h-6 md:w-8 md:h-8 -ml-1 md:-ml-3"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M15.75 19.5L8.25 12l7.5-7.5"
+            />
+          </svg> */}
           <Link
-            to="/Inscription"
+            to="#"
             className={`w-max ${
               textSize === "text-xl md:text-2xl" ? `gotham-bold` : ``
             }`}
           >
-            Je m’inscris aux Rencontres
+            Voir la vidéo
           </Link>
-        </button> */}
+        </button>
 
         <button className="gotham-bold bg-primary-light dark:bg-black flex items-center space-x-1 md:space-x-2 text-secondary dark:text-white text-sm md:text-base py-2 px-4 font-bold mr-[1px] md:mr-[8px] hover:bg-secondary hover:text-white dark:hover:bg-black dark:hover:text-white">
           <svg
