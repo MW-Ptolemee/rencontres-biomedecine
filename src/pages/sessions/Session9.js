@@ -61,30 +61,13 @@ const Session9 = ({ textSize }) => {
           </span>
         </p>
 
-        <button className="gotham-bold bg-secondary dark:bg-black flex items-center space-x-1 md:space-x-2 text-white dark:text-white text-sm md:text-base py-2 px-4 font-bold mb-4 md:mb-6 hover:bg-primary hover:text-white dark:hover:bg-black dark:hover:text-white">
-          {/* <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="currentColor"
-            className="w-6 h-6 md:w-8 md:h-8 -ml-1 md:-ml-3"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M15.75 19.5L8.25 12l7.5-7.5"
-            />
-          </svg> */}
-          <Link
-            to="#"
-            className={`w-max ${
-              textSize === "text-xl md:text-2xl" ? `gotham-bold` : ``
-            }`}
-          >
+        <a href="https://www.youtube.com/watch?v=2MRXgZPmGBs&list=PLOOURn-ifRuStQm6iyXQuQb3ND4R5jltT&index=17" target="_blank">
+            <button className="gotham-bold border-2 bg-secondary border-secondary hover:border-primary dark:border-black dark:bg-white flex items-center text-white gotham-bold dark:text-black text-sm md:text-base py-2 px-4 font-bold mb-4 md:mb-6 hover:bg-primary hover:text-white dark:hover:bg-black dark:hover:text-white">
+      
             Voir la vidéo de la session
-          </Link>
+          
         </button>
+        </a>
 
         <ul className="list-dsc list-disc text-[#a1c517] dark:text-black mb-8">
           <li className="ml-4 mb-4">
