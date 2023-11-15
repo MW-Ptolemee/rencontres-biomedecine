@@ -20,7 +20,7 @@ const Content = ({ textSize, darkMode }) => {
 
           <p className={`text-secondary dark:text-black ${textSize} mb-4`}>
         Vous pouvez voir ou revoir les plénières et les sessions proposées grâce aux vidéos disponibles sur notre chaîne <a
-              href="https://www.youtube.com/@agencedelabiomedecine" target="_blank" className={`text-primary hover:underline gotham-bold dark:text-black mb-4`}>YouTube</a>. 
+              href="https://www.youtube.com/playlist?list=PLOOURn-ifRuStQm6iyXQuQb3ND4R5jltT" target="_blank" className={`text-primary hover:underline gotham-bold dark:text-black mb-4`}>YouTube</a>. 
         Les diaporamas des intervenants sont à votre disposition dans l’onglet <a
               href="Programme" className={`text-primary hover:underline gotham-bold dark:text-black mb-4`}>Programme</a>. 
         Il vous suffit de cliquer sur la session de votre choix.
